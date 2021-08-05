@@ -36,15 +36,15 @@
    :category "Light Freighter",
    :weapon-capacity 132,
    :outfits
-   ({:name "Small Collector Module", :quantity 3}
-    {:name "Small Battery Module", :quantity 2}
-    {:name "Small Shield Module", :quantity 1}
+   ({:name "Small Shield Module", :quantity 1}
+    {:name "Small Collector Module", :quantity 3}
     {:name "Small Repair Module", :quantity 2}
+    {:name "Hyperdrive", :quantity 1}
     {:name "Large Thrust Module", :quantity 1}
-    {:name "Small Thrust Module", :quantity 2}
     {:name "Large Steering Module", :quantity 1}
     {:name "Small Steering Module", :quantity 2}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Small Thrust Module", :quantity 2}
+    {:name "Small Battery Module", :quantity 2}),
    :mass 380,
    :turrets 2,
    :meta
@@ -575,15 +575,15 @@
    :category "Transport",
    :weapon-capacity 256,
    :outfits
-   ({:name "Large Collector Module", :quantity 1}
+   ({:name "Small Shield Module", :quantity 1}
+    {:name "Large Collector Module", :quantity 1}
     {:name "Small Collector Module", :quantity 1}
-    {:name "Large Battery Module", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
     {:name "Large Shield Module", :quantity 1}
-    {:name "Small Shield Module", :quantity 1}
     {:name "Large Thrust Module", :quantity 2}
     {:name "Large Steering Module", :quantity 2}
-    {:name "Small Steering Module", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Large Battery Module", :quantity 1}
+    {:name "Small Steering Module", :quantity 1}),
    :mass 570,
    :turrets 4,
    :meta
@@ -747,15 +747,15 @@
    :category "Heavy Freighter",
    :weapon-capacity 177,
    :outfits
-   ({:name "Small Collector Module", :quantity 3}
-    {:name "Small Battery Module", :quantity 2}
-    {:name "Small Shield Module", :quantity 2}
+   ({:name "Small Shield Module", :quantity 2}
+    {:name "Small Collector Module", :quantity 3}
     {:name "Small Repair Module", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
     {:name "Large Thrust Module", :quantity 1}
-    {:name "Small Thrust Module", :quantity 1}
     {:name "Large Steering Module", :quantity 1}
     {:name "Small Steering Module", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Small Thrust Module", :quantity 1}
+    {:name "Small Battery Module", :quantity 2}),
    :mass 350,
    :turrets 2,
    :meta
@@ -817,15 +817,15 @@
    :category "Heavy Warship",
    :weapon-capacity 600,
    :outfits
-   ({:name "Drak Antimatter Cannon", :quantity 1}
-    {:name "Drak Anti-Missile Field", :quantity 2}
+   ({:name "Drak Turret", :quantity 3}
     {:name "Drak Draining Field", :quantity 1}
-    {:name "Drak Distancer", :quantity 2}
-    {:name "Drak Turret", :quantity 3}
-    {:name "Medium Graviton Thruster", :quantity 1}
-    {:name "Medium Graviton Steering", :quantity 1}
+    {:name "Jump Drive", :quantity 1}
+    {:name "Drak Anti-Missile Field", :quantity 2}
     {:name "Hyperdrive", :quantity 1}
-    {:name "Jump Drive", :quantity 1}),
+    {:name "Drak Distancer", :quantity 2}
+    {:name "Drak Antimatter Cannon", :quantity 1}
+    {:name "Medium Graviton Thruster", :quantity 1}
+    {:name "Medium Graviton Steering", :quantity 1}),
    :mass 1000,
    :turrets 8,
    :meta {:image {:file "thumbnail/archon.png", :origin :vanilla}},
@@ -1048,15 +1048,15 @@
    :category "Interceptor",
    :weapon-capacity 38,
    :outfits
-   ({:name "Pulse Cannon", :quantity 2}
-    {:name "Pebble Core", :quantity 1}
-    {:name "Hai Chasm Batteries", :quantity 2}
+   ({:name "\"Benga\" Atomic Steering", :quantity 1}
     {:name "Hai Corundum Regenerator", :quantity 1}
-    {:name "Hai Williwaw Cooling", :quantity 2}
-    {:name "Quantum Keystone", :quantity 1}
+    {:name "Hai Chasm Batteries", :quantity 2}
     {:name "\"Benga\" Atomic Thruster", :quantity 1}
-    {:name "\"Benga\" Atomic Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Hyperdrive", :quantity 1}
+    {:name "Pebble Core", :quantity 1}
+    {:name "Pulse Cannon", :quantity 2}
+    {:name "Hai Williwaw Cooling", :quantity 2}
+    {:name "Quantum Keystone", :quantity 1}),
    :mass 95,
    :meta
    {:image {:file "thumbnail/hai grasshopper.png", :origin :vanilla}},
@@ -1998,15 +1998,15 @@
    :category "Interceptor",
    :weapon-capacity 35,
    :outfits
-   ({:name "Energy Blaster", :quantity 2}
-    {:name "Javelin Pod", :quantity 2}
-    {:name "Javelin", :quantity 400}
+   ({:name "Javelin Pod", :quantity 2}
+    {:name "X2700 Ion Thruster", :quantity 1}
+    {:name "D23-QP Shield Generator", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
+    {:name "Energy Blaster", :quantity 2}
     {:name "nGVF-CC Fuel Cell", :quantity 1}
     {:name "LP072a Battery Pack", :quantity 1}
-    {:name "D23-QP Shield Generator", :quantity 1}
-    {:name "X2700 Ion Thruster", :quantity 1}
-    {:name "X3200 Ion Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Javelin", :quantity 400}
+    {:name "X3200 Ion Steering", :quantity 1}),
    :mass 110,
    :meta {:image {:file "thumbnail/berserker.png", :origin :vanilla}},
    :empty-hull-cost 520000,
@@ -2204,15 +2204,15 @@
    :category "Heavy Warship",
    :weapon-capacity 140,
    :outfits
-   ({:name "Heavy Laser Turret", :quantity 2}
-    {:name "Heavy Anti-Missile Turret", :quantity 2}
+   ({:name "Heavy Anti-Missile Turret", :quantity 2}
+    {:name "Scram Drive", :quantity 1}
+    {:name "D94-YV Shield Generator", :quantity 1}
     {:name "Fission Reactor", :quantity 1}
     {:name "LP072a Battery Pack", :quantity 1}
-    {:name "D94-YV Shield Generator", :quantity 1}
-    {:name "Laser Rifle", :quantity 5}
-    {:name "X3700 Ion Thruster", :quantity 1}
+    {:name "Heavy Laser Turret", :quantity 2}
     {:name "X3200 Ion Steering", :quantity 1}
-    {:name "Scram Drive", :quantity 1}),
+    {:name "Laser Rifle", :quantity 5}
+    {:name "X3700 Ion Thruster", :quantity 1}),
    :mass 810,
    :turrets 4,
    :meta
@@ -2238,15 +2238,15 @@
    :category "Light Freighter",
    :weapon-capacity 60,
    :outfits
-   ({:name "Beam Laser", :quantity 2}
+   ({:name "nGVF-DD Fuel Cell", :quantity 1}
     {:name "Javelin Pod", :quantity 2}
-    {:name "Javelin", :quantity 400}
-    {:name "nGVF-DD Fuel Cell", :quantity 1}
-    {:name "LP072a Battery Pack", :quantity 1}
     {:name "D23-QP Shield Generator", :quantity 1}
-    {:name "Greyhound Plasma Thruster", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
     {:name "Greyhound Plasma Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "LP072a Battery Pack", :quantity 1}
+    {:name "Javelin", :quantity 400}
+    {:name "Beam Laser", :quantity 2}
+    {:name "Greyhound Plasma Thruster", :quantity 1}),
    :mass 150,
    :meta {:image {:file "thumbnail/clipper.png", :origin :vanilla}},
    :empty-hull-cost 900000,
@@ -2419,15 +2419,15 @@
    :category "Fighter",
    :weapon-capacity 20,
    :outfits
-   ({:name "Beam Laser", :quantity 1}
-    {:name "Javelin Pod", :quantity 1}
-    {:name "Javelin", :quantity 200}
+   ({:name "Javelin Pod", :quantity 1}
     {:name "nGVF-AA Fuel Cell", :quantity 1}
-    {:name "Supercapacitor", :quantity 1}
-    {:name "D14-RN Shield Generator", :quantity 1}
     {:name "Small Radar Jammer", :quantity 1}
+    {:name "X1200 Ion Steering", :quantity 1}
+    {:name "D14-RN Shield Generator", :quantity 1}
+    {:name "Supercapacitor", :quantity 1}
     {:name "X1700 Ion Thruster", :quantity 1}
-    {:name "X1200 Ion Steering", :quantity 1}),
+    {:name "Javelin", :quantity 200}
+    {:name "Beam Laser", :quantity 1}),
    :mass 20,
    :meta {:image {:file "thumbnail/dagger.png", :origin :vanilla}},
    :empty-hull-cost 129000,
@@ -2919,15 +2919,15 @@
    :category "Interceptor",
    :weapon-capacity 50,
    :outfits
-   ({:name "Heavy Laser", :quantity 2}
-    {:name "nGVF-CC Fuel Cell", :quantity 1}
-    {:name "KP-6 Photovoltaic Panel", :quantity 2}
+   ({:name "Small Radar Jammer", :quantity 1}
     {:name "LP036a Battery Pack", :quantity 1}
     {:name "D23-QP Shield Generator", :quantity 1}
-    {:name "Small Radar Jammer", :quantity 1}
-    {:name "Greyhound Plasma Thruster", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
     {:name "Greyhound Plasma Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "nGVF-CC Fuel Cell", :quantity 1}
+    {:name "Heavy Laser", :quantity 2}
+    {:name "KP-6 Photovoltaic Panel", :quantity 2}
+    {:name "Greyhound Plasma Thruster", :quantity 1}),
    :mass 150,
    :meta {:image {:file "thumbnail/hawk.png", :origin :vanilla}},
    :empty-hull-cost 670000,
@@ -2952,15 +2952,15 @@
    :category "Light Warship",
    :weapon-capacity 60,
    :outfits
-   ({:name "Heavy Laser", :quantity 2}
-    {:name "Heavy Anti-Missile Turret", :quantity 1}
-    {:name "RT-I Radiothermal", :quantity 1}
-    {:name "KP-6 Photovoltaic Array", :quantity 1}
-    {:name "LP072a Battery Pack", :quantity 1}
+   ({:name "Heavy Anti-Missile Turret", :quantity 1}
     {:name "D23-QP Shield Generator", :quantity 1}
-    {:name "Greyhound Plasma Thruster", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
     {:name "Greyhound Plasma Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "LP072a Battery Pack", :quantity 1}
+    {:name "Heavy Laser", :quantity 2}
+    {:name "KP-6 Photovoltaic Array", :quantity 1}
+    {:name "RT-I Radiothermal", :quantity 1}
+    {:name "Greyhound Plasma Thruster", :quantity 1}),
    :mass 120,
    :turrets 1,
    :meta {:image {:file "thumbnail/headhunter.png", :origin :vanilla}},
@@ -3017,15 +3017,15 @@
    :category "Fighter",
    :weapon-capacity 20,
    :outfits
-   ({:name "Energy Blaster", :quantity 1}
-    {:name "Sidewinder Missile Launcher", :quantity 1}
-    {:name "Sidewinder Missile", :quantity 45}
-    {:name "nGVF-AA Fuel Cell", :quantity 1}
-    {:name "LP036a Battery Pack", :quantity 1}
-    {:name "D14-RN Shield Generator", :quantity 1}
+   ({:name "nGVF-AA Fuel Cell", :quantity 1}
     {:name "Small Radar Jammer", :quantity 2}
+    {:name "LP036a Battery Pack", :quantity 1}
+    {:name "X1200 Ion Steering", :quantity 1}
+    {:name "D14-RN Shield Generator", :quantity 1}
+    {:name "Energy Blaster", :quantity 1}
     {:name "X1700 Ion Thruster", :quantity 1}
-    {:name "X1200 Ion Steering", :quantity 1}),
+    {:name "Sidewinder Missile", :quantity 45}
+    {:name "Sidewinder Missile Launcher", :quantity 1}),
    :mass 30,
    :meta {:image {:file "thumbnail/lance.png", :origin :vanilla}},
    :empty-hull-cost 93000,
@@ -4725,13 +4725,13 @@
    :outfits
    ({:name "Quarg Skylance", :quantity 2}
     {:name "Quarg Anti-Missile", :quantity 2}
-    {:name "Antimatter Core", :quantity 1}
-    {:name "Nanotech Battery", :quantity 1}
-    {:name "Quantum Shield Generator", :quantity 1}
     {:name "Intrusion Countermeasures", :quantity 120}
+    {:name "Jump Drive", :quantity 1}
+    {:name "Antimatter Core", :quantity 1}
+    {:name "Quantum Shield Generator", :quantity 1}
+    {:name "Nanotech Battery", :quantity 1}
     {:name "Medium Graviton Thruster", :quantity 1}
-    {:name "Medium Graviton Steering", :quantity 1}
-    {:name "Jump Drive", :quantity 1}),
+    {:name "Medium Graviton Steering", :quantity 1}),
    :mass 460,
    :turrets 4,
    :meta {:image {:file "thumbnail/skylark.png", :origin :vanilla}},
@@ -4759,13 +4759,13 @@
    :outfits
    ({:name "Quarg Skylance", :quantity 2}
     {:name "Quarg Anti-Missile", :quantity 2}
-    {:name "Antimatter Core", :quantity 1}
-    {:name "Nanotech Battery", :quantity 1}
-    {:name "Quantum Shield Generator", :quantity 1}
     {:name "Intrusion Countermeasures", :quantity 160}
+    {:name "Jump Drive", :quantity 1}
+    {:name "Antimatter Core", :quantity 1}
+    {:name "Quantum Shield Generator", :quantity 1}
+    {:name "Nanotech Battery", :quantity 1}
     {:name "Medium Graviton Thruster", :quantity 1}
-    {:name "Medium Graviton Steering", :quantity 1}
-    {:name "Jump Drive", :quantity 1}),
+    {:name "Medium Graviton Steering", :quantity 1}),
    :mass 360,
    :turrets 4,
    :meta {:image {:file "thumbnail/wardragon.png", :origin :vanilla}},
@@ -5570,15 +5570,15 @@
    :category "Light Warship",
    :weapon-capacity 171,
    :outfits
-   ({:name "Moonbeam", :quantity 4}
-    {:name "Sunbeam", :quantity 2}
-    {:name "Wanderer Anti-Missile", :quantity 1}
-    {:name "White Sun Reactor", :quantity 1}
-    {:name "Dark Storm Shielding", :quantity 1}
+   ({:name "Sunbeam", :quantity 2}
     {:name "Type 3 Radiant Thruster", :quantity 1}
+    {:name "Moonbeam", :quantity 4}
+    {:name "Hyperdrive", :quantity 1}
+    {:name "White Sun Reactor", :quantity 1}
     {:name "Type 4 Radiant Steering", :quantity 1}
-    {:name "Type 3 Radiant Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Wanderer Anti-Missile", :quantity 1}
+    {:name "Dark Storm Shielding", :quantity 1}
+    {:name "Type 3 Radiant Steering", :quantity 1}),
    :mass 240,
    :turrets 1,
    :meta
@@ -5606,15 +5606,15 @@
    :category "Heavy Freighter",
    :weapon-capacity 177,
    :outfits
-   ({:name "Thunderhead Launcher", :quantity 6}
-    {:name "Thunderhead Missile", :quantity 320}
-    {:name "Thunderhead Storage Array", :quantity 4}
-    {:name "Large Biochemical Cell", :quantity 1}
-    {:name "Bright Cloud Shielding", :quantity 1}
-    {:name "Wanderer Ramscoop", :quantity 1}
+   ({:name "Bright Cloud Shielding", :quantity 1}
+    {:name "Thunderhead Launcher", :quantity 6}
+    {:name "Hyperdrive", :quantity 1}
     {:name "Type 2 Radiant Thruster", :quantity 1}
+    {:name "Thunderhead Storage Array", :quantity 4}
+    {:name "Thunderhead Missile", :quantity 320}
     {:name "Type 3 Radiant Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Large Biochemical Cell", :quantity 1}
+    {:name "Wanderer Ramscoop", :quantity 1}),
    :mass 750,
    :meta {:image {:file "thumbnail/deep river.png", :origin :vanilla}},
    :empty-hull-cost 18300000,
@@ -5925,15 +5925,15 @@
    :category "Heavy Freighter",
    :weapon-capacity 90,
    :outfits
-   ({:name "Fitar Anti-Missile", :quantity 2}
+   ({:name "Farlu Fuel Cell", :quantity 1}
     {:name "Skue-6 Turret", :quantity 2}
+    {:name "Hyperdrive", :quantity 1}
     {:name "Dakte-1 Launcher", :quantity 2}
-    {:name "Dakte-1 Missile", :quantity 80}
-    {:name "Farlu Fuel Cell", :quantity 1}
     {:name "K0108 Battery Pack", :quantity 1}
     {:name "Hiavee Shield Generator", :quantity 1}
+    {:name "Dakte-1 Missile", :quantity 80}
     {:name "Hao Ion Engines", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Fitar Anti-Missile", :quantity 2}),
    :mass 600,
    :turrets 4,
    :meta
@@ -6097,15 +6097,15 @@
    :category "Light Warship",
    :weapon-capacity 110,
    :outfits
-   ({:name "Dels Sokak Cannon", :quantity 2}
+   ({:name "Hilke Fuel Cell", :quantity 1}
     {:name "Sokak Slug", :quantity 40}
-    {:name "Fitar Anti-Missile", :quantity 2}
-    {:name "Dudae Shield Generator", :quantity 1}
-    {:name "Hilke Fuel Cell", :quantity 1}
-    {:name "K0538 Battery Pack", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
+    {:name "Dels Sokak Cannon", :quantity 2}
     {:name "Liquid Nitrogen Cooler", :quantity 1}
     {:name "Kuar Ion Engines", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Fitar Anti-Missile", :quantity 2}
+    {:name "K0538 Battery Pack", :quantity 1}
+    {:name "Dudae Shield Generator", :quantity 1}),
    :mass 150,
    :turrets 2,
    :meta
@@ -6132,15 +6132,15 @@
    :category "Light Warship",
    :weapon-capacity 100,
    :outfits
-   ({:name "Ukar-3 Blaster", :quantity 4}
-    {:name "Skue-6 Blaster", :quantity 4}
+   ({:name "Dels Ramscoop", :quantity 1}
     {:name "Hilke Fuel Cell", :quantity 1}
+    {:name "Ukar-3 Blaster", :quantity 4}
+    {:name "Kuar Ion Engines", :quantity 1}
+    {:name "Type-F Hyperdrive", :quantity 1}
+    {:name "Akuorai Afterburner", :quantity 1}
     {:name "K0538 Battery Pack", :quantity 1}
     {:name "Dudae Shield Generator", :quantity 1}
-    {:name "Kuar Ion Engines", :quantity 1}
-    {:name "Akuorai Afterburner", :quantity 1}
-    {:name "Type-F Hyperdrive", :quantity 1}
-    {:name "Dels Ramscoop", :quantity 1}),
+    {:name "Skue-6 Blaster", :quantity 4}),
    :mass 100,
    :meta
    {:image
@@ -6167,15 +6167,15 @@
    :category "Medium Warship",
    :weapon-capacity 260,
    :outfits
-   ({:name "Ukar-3 Blaster", :quantity 4}
-    {:name "Skue-6 Blaster", :quantity 4}
+   ({:name "Dels Ramscoop", :quantity 1}
     {:name "Hilke Fuel Cell", :quantity 1}
+    {:name "Ukar-3 Blaster", :quantity 4}
+    {:name "Kuar Ion Engines", :quantity 1}
+    {:name "Type-F Hyperdrive", :quantity 1}
+    {:name "Akuorai Afterburner", :quantity 1}
     {:name "K0538 Battery Pack", :quantity 1}
     {:name "Dudae Shield Generator", :quantity 1}
-    {:name "Kuar Ion Engines", :quantity 1}
-    {:name "Akuorai Afterburner", :quantity 1}
-    {:name "Type-F Hyperdrive", :quantity 1}
-    {:name "Dels Ramscoop", :quantity 1}),
+    {:name "Skue-6 Blaster", :quantity 4}),
    :mass 270,
    :meta
    {:image
@@ -6774,15 +6774,15 @@
    :category "Interceptor",
    :weapon-capacity 60,
    :outfits
-   ({:name "Aserap Autocannon", :quantity 4}
-    {:name "Aserap Ammo", :quantity 4000}
-    {:name "Skile Missile", :quantity 4}
-    {:name "Va1-I Radiothermal", :quantity 1}
+   ({:name "Eseyar Ion Thruster", :quantity 2}
     {:name "H-1AE Battery Array", :quantity 1}
     {:name "P2a Shield Generator", :quantity 1}
-    {:name "Eseyar Ion Thruster", :quantity 2}
+    {:name "Va1-I Radiothermal", :quantity 1}
+    {:name "Skile Missile", :quantity 4}
+    {:name "Hyperdrive", :quantity 1}
+    {:name "Aserap Autocannon", :quantity 4}
     {:name "Esinkan Ion Steering", :quantity 2}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Aserap Ammo", :quantity 4000}),
    :mass 63,
    :meta
    {:image
@@ -6884,15 +6884,15 @@
    :category "Transport",
    :weapon-capacity 34,
    :outfits
-   ({:name "Aserap Turret", :quantity 1}
-    {:name "Aserap Ammo", :quantity 2000}
-    {:name "Rudarel CIWS", :quantity 1}
+   ({:name "Gerneil Plasma Thruster", :quantity 1}
     {:name "Va1-I Radiothermal", :quantity 2}
-    {:name "H-2AE Battery Array", :quantity 1}
+    {:name "Rudarel CIWS", :quantity 1}
     {:name "P6a Shield Generator", :quantity 1}
-    {:name "Gerneil Plasma Thruster", :quantity 1}
+    {:name "Aserap Turret", :quantity 1}
+    {:name "H-2AE Battery Array", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
     {:name "Ginskel Plasma Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Aserap Ammo", :quantity 2000}),
    :mass 190,
    :turrets 2,
    :meta
@@ -6920,15 +6920,15 @@
    :category "Interceptor",
    :weapon-capacity 30,
    :outfits
-   ({:name "Kuakuran Energy Cannon", :quantity 1}
-    {:name "Aserap Ammo", :quantity 500}
-    {:name "Va1-I Radiothermal", :quantity 1}
-    {:name "H-1AE Battery Array", :quantity 1}
+   ({:name "H-1AE Battery Array", :quantity 1}
     {:name "P2a Shield Generator", :quantity 1}
-    {:name "Cooling Ducts", :quantity 1}
     {:name "Gerneil Plasma Thruster", :quantity 1}
+    {:name "Cooling Ducts", :quantity 1}
+    {:name "Va1-I Radiothermal", :quantity 1}
+    {:name "Kuakuran Energy Cannon", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
     {:name "Ginskel Plasma Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Aserap Ammo", :quantity 500}),
    :mass 80,
    :meta
    {:image
@@ -7107,15 +7107,15 @@
    :category "Heavy Freighter",
    :weapon-capacity 280,
    :outfits
-   ({:name "Kaiza Anti-Fighter Turret", :quantity 4}
-    {:name "Norden Dual Cannon Turret", :quantity 1}
+   ({:name "Erm cooling system", :quantity 1}
+    {:name "Harken Graviton Engines", :quantity 1}
     {:name "Erm Missile Guard", :quantity 4}
-    {:name "Aorken Paralyzer Missile", :quantity 4}
-    {:name "Nurhid-1 Core", :quantity 1}
-    {:name "Estera Shield Generator", :quantity 4}
-    {:name "Erm cooling system", :quantity 1}
     {:name "Erm Boarding Systems", :quantity 8}
-    {:name "Harken Graviton Engines", :quantity 1}),
+    {:name "Kaiza Anti-Fighter Turret", :quantity 4}
+    {:name "Norden Dual Cannon Turret", :quantity 1}
+    {:name "Estera Shield Generator", :quantity 4}
+    {:name "Aorken Paralyzer Missile", :quantity 4}
+    {:name "Nurhid-1 Core", :quantity 1}),
    :mass 364,
    :turrets 9,
    :meta
@@ -7178,15 +7178,15 @@
    :category "Light Warship",
    :weapon-capacity 220,
    :outfits
-   ({:name "Kaiza Anti-Fighter Turret", :quantity 2}
+   ({:name "Korgel-1 Core", :quantity 1}
+    {:name "Aranut Missile", :quantity 2}
+    {:name "Erm cooling system", :quantity 1}
+    {:name "Hordel Graviton Engines", :quantity 1}
     {:name "Erm Missile Guard", :quantity 2}
     {:name "Tordel Paralyzer Laser", :quantity 2}
-    {:name "Aranut Missile", :quantity 2}
-    {:name "Korgel-1 Core", :quantity 1}
-    {:name "Estera Shield Generator", :quantity 1}
-    {:name "Erm cooling system", :quantity 1}
     {:name "Erm Boarding Systems", :quantity 1}
-    {:name "Hordel Graviton Engines", :quantity 1}),
+    {:name "Kaiza Anti-Fighter Turret", :quantity 2}
+    {:name "Estera Shield Generator", :quantity 1}),
    :mass 238,
    :turrets 4,
    :meta {:image {:file "ship/erm ernar.png", :origin :galactic-war}},
@@ -7820,15 +7820,15 @@
    :category "Light Freighter",
    :weapon-capacity 50,
    :outfits
-   ({:name "Kroom Blaster", :quantity 2}
+   ({:name "Kosak Shield Generator", :quantity 1}
     {:name "Kroom Anti-Missile Turret", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
     {:name "Kutsabik Fission Reactor", :quantity 1}
-    {:name "Galrugl Battery Pack", :quantity 1}
-    {:name "Kosak Shield Generator", :quantity 1}
     {:name "Water Coolant System", :quantity 2}
-    {:name "Karmar Thruster", :quantity 1}
+    {:name "Kroom Blaster", :quantity 2}
     {:name "Karmar Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Karmar Thruster", :quantity 1}
+    {:name "Galrugl Battery Pack", :quantity 1}),
    :mass 150,
    :turrets 2,
    :meta
@@ -7891,15 +7891,15 @@
    :category "Light Warship",
    :weapon-capacity 70,
    :outfits
-   ({:name "Kroom Proton Blaster", :quantity 2}
+   ({:name "Kourta Shield Generator", :quantity 1}
     {:name "Kroom Anti-Missile Turret", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
+    {:name "Kroom Proton Blaster", :quantity 2}
     {:name "Kutsabik Fission Reactor", :quantity 1}
-    {:name "Galrugl Battery Pack", :quantity 1}
-    {:name "Kourta Shield Generator", :quantity 1}
     {:name "Water Coolant System", :quantity 2}
-    {:name "Karmar Thruster", :quantity 1}
     {:name "Karmar Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Karmar Thruster", :quantity 1}
+    {:name "Galrugl Battery Pack", :quantity 1}),
    :mass 140,
    :turrets 1,
    :meta
@@ -7928,15 +7928,15 @@
    :category "Interceptor",
    :weapon-capacity 20,
    :outfits
-   ({:name "Kroom Blaster", :quantity 2}
-    {:name "Karar Missile", :quantity 2}
-    {:name "Ekalo Battery Pack", :quantity 1}
-    {:name "Burtal Fuel Cell", :quantity 1}
+   ({:name "Burtal Fuel Cell", :quantity 1}
     {:name "Keno Shield Generator", :quantity 1}
-    {:name "Gorka Homai", :quantity 1}
+    {:name "Karar Missile", :quantity 2}
+    {:name "Hyperdrive", :quantity 1}
+    {:name "Kroom Blaster", :quantity 2}
+    {:name "Ekalo Battery Pack", :quantity 1}
     {:name "Kalmo Thruster", :quantity 1}
     {:name "Kalmo Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Gorka Homai", :quantity 1}),
    :mass 50,
    :meta
    {:image
@@ -7964,15 +7964,15 @@
    :category "Transport",
    :weapon-capacity 43,
    :outfits
-   ({:name "Kroom Blaster Turret", :quantity 1}
+   ({:name "Keno Shield Generator", :quantity 1}
+    {:name "Kroom Blaster Turret", :quantity 1}
     {:name "Kroom Anti-Missile Turret", :quantity 1}
-    {:name "Ekalo Battery Pack", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
     {:name "Fulakor Fuel Cell", :quantity 1}
-    {:name "Keno Shield Generator", :quantity 1}
-    {:name "Gorka Homai", :quantity 150}
-    {:name "Karmar Thruster", :quantity 1}
     {:name "Karmar Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Ekalo Battery Pack", :quantity 1}
+    {:name "Karmar Thruster", :quantity 1}
+    {:name "Gorka Homai", :quantity 150}),
    :mass 260,
    :turrets 2,
    :meta
@@ -8368,15 +8368,15 @@
    :category "Interceptor",
    :weapon-capacity 50,
    :outfits
-   ({:name "Mase-Dettai Laser", :quantity 2}
-    {:name "Masai-mei Missile Defence (locked)", :quantity 1}
+   ({:name "Masuit Ka", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
+    {:name "Mase-Dettai Laser", :quantity 2}
+    {:name "Aseki Cell", :quantity 1}
+    {:name "Asutur Thruster", :quantity 1}
+    {:name "Asutur-ian Steering", :quantity 1}
     {:name "QSSS Cable", :quantity 1}
     {:name "Biqune Shield Generator", :quantity 1}
-    {:name "Aseki Cell", :quantity 1}
-    {:name "Masuit Ka", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}
-    {:name "Asutur Thruster", :quantity 1}
-    {:name "Asutur-ian Steering", :quantity 1}),
+    {:name "Masai-mei Missile Defence (locked)", :quantity 1}),
    :mass 20,
    :turrets 1,
    :meta
@@ -8386,7 +8386,7 @@
    :race :qoro,
    :name "Qoro(M) Manta",
    :file "gw/data/Qoro/Qoro Makau ships.txt",
-   :outfits-cost 50000,
+   :outfits-cost 4215300,
    :outfit-space 140,
    :required-crew 1,
    :engine-capacity 40,
@@ -8425,7 +8425,7 @@
    :race :qoro,
    :name "Qoro(M) Masec",
    :file "gw/data/Qoro/Qoro Makau ships.txt",
-   :outfits-cost 50000,
+   :outfits-cost 11022300,
    :outfit-space 713,
    :required-crew 6,
    :engine-capacity 132,
@@ -8454,7 +8454,7 @@
    :race :qoro,
    :name "Qoro(M) Matoanan",
    :file "gw/data/Qoro/Qoro Makau ships.txt",
-   :outfits-cost 50000,
+   :outfits-cost 51795300,
    :outfit-space 1540,
    :required-crew 110,
    :engine-capacity 480,
@@ -8728,15 +8728,15 @@
    :category "Light Freighter",
    :weapon-capacity 80,
    :outfits
-   ({:name "Kaiza Anti-Fighter Turret", :quantity 1}
-    {:name "Resmakia Anti-Missile", :quantity 2}
-    {:name "E MSRS", :quantity 1}
-    {:name "Resmakia Cooling System", :quantity 1}
-    {:name "Jorge Reactor", :quantity 1}
-    {:name "Kerjos Battery", :quantity 1}
+   ({:name "E MSRS", :quantity 1}
     {:name "Corjen Thruster", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
+    {:name "Resmakia Anti-Missile", :quantity 2}
+    {:name "Jorge Reactor", :quantity 1}
+    {:name "Kaiza Anti-Fighter Turret", :quantity 1}
+    {:name "Kerjos Battery", :quantity 1}
     {:name "Corjen Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Resmakia Cooling System", :quantity 1}),
    :mass 180,
    :turrets 3,
    :meta
@@ -9069,15 +9069,15 @@
    :category "Heavy Freighter",
    :weapon-capacity 168,
    :outfits
-   ({:name "Vuskchet Cannon", :quantity 2}
+   ({:name "Fokhun Steering", :quantity 1}
     {:name "Vuskchet Turret", :quantity 1}
-    {:name "Vrrpak Turret", :quantity 2}
-    {:name "Rivkrtelr Reactor", :quantity 1}
     {:name "Epir Shield Generator", :quantity 1}
+    {:name "Vrrpak Turret", :quantity 2}
+    {:name "Hyperdrive", :quantity 1}
     {:name "Water Coolant System", :quantity 2}
+    {:name "Rivkrtelr Reactor", :quantity 1}
     {:name "Ivtorne Thruster", :quantity 1}
-    {:name "Fokhun Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Vuskchet Cannon", :quantity 2}),
    :mass 900,
    :turrets 3,
    :meta
@@ -9301,15 +9301,15 @@
    :category "Heavy Warship",
    :weapon-capacity 680,
    :outfits
-   ({:name "DKS2 Turret", :quantity 5}
-    {:name "KDG5 anti missile", :quantity 4}
+   ({:name "Kel'aku Engines", :quantity 1}
+    {:name "Retos Mulaer Defegin", :quantity 1}
     {:name "Ultaka Harvester Beam", :quantity 2}
     {:name "DMSG20 Shield Generator", :quantity 1}
+    {:name "SHM02 Heat Control", :quantity 1}
     {:name "B60 Ve'el Core", :quantity 1}
     {:name "B6E Hap'al Battery", :quantity 1}
-    {:name "SHM02 Heat Control", :quantity 1}
-    {:name "Retos Mulaer Defegin", :quantity 1}
-    {:name "Kel'aku Engines", :quantity 1}),
+    {:name "DKS2 Turret", :quantity 5}
+    {:name "KDG5 anti missile", :quantity 4}),
    :mass 760,
    :turrets 9,
    :meta
@@ -9372,15 +9372,15 @@
    :category "Heavy Warship",
    :weapon-capacity 5000,
    :outfits
-   ({:name "DKS2 Turret", :quantity 10}
-    {:name "KLG1 Turret", :quantity 8}
+   ({:name "Kel'aku Engines", :quantity 5}
     {:name "KDT5 anti missile", :quantity 8}
-    {:name "Ultaka Executor Cannon", :quantity 2}
-    {:name "DMSG20 Shield Generator", :quantity 10}
-    {:name "B60 Ve'el Core", :quantity 5}
-    {:name "SHM02 Heat Control", :quantity 5}
     {:name "Retos Mulaer Defegin", :quantity 1}
-    {:name "Kel'aku Engines", :quantity 5}),
+    {:name "DMSG20 Shield Generator", :quantity 10}
+    {:name "SHM02 Heat Control", :quantity 5}
+    {:name "B60 Ve'el Core", :quantity 5}
+    {:name "KLG1 Turret", :quantity 8}
+    {:name "DKS2 Turret", :quantity 10}
+    {:name "Ultaka Executor Cannon", :quantity 2}),
    :mass 2660,
    :turrets 26,
    :meta
@@ -9521,15 +9521,15 @@
    :category "Light Warship",
    :weapon-capacity 320,
    :outfits
-   ({:name "USG100 Shield Generator", :quantity 1}
-    {:name "B20 Erul Core", :quantity 1}
-    {:name "Ultaka Heat Shunt", :quantity 1}
+   ({:name "B20 Erul Core", :quantity 1}
     {:name "DR Drive", :quantity 1}
+    {:name "Ultaka IDS", :quantity 1}
+    {:name "USG100 Shield Generator", :quantity 1}
+    {:name "Ultaka Heat Shunt", :quantity 1}
     {:name "U20-B anti missile", :quantity 2}
-    {:name "M10G Turret", :quantity 2}
     {:name "E40R-D", :quantity 1}
-    {:name "Model-3A Rifle", :quantity 5}
-    {:name "Ultaka IDS", :quantity 1}),
+    {:name "M10G Turret", :quantity 2}
+    {:name "Model-3A Rifle", :quantity 5}),
    :mass 660,
    :turrets 3,
    :meta
@@ -9620,15 +9620,15 @@
   {:category "Light Warship",
    :weapon-capacity 268,
    :outfits
-   ({:name "U20-B anti missile", :quantity 1}
+   ({:name "Kel'aku Engines", :quantity 1}
+    {:name "Ultaka IDS", :quantity 1}
     {:name "Ultaka Antimatter Barrage Cannon", :quantity 4}
     {:name "USG100 Shield Generator", :quantity 1}
-    {:name "B30 Gal'e Core", :quantity 1}
     {:name "Ultaka Heat Shunt", :quantity 1}
+    {:name "U20-B anti missile", :quantity 1}
     {:name "B6E Hap'al Battery", :quantity 1}
-    {:name "Model-3A Rifle", :quantity 10}
-    {:name "Ultaka IDS", :quantity 1}
-    {:name "Kel'aku Engines", :quantity 1}),
+    {:name "B30 Gal'e Core", :quantity 1}
+    {:name "Model-3A Rifle", :quantity 10}),
    :mass 310,
    :turrets 1,
    :meta
@@ -9655,14 +9655,14 @@
   {:category "Light Warship",
    :weapon-capacity 320,
    :outfits
-   ({:name "USG100 Shield Generator", :quantity 1}
-    {:name "B20 Erul Core", :quantity 1}
-    {:name "B6E Hap'al Battery", :quantity 1}
-    {:name "Ultaka Heat Shunt", :quantity 1}
+   ({:name "B20 Erul Core", :quantity 1}
     {:name "Kel'aku Engines", :quantity 1}
+    {:name "USG100 Shield Generator", :quantity 1}
+    {:name "Ultaka Heat Shunt", :quantity 1}
     {:name "U20-B anti missile", :quantity 1}
-    {:name "M10G Turret", :quantity 2}
+    {:name "B6E Hap'al Battery", :quantity 1}
     {:name "E40R-D", :quantity 1}
+    {:name "M10G Turret", :quantity 2}
     {:name "Model-3A Rifle", :quantity 5}),
    :mass 340,
    :turrets 3,
@@ -9973,15 +9973,15 @@
    :category "Medium Warship",
    :weapon-capacity 160,
    :outfits
-   ({:name "Itir Gun", :quantity 4}
-    {:name "Viten Anti-Missile", :quantity 1}
+   ({:name "F5V2 Shielding System", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
     {:name "I6V2 Core", :quantity 1}
-    {:name "S3V4 Batteries", :quantity 1}
-    {:name "F5V2 Shielding System", :quantity 1}
     {:name "Liquid Nitrogen Cooler", :quantity 1}
-    {:name "X3700 Ion Thruster", :quantity 1}
     {:name "X3200 Ion Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "S3V4 Batteries", :quantity 1}
+    {:name "Itir Gun", :quantity 4}
+    {:name "Viten Anti-Missile", :quantity 1}
+    {:name "X3700 Ion Thruster", :quantity 1}),
    :mass 280,
    :turrets 1,
    :meta
@@ -10006,15 +10006,15 @@
    :category "Heavy Warship",
    :weapon-capacity 400,
    :outfits
-   ({:name "Lismnia Turret", :quantity 6}
-    {:name "I6V2 Core", :quantity 1}
-    {:name "S3V4 Batteries", :quantity 1}
-    {:name "F6V2 Shielding System", :quantity 1}
-    {:name "Large Radar Jammer", :quantity 2}
-    {:name "Liquid Helium Cooler", :quantity 1}
+   ({:name "Liquid Helium Cooler", :quantity 1}
     {:name "X4700 Ion Thruster", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
     {:name "X4200 Ion Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Large Radar Jammer", :quantity 2}
+    {:name "I6V2 Core", :quantity 1}
+    {:name "Lismnia Turret", :quantity 6}
+    {:name "F6V2 Shielding System", :quantity 1}
+    {:name "S3V4 Batteries", :quantity 1}),
    :mass 455,
    :turrets 6,
    :meta
@@ -10041,15 +10041,15 @@
    :category "Heavy Freighter",
    :weapon-capacity 200,
    :outfits
-   ({:name "Lismnia Turret", :quantity 4}
-    {:name "I6V2 Core", :quantity 1}
-    {:name "S3V4 Batteries", :quantity 1}
-    {:name "F6V2 Shielding System", :quantity 1}
-    {:name "Large Radar Jammer", :quantity 2}
-    {:name "Liquid Helium Cooler", :quantity 1}
+   ({:name "Liquid Helium Cooler", :quantity 1}
     {:name "X4700 Ion Thruster", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
     {:name "X4200 Ion Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Large Radar Jammer", :quantity 2}
+    {:name "I6V2 Core", :quantity 1}
+    {:name "Lismnia Turret", :quantity 4}
+    {:name "F6V2 Shielding System", :quantity 1}
+    {:name "S3V4 Batteries", :quantity 1}),
    :mass 434,
    :turrets 4,
    :meta
@@ -10203,14 +10203,14 @@
    :category "Heavy Warship",
    :weapon-capacity 3380,
    :outfits
-   ({:name "Markla Turret", :quantity 11}
-    {:name "Marley Turret", :quantity 8}
-    {:name "Sesmal Torpedo", :quantity 6}
-    {:name "Kemper Missile Defense", :quantity 1}
+   ({:name "Marley Turret", :quantity 8}
+    {:name "Markla Turret", :quantity 11}
     {:name "Jestar Anti-missile", :quantity 6}
-    {:name "Ulyukar Heat Control", :quantity 2}
+    {:name "Kemper Missile Defense", :quantity 1}
     {:name "Kal-10 Engines", :quantity 2}
+    {:name "Ulyukar Heat Control", :quantity 2}
     {:name "C80-W Mallar Core", :quantity 1}
+    {:name "Sesmal Torpedo", :quantity 6}
     {:name "Yalgos Shield Generator", :quantity 2}),
    :mass 2480,
    :turrets 26,
@@ -10365,15 +10365,15 @@
    :category "Heavy Freighter",
    :weapon-capacity 360,
    :outfits
-   ({:name "ZIS Anti-Missile System", :quantity 4}
-    {:name "DZ-84 Darklance Turret", :quantity 6}
-    {:name "Syfar Torpedo Launcher", :quantity 2}
+   ({:name "MPa60Gp-02 Engines", :quantity 1}
+    {:name "ZIS Anti-Missile System", :quantity 4}
+    {:name "EPa90Cx-01 Generator", :quantity 1}
     {:name "Syfar Torpedo Storage", :quantity 2}
     {:name "Syfar Torpedo", :quantity 62}
-    {:name "EPa90Cx-01 Generator", :quantity 1}
-    {:name "GSa41Gp-02 Shielding", :quantity 1}
+    {:name "DZ-84 Darklance Turret", :quantity 6}
     {:name "GHa43Gp-02 Hull Repair", :quantity 1}
-    {:name "MPa60Gp-02 Engines", :quantity 1}),
+    {:name "Syfar Torpedo Launcher", :quantity 2}
+    {:name "GSa41Gp-02 Shielding", :quantity 1}),
    :mass 490,
    :turrets 10,
    :meta {:image {:file "ship/zis sysor.png", :origin :galactic-war}},
@@ -10619,15 +10619,15 @@
    :category "Medium Warship",
    :weapon-capacity 320,
    :outfits
-   ({:name "Zaikor Turret", :quantity 4}
-    {:name "ZIS Anti-Missile System", :quantity 2}
-    {:name "Syfar-3 Turret", :quantity 3}
-    {:name "Syfar Torpedo", :quantity 90}
-    {:name "EPa60Cx-01 Generator", :quantity 1}
-    {:name "EPa90Cx-01 Generator", :quantity 1}
-    {:name "GHb12Gp-02 Hull Repair", :quantity 1}
+   ({:name "Syfar-3 Turret", :quantity 3}
     {:name "MPa60Gp-02 Engines", :quantity 1}
-    {:name "MPa30Gp-02 Engines", :quantity 1}),
+    {:name "ZIS Anti-Missile System", :quantity 2}
+    {:name "MPa30Gp-02 Engines", :quantity 1}
+    {:name "GHb12Gp-02 Hull Repair", :quantity 1}
+    {:name "EPa90Cx-01 Generator", :quantity 1}
+    {:name "Zaikor Turret", :quantity 4}
+    {:name "Syfar Torpedo", :quantity 90}
+    {:name "EPa60Cx-01 Generator", :quantity 1}),
    :mass 282,
    :turrets 9,
    :meta {:image {:file "ship/zis ryuzo.png", :origin :galactic-war}},
@@ -11025,15 +11025,15 @@
    :category "Transport",
    :weapon-capacity 35,
    :outfits
-   ({:name "Huer CIWS Turret", :quantity 2}
+   ({:name "Haron Steering", :quantity 1}
     {:name "Euman Power Cell", :quantity 1}
-    {:name "Nuxin Capacitor", :quantity 1}
-    {:name "Eaur Power Cell", :quantity 1}
-    {:name "Korbus Shield Generator", :quantity 1}
-    {:name "Erlyus Repair Drones", :quantity 1}
+    {:name "Huer CIWS Turret", :quantity 2}
     {:name "Haron Thruster", :quantity 1}
-    {:name "Haron Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Hyperdrive", :quantity 1}
+    {:name "Nuxin Capacitor", :quantity 1}
+    {:name "Erlyus Repair Drones", :quantity 1}
+    {:name "Eaur Power Cell", :quantity 1}
+    {:name "Korbus Shield Generator", :quantity 1}),
    :mass 120,
    :turrets 2,
    :meta
@@ -11058,15 +11058,15 @@
    :category "Light Freighter",
    :weapon-capacity 35,
    :outfits
-   ({:name "Huer CIWS Turret", :quantity 2}
+   ({:name "Haron Steering", :quantity 1}
     {:name "Euman Power Cell", :quantity 1}
-    {:name "Nuxin Capacitor", :quantity 1}
-    {:name "Eaur Power Cell", :quantity 1}
-    {:name "Korbus Shield Generator", :quantity 1}
-    {:name "Erlyus Repair Drones", :quantity 1}
+    {:name "Huer CIWS Turret", :quantity 2}
     {:name "Haron Thruster", :quantity 1}
-    {:name "Haron Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Hyperdrive", :quantity 1}
+    {:name "Nuxin Capacitor", :quantity 1}
+    {:name "Erlyus Repair Drones", :quantity 1}
+    {:name "Eaur Power Cell", :quantity 1}
+    {:name "Korbus Shield Generator", :quantity 1}),
    :mass 125,
    :turrets 2,
    :meta
@@ -11125,15 +11125,15 @@
    :category "Light Freighter",
    :weapon-capacity 35,
    :outfits
-   ({:name "Huer CIWS Turret", :quantity 2}
+   ({:name "Haron Steering", :quantity 1}
     {:name "Euman Power Cell", :quantity 1}
-    {:name "Nuxin Capacitor", :quantity 1}
-    {:name "Korbus Shield Generator", :quantity 1}
-    {:name "Kiacle Repair Drones", :quantity 1}
-    {:name "P-type Heat Re-distributor", :quantity 1}
+    {:name "Huer CIWS Turret", :quantity 2}
+    {:name "Hyperdrive", :quantity 1}
     {:name "Haahesn Thruster", :quantity 1}
-    {:name "Haron Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Nuxin Capacitor", :quantity 1}
+    {:name "P-type Heat Re-distributor", :quantity 1}
+    {:name "Kiacle Repair Drones", :quantity 1}
+    {:name "Korbus Shield Generator", :quantity 1}),
    :mass 180,
    :turrets 2,
    :meta
@@ -11158,15 +11158,15 @@
    :category "Light Freighter",
    :weapon-capacity 60,
    :outfits
-   ({:name "Huer CIWS Turret", :quantity 1}
+   ({:name "Haron Steering", :quantity 1}
     {:name "Euman Power Cell", :quantity 1}
-    {:name "Nuxin Capacitor", :quantity 1}
-    {:name "Korbus Shield Generator", :quantity 1}
-    {:name "Erlyus Repair Drones", :quantity 1}
-    {:name "P-type Heat Re-distributor", :quantity 1}
+    {:name "Huer CIWS Turret", :quantity 1}
     {:name "Haron Thruster", :quantity 1}
-    {:name "Haron Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Hyperdrive", :quantity 1}
+    {:name "Nuxin Capacitor", :quantity 1}
+    {:name "P-type Heat Re-distributor", :quantity 1}
+    {:name "Erlyus Repair Drones", :quantity 1}
+    {:name "Korbus Shield Generator", :quantity 1}),
    :mass 150,
    :turrets 1,
    :meta
@@ -12790,6 +12790,23 @@
     {:name "X2200 Ion Steering", :quantity 1}
     {:name "Hyperdrive", :quantity 1}),
    :outfits-cost 1009000}
+  {:name "Gunboat",
+   :modification "Gunboat (Bunks)",
+   :weapon {},
+   :file "game/data/human/free worlds start.txt",
+   :outfits
+   ({:name "Small Radar Jammer", :quantity 1}
+    {:name "LP036a Battery Pack", :quantity 1}
+    {:name "Bunk Room", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
+    {:name "D14-RN Shield Generator", :quantity 1}
+    {:name "LP072a Battery Pack", :quantity 1}
+    {:name "Heavy Laser Turret", :quantity 1}
+    {:name "X2200 Ion Steering", :quantity 1}
+    {:name "Heavy Laser", :quantity 2}
+    {:name "X3700 Ion Thruster", :quantity 1}
+    {:name "RT-I Radiothermal", :quantity 1}),
+   :outfits-cost 995000}
   {:name "Kestrel",
    :modification "Kestrel (More Engines)",
    :weapon {},
@@ -12804,25 +12821,25 @@
    :file "game/data/human/kestrel.txt",
    :guns 12,
    :turrets 4}
-  {:name "Marauder Arrow",
-   :modification "Marauder Arrow (Engines)",
-   :weapon {},
-   :file "game/data/human/marauders.txt",
-   :sprite ["ship/marrowe" false],
-   :thumbnail "thumbnail/marrowe",
+  {:description
+   ["With expanded engine mounts, this Arrow seems more like an oversized missile than a ship. The beefed-up engines, a little extra outfit capacity, extra shield emitters, and thicker hull plating make this vessel a very competent interceptor."],
    :outfits
-   ({:name "Heavy Laser", :quantity 2}
-    {:name "Anti-Missile Turret", :quantity 1}
+   ({:name "A375 Atomic Steering", :quantity 1}
+    {:name "A370 Atomic Thruster", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
+    {:name "D14-RN Shield Generator", :quantity 1}
     {:name "Dwarf Core", :quantity 1}
     {:name "Supercapacitor", :quantity 1}
-    {:name "D14-RN Shield Generator", :quantity 1}
     {:name "Laser Rifle", :quantity 5}
-    {:name "A370 Atomic Thruster", :quantity 1}
-    {:name "A375 Atomic Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
-   :description
-   ["With expanded engine mounts, this Arrow seems more like an oversized missile than a ship. The beefed-up engines, a little extra outfit capacity, extra shield emitters, and thicker hull plating make this vessel a very competent interceptor."],
-   :outfits-cost 2155000}
+    {:name "Heavy Laser", :quantity 2}
+    {:name "Anti-Missile Turret", :quantity 1}),
+   :weapon {},
+   :name "Marauder Arrow",
+   :file "game/data/human/marauders.txt",
+   :outfits-cost 2155000,
+   :sprite ["ship/marrowe" false],
+   :thumbnail "thumbnail/marrowe",
+   :modification "Marauder Arrow (Engines)"}
   {:description
    ["The weapons systems on this Arrow have been enhanced to the point of competing with Lionheart's Headhunter, although it can still outrun all but the fastest ships, if things get a little too hairy."],
    :outfits
@@ -12845,12 +12862,8 @@
    :thumbnail "thumbnail/marroww",
    :modification "Marauder Arrow (Weapons)",
    :guns 4}
-  {:name "Marauder Bounder",
-   :modification "Marauder Bounder (Engines)",
-   :weapon {},
-   :file "game/data/human/marauders.txt",
-   :sprite ["ship/mboundere" false],
-   :thumbnail "thumbnail/mboundere",
+  {:description
+   ["The previous owner of this Bounder has modified an already fast courier-scout into an even faster heavy escort interceptor with some truly enormous engines, giving it incredible maneuverability for its size."],
    :outfits
    ({:name "A375 Atomic Steering", :quantity 1}
     {:name "Outfits Expansion", :quantity 1}
@@ -12863,9 +12876,13 @@
     {:name "Laser Rifle", :quantity 18}
     {:name "Heavy Laser", :quantity 1}
     {:name "S-270 Regenerator", :quantity 1}),
-   :description
-   ["The previous owner of this Bounder has modified an already fast courier-scout into an even faster heavy escort interceptor with some truly enormous engines, giving it incredible maneuverability for its size."],
-   :outfits-cost 2879000}
+   :weapon {},
+   :name "Marauder Bounder",
+   :file "game/data/human/marauders.txt",
+   :outfits-cost 2879000,
+   :sprite ["ship/mboundere" false],
+   :thumbnail "thumbnail/mboundere",
+   :modification "Marauder Bounder (Engines)"}
   {:description
    ["Simultaneously the deadliest and most graceful interceptor in the galaxy, this former Bounder courier-scout has been equipped with incredibly powerful weapons for a ship of its size."],
    :outfits
@@ -12939,12 +12956,8 @@
    :thumbnail "thumbnail/mfalconw",
    :modification "Marauder Falcon (Weapons)",
    :guns 6}
-  {:name "Marauder Firebird",
-   :modification "Marauder Firebird (Engines)",
-   :weapon {},
-   :file "game/data/human/marauders.txt",
-   :sprite ["ship/mfirebirde" false],
-   :thumbnail "thumbnail/mfirebirds",
+  {:description
+   ["One of the biggest complaints about Betelgeuse's venerable classic from younger pilots is that it's heavy and slow. A previous owner of this ship also believed so, and has fitted another engine port, in addition to setting aside more space for outfits and giving the old ship some new hull plating and shield emitters."],
    :outfits
    ({:name "Liquid Helium Cooler", :quantity 1}
     {:name "Fusion Reactor", :quantity 1}
@@ -12960,9 +12973,13 @@
     {:name "Laser Rifle", :quantity 24}
     {:name "Plasma Cannon", :quantity 4}
     {:name "Anti-Missile Turret", :quantity 1}),
-   :description
-   ["One of the biggest complaints about Betelgeuse's venerable classic from younger pilots is that it's heavy and slow. A previous owner of this ship also believed so, and has fitted another engine port, in addition to setting aside more space for outfits and giving the old ship some new hull plating and shield emitters."],
-   :outfits-cost 8891000}
+   :weapon {},
+   :name "Marauder Firebird",
+   :file "game/data/human/marauders.txt",
+   :outfits-cost 8891000,
+   :sprite ["ship/mfirebirde" false],
+   :thumbnail "thumbnail/mfirebirds",
+   :modification "Marauder Firebird (Engines)"}
   {:description
    ["The Firebird is known to have one of the heaviest armaments possible for a warship of its size, and this modified version makes it even heavier. With more outfit space, giant gun ports, extra hull plating, and more shield emitters, this blast from the past will make its targets history."],
    :outfits
@@ -12987,12 +13004,8 @@
    :thumbnail "thumbnail/mfirebirdw",
    :modification "Marauder Firebird (Weapons)",
    :guns 4}
-  {:name "Marauder Leviathan",
-   :modification "Marauder Leviathan (Engines)",
-   :weapon {},
-   :file "game/data/human/marauders.txt",
-   :sprite ["ship/mleviathane" false],
-   :thumbnail "thumbnail/mleviathane",
+  {:description
+   ["As if the Leviathan wasn't a terrifying enough ship already, this one has been heavily modified with special attention paid to the engine capacity, enabling it to bring its guns to bear even faster."],
    :outfits
    ({:name "Liquid Helium Cooler", :quantity 1}
     {:name "Fusion Reactor", :quantity 1}
@@ -13007,9 +13020,13 @@
     {:name "A865 Atomic Steering", :quantity 1}
     {:name "Laser Rifle", :quantity 69}
     {:name "LP144a Battery Pack", :quantity 1}),
-   :description
-   ["As if the Leviathan wasn't a terrifying enough ship already, this one has been heavily modified with special attention paid to the engine capacity, enabling it to bring its guns to bear even faster."],
-   :outfits-cost 12077000}
+   :weapon {},
+   :name "Marauder Leviathan",
+   :file "game/data/human/marauders.txt",
+   :outfits-cost 12077000,
+   :sprite ["ship/mleviathane" false],
+   :thumbnail "thumbnail/mleviathane",
+   :modification "Marauder Leviathan (Engines)"}
   {:description
    ["This Leviathan once belonged to an infamous pirate captain whose name has been lost to the ages. It's had so much custom work done to it that can hardly even be considered the same ship; the weapons capacity, in particular, has been massively increased."],
    :outfits
@@ -13086,12 +13103,8 @@
    :thumbnail "thumbnail/mmantaw",
    :modification "Marauder Manta (Weapons)",
    :guns 6}
-  {:name "Marauder Quicksilver",
-   :modification "Marauder Quicksilver (Engines)",
-   :weapon {},
-   :file "game/data/human/marauders.txt",
-   :sprite ["ship/mquicksilvere" false],
-   :thumbnail "thumbnail/mquicksilvere",
+  {:description
+   ["This Quicksilver has even more space available for engine use - and even another thruster port! It's also got a few extra shield projectors, more hull plating, and another bunk. This aftermarket model also features a turret mount, perhaps in response to Lionheart's Headhunter. Whoever modified this ship wanted to chase their prey down with vicious speed."],
    :outfits
    ({:name "A375 Atomic Steering", :quantity 1}
     {:name "LP036a Battery Pack", :quantity 1}
@@ -13104,15 +13117,15 @@
     {:name "Anti-Missile Turret", :quantity 1}
     {:name "S-270 Regenerator", :quantity 1}
     {:name "Pulse Cannon", :quantity 2}),
-   :description
-   ["This Quicksilver has even more space available for engine use - and even another thruster port! It's also got a few extra shield projectors, more hull plating, and another bunk. This aftermarket model also features a turret mount, perhaps in response to Lionheart's Headhunter. Whoever modified this ship wanted to chase their prey down with vicious speed."],
-   :outfits-cost 3326000}
-  {:name "Marauder Quicksilver",
-   :modification "Marauder Quicksilver (Weapons)",
    :weapon {},
+   :name "Marauder Quicksilver",
    :file "game/data/human/marauders.txt",
-   :sprite ["ship/mquicksilverw" false],
-   :thumbnail "thumbnail/mquicksilverw",
+   :outfits-cost 3326000,
+   :sprite ["ship/mquicksilvere" false],
+   :thumbnail "thumbnail/mquicksilvere",
+   :modification "Marauder Quicksilver (Engines)"}
+  {:description
+   ["This Quicksilver has even bigger gun ports. It's also got a few extra shield emitters, more hull plating, and an extra bunk. Outfitted right, this aftermarket model could be even faster than a stock model, bringing a couple of extra cannons and a turret to a fight in more menacing mimicry of Lionheart's Headhunter."],
    :outfits
    ({:name "A250 Atomic Thruster", :quantity 1}
     {:name "LP036a Battery Pack", :quantity 1}
@@ -13125,15 +13138,15 @@
     {:name "Laser Rifle", :quantity 1}
     {:name "Heavy Laser", :quantity 2}
     {:name "S-270 Regenerator", :quantity 1}),
-   :description
-   ["This Quicksilver has even bigger gun ports. It's also got a few extra shield emitters, more hull plating, and an extra bunk. Outfitted right, this aftermarket model could be even faster than a stock model, bringing a couple of extra cannons and a turret to a fight in more menacing mimicry of Lionheart's Headhunter."],
-   :outfits-cost 2978000}
-  {:name "Marauder Raven",
-   :modification "Marauder Raven (Engines)",
    :weapon {},
+   :name "Marauder Quicksilver",
    :file "game/data/human/marauders.txt",
-   :sprite ["ship/mravene" false],
-   :thumbnail "thumbnail/mravene",
+   :outfits-cost 2978000,
+   :sprite ["ship/mquicksilverw" false],
+   :thumbnail "thumbnail/mquicksilverw",
+   :modification "Marauder Quicksilver (Weapons)"}
+  {:description
+   ["Lionheart's elegant Raven has gained popularity with pirates because of its agility. This one appears to have been modified for even more of the latter at the expense of the former, and the central hull can only be recognized as a Raven because of the wings. A third engine bay, more outfit space, additional shield emitters, and a turret make this already deadly warship appear even more frightening."],
    :outfits
    ({:name "A375 Atomic Steering", :quantity 1}
     {:name "Outfits Expansion", :quantity 1}
@@ -13145,9 +13158,13 @@
     {:name "Heavy Laser", :quantity 4}
     {:name "S-270 Regenerator", :quantity 1}
     {:name "Breeder Reactor", :quantity 1}),
-   :description
-   ["Lionheart's elegant Raven has gained popularity with pirates because of its agility. This one appears to have been modified for even more of the latter at the expense of the former, and the central hull can only be recognized as a Raven because of the wings. A third engine bay, more outfit space, additional shield emitters, and a turret make this already deadly warship appear even more frightening."],
-   :outfits-cost 4505000}
+   :weapon {},
+   :name "Marauder Raven",
+   :file "game/data/human/marauders.txt",
+   :outfits-cost 4505000,
+   :sprite ["ship/mravene" false],
+   :thumbnail "thumbnail/mravene",
+   :modification "Marauder Raven (Engines)"}
   {:description
    ["A former owner of this ship apparently didn't like the lithe Raven, and has added so much more to it - more weapons, more shields, and more outfit capacity - that the central hull can only be recognized because of the wings. Besides adding a turret, this ship has enormous gun ports, making you wonder how much more deadly you could possibly make a warship this small."],
    :outfits
@@ -13272,15 +13289,15 @@
    :weapon {},
    :file "game/data/human/variants.txt",
    :outfits
-   ({:name "Energy Blaster", :quantity 4}
+   ({:name "Impala Plasma Steering", :quantity 1}
+    {:name "Outfits Expansion", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
+    {:name "Energy Blaster", :quantity 4}
+    {:name "D41-HY Shield Generator", :quantity 1}
     {:name "Quad Blaster Turret", :quantity 2}
     {:name "Fission Reactor", :quantity 1}
     {:name "LP072a Battery Pack", :quantity 1}
-    {:name "D41-HY Shield Generator", :quantity 1}
-    {:name "Outfits Expansion", :quantity 1}
-    {:name "Greyhound Plasma Thruster", :quantity 1}
-    {:name "Impala Plasma Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Greyhound Plasma Thruster", :quantity 1}),
    :outfits-cost 2343000}
   {:name "Argosy",
    :modification "Argosy (Laser)",
@@ -13323,29 +13340,29 @@
    :file "game/data/human/variants.txt",
    :outfits
    ({:name "Proton Gun", :quantity 2}
+    {:name "Impala Plasma Steering", :quantity 1}
     {:name "Proton Turret", :quantity 1}
-    {:name "NT-200 Nucleovoltaic", :quantity 1}
+    {:name "Outfits Expansion", :quantity 2}
+    {:name "Hyperdrive", :quantity 1}
     {:name "Supercapacitor", :quantity 1}
     {:name "D67-TM Shield Generator", :quantity 1}
-    {:name "Outfits Expansion", :quantity 2}
-    {:name "Greyhound Plasma Thruster", :quantity 1}
-    {:name "Impala Plasma Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "NT-200 Nucleovoltaic", :quantity 1}
+    {:name "Greyhound Plasma Thruster", :quantity 1}),
    :outfits-cost 1549000}
   {:name "Argosy",
    :modification "Argosy (Turret)",
    :weapon {},
    :file "game/data/human/variants.txt",
    :outfits
-   ({:name "Heavy Laser Turret", :quantity 2}
-    {:name "S3 Thermionic", :quantity 1}
-    {:name "LP072a Battery Pack", :quantity 1}
-    {:name "D41-HY Shield Generator", :quantity 1}
-    {:name "Small Radar Jammer", :quantity 1}
+   ({:name "Small Radar Jammer", :quantity 1}
     {:name "Outfits Expansion", :quantity 1}
-    {:name "X3700 Ion Thruster", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
     {:name "Greyhound Plasma Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "S3 Thermionic", :quantity 1}
+    {:name "D41-HY Shield Generator", :quantity 1}
+    {:name "LP072a Battery Pack", :quantity 1}
+    {:name "Heavy Laser Turret", :quantity 2}
+    {:name "X3700 Ion Thruster", :quantity 1}),
    :outfits-cost 1313000}
   {:name "Arrow",
    :modification "Arrow (Hai)",
@@ -13626,14 +13643,14 @@
    :file "game/data/human/variants.txt",
    :outfits
    ({:name "Pulse Turret", :quantity 1}
-    {:name "Bullfrog Anti-Missile", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
     {:name "Pebble Core", :quantity 1}
-    {:name "Hai Fissure Batteries", :quantity 1}
     {:name "D14-RN Shield Generator", :quantity 1}
-    {:name "Hai Williwaw Cooling", :quantity 1}
-    {:name "X3700 Ion Thruster", :quantity 1}
+    {:name "Hai Fissure Batteries", :quantity 1}
     {:name "X3200 Ion Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Bullfrog Anti-Missile", :quantity 1}
+    {:name "X3700 Ion Thruster", :quantity 1}
+    {:name "Hai Williwaw Cooling", :quantity 1}),
    :outfits-cost 1906000}
   {:name "Bounder",
    :modification "Bounder (Luxury)",
@@ -13800,15 +13817,15 @@
    :weapon {},
    :file "game/data/human/variants.txt",
    :outfits
-   ({:name "Nuclear Missile", :quantity 4}
-    {:name "S3 Thermionic", :quantity 1}
-    {:name "Supercapacitor", :quantity 1}
-    {:name "D67-TM Shield Generator", :quantity 1}
-    {:name "Catalytic Ramscoop", :quantity 1}
-    {:name "A250 Atomic Thruster", :quantity 1}
+   ({:name "A250 Atomic Thruster", :quantity 1}
     {:name "A255 Atomic Steering", :quantity 1}
     {:name "Hyperdrive", :quantity 1}
-    {:name "Afterburner", :quantity 1}),
+    {:name "S3 Thermionic", :quantity 1}
+    {:name "Supercapacitor", :quantity 1}
+    {:name "Afterburner", :quantity 1}
+    {:name "D67-TM Shield Generator", :quantity 1}
+    {:name "Nuclear Missile", :quantity 4}
+    {:name "Catalytic Ramscoop", :quantity 1}),
    :outfits-cost 5465000}
   {:name "Clipper",
    :modification "Clipper (Speedy)",
@@ -14227,15 +14244,15 @@
    :weapon {},
    :file "game/data/human/variants.txt",
    :outfits
-   ({:name "Meteor Missile Launcher", :quantity 1}
-    {:name "Meteor Missile", :quantity 30}
-    {:name "nGVF-BB Fuel Cell", :quantity 1}
+   ({:name "Luxury Accommodations", :quantity 1}
     {:name "LP036a Battery Pack", :quantity 1}
-    {:name "D14-RN Shield Generator", :quantity 1}
-    {:name "Luxury Accommodations", :quantity 1}
-    {:name "A120 Atomic Thruster", :quantity 1}
     {:name "X1200 Ion Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Hyperdrive", :quantity 1}
+    {:name "D14-RN Shield Generator", :quantity 1}
+    {:name "A120 Atomic Thruster", :quantity 1}
+    {:name "Meteor Missile Launcher", :quantity 1}
+    {:name "Meteor Missile", :quantity 30}
+    {:name "nGVF-BB Fuel Cell", :quantity 1}),
    :outfits-cost 559000}
   {:name "Flivver",
    :modification "Flivver (Racing)",
@@ -14306,15 +14323,15 @@
    :weapon {},
    :file "game/data/human/variants.txt",
    :outfits
-   ({:name "Blaster Turret", :quantity 2}
-    {:name "Heavy Anti-Missile Turret", :quantity 1}
+   ({:name "Secret Cargo", :quantity 1}
+    {:name "X2700 Ion Thruster", :quantity 1}
     {:name "nGVF-EE Fuel Cell", :quantity 1}
+    {:name "Heavy Anti-Missile Turret", :quantity 1}
+    {:name "Scram Drive", :quantity 1}
     {:name "LP036a Battery Pack", :quantity 1}
     {:name "D14-RN Shield Generator", :quantity 1}
-    {:name "X2700 Ion Thruster", :quantity 1}
     {:name "X2200 Ion Steering", :quantity 1}
-    {:name "Scram Drive", :quantity 1}
-    {:name "Secret Cargo", :quantity 1}),
+    {:name "Blaster Turret", :quantity 2}),
    :turrets 3,
    :outfits-cost 696000}
   {:name "Frigate",
@@ -14392,13 +14409,13 @@
    :outfits
    ({:name "Proton Gun", :quantity 1}
     {:name "Javelin Pod", :quantity 1}
-    {:name "Javelin", :quantity 200}
-    {:name "nGVF-BB Fuel Cell", :quantity 1}
-    {:name "LP036a Battery Pack", :quantity 1}
-    {:name "D14-RN Shield Generator", :quantity 1}
     {:name "X2700 Ion Thruster", :quantity 1}
     {:name "Chipmunk Plasma Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "LP036a Battery Pack", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
+    {:name "D14-RN Shield Generator", :quantity 1}
+    {:name "Javelin", :quantity 200}
+    {:name "nGVF-BB Fuel Cell", :quantity 1}),
    :outfits-cost 351000}
   {:name "Fury",
    :modification "Fury (Laser)",
@@ -15204,29 +15221,29 @@
    :file "game/data/human/variants.txt",
    :outfits
    ({:name "Particle Cannon", :quantity 2}
-    {:name "RT-I Radiothermal", :quantity 1}
+    {:name "Cargo Scanner", :quantity 1}
+    {:name "Cooling Ducts", :quantity 1}
     {:name "LP036a Battery Pack", :quantity 1}
     {:name "D23-QP Shield Generator", :quantity 1}
-    {:name "Cooling Ducts", :quantity 1}
-    {:name "Cargo Scanner", :quantity 1}
-    {:name "Greyhound Plasma Thruster", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
     {:name "Greyhound Plasma Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "RT-I Radiothermal", :quantity 1}
+    {:name "Greyhound Plasma Thruster", :quantity 1}),
    :outfits-cost 936000}
   {:name "Rainmaker",
    :modification "Rainmaker (Mark II)",
    :weapon {},
    :file "game/data/human/variants.txt",
    :outfits
-   ({:name "Sidewinder Missile Launcher", :quantity 4}
-    {:name "Sidewinder Missile", :quantity 180}
-    {:name "nGVF-CC Fuel Cell", :quantity 1}
+   ({:name "A125 Atomic Steering", :quantity 1}
+    {:name "Scram Drive", :quantity 1}
     {:name "LP036a Battery Pack", :quantity 1}
-    {:name "D67-TM Shield Generator", :quantity 1}
-    {:name "Fuel Pod", :quantity 1}
+    {:name "nGVF-CC Fuel Cell", :quantity 1}
     {:name "A120 Atomic Thruster", :quantity 1}
-    {:name "A125 Atomic Steering", :quantity 1}
-    {:name "Scram Drive", :quantity 1}),
+    {:name "Sidewinder Missile", :quantity 180}
+    {:name "Fuel Pod", :quantity 1}
+    {:name "D67-TM Shield Generator", :quantity 1}
+    {:name "Sidewinder Missile Launcher", :quantity 4}),
    :guns 6,
    :outfits-cost 976000}
   {:name "Raven",
@@ -15336,15 +15353,15 @@
    :weapon {},
    :file "game/data/human/variants.txt",
    :outfits
-   ({:name "Beam Laser", :quantity 2}
-    {:name "nGVF-BB Fuel Cell", :quantity 1}
-    {:name "LP036a Battery Pack", :quantity 1}
-    {:name "D14-RN Shield Generator", :quantity 1}
-    {:name "Cargo Scanner", :quantity 1}
-    {:name "Outfit Scanner", :quantity 1}
-    {:name "Chipmunk Plasma Thruster", :quantity 1}
+   ({:name "Cargo Scanner", :quantity 1}
     {:name "Chipmunk Plasma Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "LP036a Battery Pack", :quantity 1}
+    {:name "Chipmunk Plasma Thruster", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
+    {:name "D14-RN Shield Generator", :quantity 1}
+    {:name "Beam Laser", :quantity 2}
+    {:name "Outfit Scanner", :quantity 1}
+    {:name "nGVF-BB Fuel Cell", :quantity 1}),
    :outfits-cost 255000}
   {:name "Splinter",
    :modification "Splinter (Laser)",
@@ -15462,13 +15479,13 @@
    :outfits
    ({:name "Particle Cannon", :quantity 7}
     {:name "Fusion Reactor", :quantity 1}
-    {:name "LP072a Battery Pack", :quantity 1}
-    {:name "D67-TM Shield Generator", :quantity 1}
-    {:name "Liquid Nitrogen Cooler", :quantity 1}
-    {:name "Laser Rifle", :quantity 6}
-    {:name "X3700 Ion Thruster", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
     {:name "X4200 Ion Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Liquid Nitrogen Cooler", :quantity 1}
+    {:name "LP072a Battery Pack", :quantity 1}
+    {:name "Laser Rifle", :quantity 6}
+    {:name "D67-TM Shield Generator", :quantity 1}
+    {:name "X3700 Ion Thruster", :quantity 1}),
    :guns 7,
    :outfits-cost 7008000}
   {:name "Wasp",
@@ -15505,15 +15522,15 @@
    :weapon {},
    :file "game/data/human/variants.txt",
    :outfits
-   ({:name "Energy Blaster", :quantity 1}
+   ({:name "X2700 Ion Thruster", :quantity 1}
+    {:name "LP036a Battery Pack", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
+    {:name "D14-RN Shield Generator", :quantity 1}
+    {:name "Energy Blaster", :quantity 1}
+    {:name "X2200 Ion Steering", :quantity 1}
     {:name "Meteor Missile Launcher", :quantity 2}
     {:name "Meteor Missile", :quantity 60}
-    {:name "nGVF-BB Fuel Cell", :quantity 1}
-    {:name "LP036a Battery Pack", :quantity 1}
-    {:name "D14-RN Shield Generator", :quantity 1}
-    {:name "X2700 Ion Thruster", :quantity 1}
-    {:name "X2200 Ion Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "nGVF-BB Fuel Cell", :quantity 1}),
    :guns 3,
    :outfits-cost 252000}
   {:name "Wasp",
@@ -15745,11 +15762,8 @@
     {:name "Ka'het Reserve Accumulator", :quantity 4}
     {:name "Ka'het Compact Engine", :quantity 1}),
    :outfits-cost 2464000}
-  {:name "Korath Dredger",
-   :modification "Korath Dredger (Crippled)",
-   :weapon {},
-   :file "game/data/korath/korath ships.txt",
-   :sprite ["ship/dredger" false],
+  {:description
+   ["After the Korath were exiled from their homelands, efficient resource collection became a priority. World-ships were too precious to risk on dangerous forays, and Raiders lacked the cargo capacity. The Dredger was born as an answer to this problem, featuring an abundance of cargo and passenger space, with formidable defensive armament. With such a complement, these bulky ships can also offer potent support for frontline Raiders."],
    :outfits
    ({:name "Korath Banisher", :quantity 2}
     {:name "Steering (Lunar Class)", :quantity 1}
@@ -15765,9 +15779,12 @@
     {:name "Korath Grab-Strike", :quantity 1}
     {:name "Korath Warder", :quantity 1}),
    :turrets 7,
-   :description
-   ["After the Korath were exiled from their homelands, efficient resource collection became a priority. World-ships were too precious to risk on dangerous forays, and Raiders lacked the cargo capacity. The Dredger was born as an answer to this problem, featuring an abundance of cargo and passenger space, with formidable defensive armament. With such a complement, these bulky ships can also offer potent support for frontline Raiders."],
-   :outfits-cost 39942000}
+   :weapon {},
+   :name "Korath Dredger",
+   :file "game/data/korath/korath ships.txt",
+   :outfits-cost 39942000,
+   :sprite ["ship/dredger" false],
+   :modification "Korath Dredger (Crippled)"}
   {:name "Korath Dredger",
    :modification "Korath Dredger (Hyperdrive)",
    :weapon {},
@@ -16366,15 +16383,15 @@
    :guns 5,
    :outfits-cost 5823000}
   {:outfits
-   ({:name "Dragonflame Cannon", :quantity 1}
-    {:name "Particle Waveform Turret", :quantity 6}
+   ({:name "Fusion Drive", :quantity 1}
+    {:name "Electronic Warfare System", :quantity 2}
+    {:name "Large Hybrid Cooling", :quantity 1}
+    {:name "Outfits Expansion", :quantity 2}
+    {:name "Jump Drive", :quantity 1}
+    {:name "Dragonflame Cannon", :quantity 1}
     {:name "Sheragi Anti-Missile", :quantity 2}
     {:name "Large EM Battery", :quantity 1}
-    {:name "Large Hybrid Cooling", :quantity 1}
-    {:name "Electronic Warfare System", :quantity 2}
-    {:name "Outfits Expansion", :quantity 2}
-    {:name "Fusion Drive", :quantity 1}
-    {:name "Jump Drive", :quantity 1}),
+    {:name "Particle Waveform Turret", :quantity 6}),
    :turrets 8,
    :weapon {},
    :name "Emerald Sword",
@@ -16527,14 +16544,14 @@
    :file "game/data/wanderer/wanderer ships.txt",
    :outfits
    ({:name "Sunbeam", :quantity 4}
-    {:name "Moonbeam Turret", :quantity 1}
-    {:name "White Sun Reactor", :quantity 1}
-    {:name "Dark Storm Shielding", :quantity 1}
     {:name "Type 3 Radiant Thruster", :quantity 1}
-    {:name "Type 1 Radiant Thruster", :quantity 1}
-    {:name "Type 4 Radiant Steering", :quantity 1}
     {:name "Type 1 Radiant Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Hyperdrive", :quantity 1}
+    {:name "Type 1 Radiant Thruster", :quantity 1}
+    {:name "White Sun Reactor", :quantity 1}
+    {:name "Type 4 Radiant Steering", :quantity 1}
+    {:name "Dark Storm Shielding", :quantity 1}
+    {:name "Moonbeam Turret", :quantity 1}),
    :guns 6,
    :turrets 1,
    :outfits-cost 24140000}
@@ -16544,14 +16561,14 @@
    :file "game/data/wanderer/wanderer ships.txt",
    :outfits
    ({:name "Thunderhead Launcher", :quantity 4}
-    {:name "Thunderhead Missile", :quantity 160}
     {:name "Moonbeam", :quantity 2}
-    {:name "Wanderer Anti-Missile", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
     {:name "White Sun Reactor", :quantity 1}
-    {:name "Dark Storm Shielding", :quantity 1}
     {:name "Type 4 Radiant Thruster", :quantity 1}
     {:name "Type 4 Radiant Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Wanderer Anti-Missile", :quantity 1}
+    {:name "Thunderhead Missile", :quantity 160}
+    {:name "Dark Storm Shielding", :quantity 1}),
    :guns 6,
    :turrets 1,
    :outfits-cost 21678000}
@@ -16699,45 +16716,45 @@
    :weapon {},
    :file "gw/data/Dels/Dels variant.txt",
    :outfits
-   ({:name "Aserap Autocannon", :quantity 2}
-    {:name "Aserap Ammo", :quantity 2000}
-    {:name "Skue-6 Blaster", :quantity 2}
+   ({:name "Aeedul Shield Generator", :quantity 1}
     {:name "Farlu Fuel Cell", :quantity 1}
-    {:name "K0218 Battery Pack", :quantity 1}
-    {:name "Aeedul Shield Generator", :quantity 1}
     {:name "Fekorna Thruster", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
+    {:name "K0218 Battery Pack", :quantity 1}
+    {:name "Aserap Autocannon", :quantity 2}
     {:name "Fekorna Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Skue-6 Blaster", :quantity 2}
+    {:name "Aserap Ammo", :quantity 2000}),
    :outfits-cost 308000}
   {:name "Dels Derso",
    :modification "Ufulre Derso",
    :weapon {},
    :file "gw/data/Dels/Dels variant.txt",
    :outfits
-   ({:name "Ukar-3 Blaster", :quantity 2}
-    {:name "Dels Ramscoop", :quantity 1}
-    {:name "Fuel Pod", :quantity 7}
-    {:name "Farlu Fuel Cell", :quantity 1}
-    {:name "K0538 Battery Pack", :quantity 1}
-    {:name "Dudae Shield Generator", :quantity 1}
+   ({:name "Farlu Fuel Cell", :quantity 1}
     {:name "Fekorna Thruster", :quantity 1}
+    {:name "Dels Ramscoop", :quantity 1}
     {:name "Auker Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Hyperdrive", :quantity 1}
+    {:name "Ukar-3 Blaster", :quantity 2}
+    {:name "Fuel Pod", :quantity 7}
+    {:name "K0538 Battery Pack", :quantity 1}
+    {:name "Dudae Shield Generator", :quantity 1}),
    :outfits-cost 574000}
   {:name "Dels Desin",
    :modification "Ufulre Desin",
    :weapon {},
    :file "gw/data/Dels/Dels variant.txt",
    :outfits
-   ({:name "Skue-6 Blaster", :quantity 4}
-    {:name "Dels Ramscoop", :quantity 1}
-    {:name "Fuel Pod", :quantity 6}
+   ({:name "Aeedul Shield Generator", :quantity 1}
     {:name "Farlu Fuel Cell", :quantity 1}
-    {:name "K0218 Battery Pack", :quantity 1}
-    {:name "Aeedul Shield Generator", :quantity 1}
     {:name "Fekorna Thruster", :quantity 1}
+    {:name "Dels Ramscoop", :quantity 1}
+    {:name "K0218 Battery Pack", :quantity 1}
     {:name "Fekorna Steering", :quantity 1}
-    {:name "Type-F Hyperdrive", :quantity 1}),
+    {:name "Type-F Hyperdrive", :quantity 1}
+    {:name "Fuel Pod", :quantity 6}
+    {:name "Skue-6 Blaster", :quantity 4}),
    :outfits-cost 504000}
   {:name "Dels Ekdor",
    :modification "Ekdor Skue8",
@@ -16757,30 +16774,30 @@
    :weapon {},
    :file "gw/data/Dels/Dels variant.txt",
    :outfits
-   ({:name "Georlen Gun", :quantity 3}
-    {:name "Skue-6 Blaster", :quantity 1}
-    {:name "Water Coolant System", :quantity 3}
+   ({:name "Fekorna Thruster", :quantity 1}
     {:name "Hilke Fuel Cell", :quantity 1}
+    {:name "Georlen Gun", :quantity 3}
+    {:name "Hyperdrive", :quantity 1}
     {:name "K0218 Battery Pack", :quantity 1}
-    {:name "Dudae Shield Generator", :quantity 1}
-    {:name "Fekorna Thruster", :quantity 1}
+    {:name "Water Coolant System", :quantity 3}
     {:name "Fekorna Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Dudae Shield Generator", :quantity 1}
+    {:name "Skue-6 Blaster", :quantity 1}),
    :outfits-cost 608000}
   {:name "Dels Eudaion",
    :modification "Eudaion Shield",
    :weapon {},
    :file "gw/data/Dels/Dels variant.txt",
    :outfits
-   ({:name "Fitar Anti-Missile", :quantity 2}
-    {:name "Skue-6 Turret", :quantity 2}
-    {:name "Dakte-1 Launcher", :quantity 2}
-    {:name "Dakte-1 Missile", :quantity 80}
-    {:name "Farlu Fuel Cell", :quantity 1}
-    {:name "K0108 Battery Pack", :quantity 1}
+   ({:name "Farlu Fuel Cell", :quantity 1}
     {:name "Kaekur Shield Generator", :quantity 1}
+    {:name "Skue-6 Turret", :quantity 2}
+    {:name "Hyperdrive", :quantity 1}
+    {:name "Dakte-1 Launcher", :quantity 2}
+    {:name "K0108 Battery Pack", :quantity 1}
+    {:name "Dakte-1 Missile", :quantity 80}
     {:name "Hao Ion Engines", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Fitar Anti-Missile", :quantity 2}),
    :outfits-cost 1217000}
   {:name "Dels Eudaion",
    :modification "Eudaion Engine",
@@ -16803,15 +16820,15 @@
    :weapon {},
    :file "gw/data/Dels/Dels variant.txt",
    :outfits
-   ({:name "Skue-6 Blaster", :quantity 6}
-    {:name "Dels Ramscoop", :quantity 1}
-    {:name "Fuel Pod", :quantity 8}
-    {:name "Farlu Fuel Cell", :quantity 1}
-    {:name "K0218 Battery Pack", :quantity 1}
-    {:name "Dudae Shield Generator", :quantity 1}
+   ({:name "Farlu Fuel Cell", :quantity 1}
     {:name "Fekorna Thruster", :quantity 1}
+    {:name "Dels Ramscoop", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
+    {:name "K0218 Battery Pack", :quantity 1}
     {:name "Fekorna Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Fuel Pod", :quantity 8}
+    {:name "Dudae Shield Generator", :quantity 1}
+    {:name "Skue-6 Blaster", :quantity 6}),
    :outfits-cost 608000}
   {:name "Dels Secsen",
    :modification "Ufulre Secsen",
@@ -17025,46 +17042,44 @@
     {:name "Ginskel Plasma Steering", :quantity 1}
     {:name "Aserap Ammo", :quantity 3000}),
    :outfits-cost 3715000}
-  {:name "Hordanler",
-   :modification "Hordanler Anti-Fighter",
-   :weapon {},
-   :file "gw/data/Erm/Erm ships.txt",
-   :sprite ["ship/erm hordanler" false],
-   :outfits
-   ({:name "Kaiza Anti-Fighter Turret", :quantity 8}
-    {:name "Erm Missile Guard", :quantity 4}
+  {:outfits
+   ({:name "Korgel-1 Core", :quantity 2}
+    {:name "Aranut Missile", :quantity 2}
+    {:name "Erm cooling system", :quantity 1}
     {:name "Atarkor Missile", :quantity 2}
-    {:name "Aranut Missile", :quantity 2}
-    {:name "Korgel-1 Core", :quantity 2}
-    {:name "Estera Shield Generator", :quantity 3}
-    {:name "Erm cooling system", :quantity 1}
+    {:name "Hordel Graviton Engines", :quantity 2}
+    {:name "Erm Missile Guard", :quantity 4}
     {:name "Erm Boarding Systems", :quantity 2}
-    {:name "Hordel Graviton Engines", :quantity 2}),
-   :guns 4,
+    {:name "Kaiza Anti-Fighter Turret", :quantity 8}
+    {:name "Estera Shield Generator", :quantity 3}),
    :turrets 12,
-   :outfits-cost 402620000}
-  {:name "Ernar",
-   :modification "Ernar Offensive",
    :weapon {},
+   :name "Hordanler",
    :file "gw/data/Erm/Erm ships.txt",
+   :outfits-cost 402620000,
+   :sprite ["ship/erm hordanler" false],
+   :modification "Hordanler Anti-Fighter",
+   :guns 4}
+  {:description ["A more offensive variant of Erm Ernar."],
    :outfits
-   ({:name "Kaiza Anti-Fighter Turret", :quantity 2}
-    {:name "Erm Missile Guard", :quantity 2}
-    {:name "Atmas Missile", :quantity 2}
+   ({:name "Korgel-1 Core", :quantity 1}
     {:name "Aranut Missile", :quantity 2}
-    {:name "Korgel-1 Core", :quantity 1}
-    {:name "Estera Shield Generator", :quantity 1}
     {:name "Erm cooling system", :quantity 1}
+    {:name "Hordel Graviton Engines", :quantity 1}
+    {:name "Erm Missile Guard", :quantity 2}
     {:name "Erm Boarding Systems", :quantity 1}
-    {:name "Hordel Graviton Engines", :quantity 1}),
-   :guns 4,
+    {:name "Atmas Missile", :quantity 2}
+    {:name "Kaiza Anti-Fighter Turret", :quantity 2}
+    {:name "Estera Shield Generator", :quantity 1}),
    :turrets 4,
-   :description ["A more offensive variant of Erm Ernar."],
-   :outfits-cost 211300000}
-  {:name "Ernar",
-   :modification "Ernar Offensive(S)",
    :weapon {},
+   :name "Ernar",
    :file "gw/data/Erm/Erm ships.txt",
+   :outfits-cost 211300000,
+   :modification "Ernar Offensive",
+   :guns 4}
+  {:description
+   ["A more offensive variant of Erm Ernar, focused on taking down the enemy shields."],
    :outfits
    ({:name "Kaiza Anti-Fighter Turret", :quantity 2}
     {:name "Erm Missile Guard", :quantity 2}
@@ -17074,15 +17089,15 @@
     {:name "Erm cooling system", :quantity 1}
     {:name "Erm Boarding Systems", :quantity 1}
     {:name "Hordel Graviton Engines", :quantity 1}),
-   :guns 4,
    :turrets 4,
-   :description
-   ["A more offensive variant of Erm Ernar, focused on taking down the enemy shields."],
-   :outfits-cost 211300000}
-  {:name "Ernar",
-   :modification "Ernar Offensive(A)",
    :weapon {},
+   :name "Ernar",
    :file "gw/data/Erm/Erm ships.txt",
+   :outfits-cost 211300000,
+   :modification "Ernar Offensive(S)",
+   :guns 4}
+  {:description
+   ["A more offensive variant of Erm Ernar, focused on taking down the enemy armour."],
    :outfits
    ({:name "Kaiza Anti-Fighter Turret", :quantity 2}
     {:name "Erm Missile Guard", :quantity 2}
@@ -17092,11 +17107,13 @@
     {:name "Erm cooling system", :quantity 1}
     {:name "Erm Boarding Systems", :quantity 1}
     {:name "Hordel Graviton Engines", :quantity 1}),
-   :guns 4,
    :turrets 4,
-   :description
-   ["A more offensive variant of Erm Ernar, focused on taking down the enemy armour."],
-   :outfits-cost 211300000}
+   :weapon {},
+   :name "Ernar",
+   :file "gw/data/Erm/Erm ships.txt",
+   :outfits-cost 211300000,
+   :modification "Ernar Offensive(A)",
+   :guns 4}
   {:name "Gikeor",
    :modification "Offensive Gikeor",
    :weapon {},
@@ -17141,15 +17158,15 @@
    :weapon {},
    :file "gw/data/Kroom/Kroom Variant.txt",
    :outfits
-   ({:name "Kroom Blaster", :quantity 4}
+   ({:name "Kourta Shield Generator", :quantity 1}
     {:name "Kroom Anti-Missile Turret", :quantity 1}
+    {:name "Hyperdrive", :quantity 1}
     {:name "Kutsabik Fission Reactor", :quantity 1}
-    {:name "Galrugl Battery Pack", :quantity 1}
-    {:name "Kourta Shield Generator", :quantity 1}
     {:name "Water Coolant System", :quantity 2}
-    {:name "Karmar Thruster", :quantity 1}
+    {:name "Kroom Blaster", :quantity 4}
     {:name "Karmar Steering", :quantity 1}
-    {:name "Hyperdrive", :quantity 1}),
+    {:name "Karmar Thruster", :quantity 1}
+    {:name "Galrugl Battery Pack", :quantity 1}),
    :outfits-cost 2246000}
   {:name "Garokka",
    :modification "Garokka (Heavy)",
@@ -17472,14 +17489,14 @@
    :weapon {},
    :file "gw/data/Ultaka/Ultaka ships upgrade1.txt",
    :outfits
-   ({:name "USG100 Shield Generator", :quantity 1}
-    {:name "B20 Erul Core", :quantity 1}
-    {:name "B6E Hap'al Battery", :quantity 1}
-    {:name "Ultaka Heat Shunt", :quantity 1}
+   ({:name "B20 Erul Core", :quantity 1}
     {:name "Kel'aku Engines", :quantity 1}
     {:name "U20-AG anti missile", :quantity 1}
-    {:name "N20G Turret", :quantity 2}
+    {:name "USG100 Shield Generator", :quantity 1}
+    {:name "Ultaka Heat Shunt", :quantity 1}
+    {:name "B6E Hap'al Battery", :quantity 1}
     {:name "E40R-D", :quantity 1}
+    {:name "N20G Turret", :quantity 2}
     {:name "Model-3A Rifle", :quantity 5}),
    :outfits-cost 167000000}
   {:name "Ultaka Dominator",
@@ -17487,14 +17504,14 @@
    :weapon {},
    :file "gw/data/Ultaka/Ultaka ships upgrade1.txt",
    :outfits
-   ({:name "USG100 Shield Generator", :quantity 1}
-    {:name "B20 Erul Core", :quantity 1}
-    {:name "B6E Hap'al Battery", :quantity 1}
-    {:name "Ultaka Heat Shunt", :quantity 1}
+   ({:name "B20 Erul Core", :quantity 1}
     {:name "Kel'aku Engines", :quantity 1}
+    {:name "USG100 Shield Generator", :quantity 1}
+    {:name "Ultaka Heat Shunt", :quantity 1}
+    {:name "B6E Hap'al Battery", :quantity 1}
+    {:name "E40R-D", :quantity 1}
     {:name "D25E B-Field Projector", :quantity 1}
     {:name "N20G Turret", :quantity 2}
-    {:name "E40R-D", :quantity 1}
     {:name "Model-3A Rifle", :quantity 5}),
    :outfits-cost 170000000}
   {:name "Ultaka Conqueror",
@@ -18450,17 +18467,17 @@
    :thumbnail "outfit/enforcer riot staff",
    :cost 97000,
    :plugin :vanilla}
-  {:category "Special",
-   :thumbnail "outfit/coalition license",
-   :description
+  {:description
    ["Completed a lot of Coalition jobs and received permission to purchase civilian technology and ships."],
-   :file "game/data/coalition/coalition outfits.txt",
+   :category "Special",
+   :meta
+   {:image {:file "outfit/coalition license.png", :origin :vanilla}},
    :race :coalition,
    :name "Coalition License",
+   :file "game/data/coalition/coalition outfits.txt",
    :licenses [],
-   :plugin :vanilla,
-   :meta
-   {:image {:file "outfit/coalition license.png", :origin :vanilla}}}
+   :thumbnail "outfit/coalition license",
+   :plugin :vanilla}
   {:description
    ["The Bombardment Cannon was designed during the original war with the Quarg, in order to give Heliarch civilian ships a way to strike Quarg warships from a safe distance. But now, as with all their weapons, its use is limited to Heliarch warships."],
    :category "Guns",
@@ -18570,19 +18587,19 @@
    :cost 1370000,
    :plugin :vanilla,
    :gun-ports -1}
-  {:file "game/data/coalition/coalition weapons.txt",
-   :description [],
+  {:description [],
    :category nil,
-   :race :coalition,
-   :name "Active Finisher",
-   :licenses [],
-   :thumbnail nil,
-   :plugin :vanilla,
    :meta
    {:image
     {:file ".png",
      :origin
-     [:not-found ".png" "game/images/.png" "game/images/.png"]}}}
+     [:not-found ".png" "game/images/.png" "game/images/.png"]}},
+   :race :coalition,
+   :name "Active Finisher",
+   :file "game/data/coalition/coalition weapons.txt",
+   :licenses [],
+   :thumbnail nil,
+   :plugin :vanilla}
   {:description
    ["In order to allow Heliarch ships to install more Finisher storage tubes, Heliarch engineers have incorporated a tiny battery pack into each module. This allows for Heliarch ships to have a respectable energy capacity while also carrying a fearsome number of Finishers."],
    :category "Ammunition",
@@ -18724,19 +18741,19 @@
    :thumbnail "outfit/ion hail turret",
    :cost 1268000,
    :plugin :vanilla}
-  {:file "game/data/coalition/coalition weapons.txt",
-   :description [],
+  {:description [],
    :category nil,
-   :race :coalition,
-   :name "ion hail",
-   :licenses [],
-   :thumbnail nil,
-   :plugin :vanilla,
    :meta
    {:image
     {:file ".png",
      :origin
-     [:not-found ".png" "game/images/.png" "game/images/.png"]}}}
+     [:not-found ".png" "game/images/.png" "game/images/.png"]}},
+   :race :coalition,
+   :name "ion hail",
+   :file "game/data/coalition/coalition weapons.txt",
+   :licenses [],
+   :thumbnail nil,
+   :plugin :vanilla}
   {:description
    ["Heliarch ships primarily serve as a police force. This weapon is designed to neutralize a target's offensive capabilities until more Heliarch ships can join the fray."],
    :category "Guns",
@@ -18840,15 +18857,15 @@
    :meta {:image {:file "outfit/unknown.png", :origin :vanilla}},
    :race :drak,
    :weapon
-   {:velocity 400,
+   {:submunition nil,
+    :firing-heat {:per-second 60},
     :lifetime 1,
     :reload 1,
-    :firing-energy {:per-second 600},
-    :firing-heat {:per-second 60},
     :anti-missile 100,
-    :submunition nil,
-    :shots-per-second "continuous",
-    :range 400},
+    :velocity 400,
+    :firing-energy {:per-second 600},
+    :range 400,
+    :shots-per-second "continuous"},
    :name "Drak Anti-Missile Field",
    :file "game/data/drak/drak.txt",
    :turret-mounts -1,
@@ -18921,19 +18938,19 @@
    :cost 10000000,
    :plugin :vanilla,
    :gun-ports -1}
-  {:file "game/data/drak/drak.txt",
-   :description [],
+  {:description [],
    :category nil,
-   :race :drak,
-   :name "Drak Antimatter Fragment",
-   :licenses [],
-   :thumbnail nil,
-   :plugin :vanilla,
    :meta
    {:image
     {:file ".png",
      :origin
-     [:not-found ".png" "game/images/.png" "game/images/.png"]}}}
+     [:not-found ".png" "game/images/.png" "game/images/.png"]}},
+   :race :drak,
+   :name "Drak Antimatter Fragment",
+   :file "game/data/drak/drak.txt",
+   :licenses [],
+   :thumbnail nil,
+   :plugin :vanilla}
   {:description [],
    :category "Guns",
    :meta {:image {:file "outfit/mouthparts.png", :origin :vanilla}},
@@ -19123,19 +19140,19 @@
    :cost 20000,
    :plugin :vanilla,
    :gun-ports -1}
-  {:file "game/data/hai/hai outfits.txt",
-   :description [],
+  {:description [],
    :category nil,
-   :race :hai,
-   :name "rslug",
-   :licenses [],
-   :thumbnail nil,
-   :plugin :vanilla,
    :meta
    {:image
     {:file ".png",
      :origin
-     [:not-found ".png" "game/images/.png" "game/images/.png"]}}}
+     [:not-found ".png" "game/images/.png" "game/images/.png"]}},
+   :race :hai,
+   :name "rslug",
+   :file "game/data/hai/hai outfits.txt",
+   :licenses [],
+   :thumbnail nil,
+   :plugin :vanilla}
   {:description ["This is ammunition for a Tracker Pod."],
    :category "Ammunition",
    :mass 0.2,
@@ -21267,73 +21284,73 @@
    :thumbnail "outfit/license",
    :cost 50000,
    :plugin :vanilla}
-  {:category "Special",
-   :thumbnail "outfit/navy license",
-   :description
+  {:description
    ["It is unusual, but not unheard of, for private citizens to be given the right to purchase Navy ships for their own private use. Recently, certain rich worlds have also begun petitioning Parliament for special permission to purchase Navy warships for their private security forces."],
-   :file "game/data/human/outfits.txt",
+   :category "Special",
+   :meta {:image {:file "outfit/navy license.png", :origin :vanilla}},
    :race :human,
    :name "Navy License",
-   :licenses [],
-   :plugin :vanilla,
-   :meta {:image {:file "outfit/navy license.png", :origin :vanilla}}}
-  {:category "Special",
-   :thumbnail "outfit/auxiliary license",
-   :description
-   ["It is a particularly rare occurrence for a Navy Auxiliary, of any kind, to be owned for private use."],
    :file "game/data/human/outfits.txt",
+   :licenses [],
+   :thumbnail "outfit/navy license",
+   :plugin :vanilla}
+  {:description
+   ["It is a particularly rare occurrence for a Navy Auxiliary, of any kind, to be owned for private use."],
+   :category "Special",
+   :meta
+   {:image {:file "outfit/auxiliary license.png", :origin :vanilla}},
    :race :human,
    :name "Navy Auxiliary License",
-   :licenses [],
-   :plugin :vanilla,
-   :meta
-   {:image {:file "outfit/auxiliary license.png", :origin :vanilla}}}
-  {:category "Special",
-   :thumbnail "outfit/navy cruiser license",
-   :description
-   ["It is a very rare privilege to be permitted to purchase a Navy capital ship for private use - not just because of a Cruiser's firepower, but because it is a potent symbol of the Republic's strength."],
    :file "game/data/human/outfits.txt",
+   :licenses [],
+   :thumbnail "outfit/auxiliary license",
+   :plugin :vanilla}
+  {:description
+   ["It is a very rare privilege to be permitted to purchase a Navy capital ship for private use - not just because of a Cruiser's firepower, but because it is a potent symbol of the Republic's strength."],
+   :category "Special",
+   :meta
+   {:image
+    {:file "outfit/navy cruiser license.png", :origin :vanilla}},
    :race :human,
    :name "Navy Cruiser License",
+   :file "game/data/human/outfits.txt",
    :licenses [],
-   :plugin :vanilla,
+   :thumbnail "outfit/navy cruiser license",
+   :plugin :vanilla}
+  {:description
+   ["Only a handful of people in the past century have been given permission to purchase a Navy Carrier, even a decommissioned one, for private use."],
+   :category "Special",
    :meta
    {:image
-    {:file "outfit/navy cruiser license.png", :origin :vanilla}}}
-  {:category "Special",
-   :thumbnail "outfit/navy carrier license",
-   :description
-   ["Only a handful of people in the past century have been given permission to purchase a Navy Carrier, even a decommissioned one, for private use."],
-   :file "game/data/human/outfits.txt",
+    {:file "outfit/navy carrier license.png", :origin :vanilla}},
    :race :human,
    :name "Navy Carrier License",
-   :licenses [],
-   :plugin :vanilla,
-   :meta
-   {:image
-    {:file "outfit/navy carrier license.png", :origin :vanilla}}}
-  {:category "Special",
-   :thumbnail "outfit/militia license",
-   :description
-   ["This is the standard issue license for all pilots that have enlisted in a local militia, but with the formation of the Free Worlds it has also become a license given to all those that fight for the Free Worlds cause, allowing pilots to fly the colors of the Free Worlds and purchase unique ships that the fledgling government has developed."],
    :file "game/data/human/outfits.txt",
+   :licenses [],
+   :thumbnail "outfit/navy carrier license",
+   :plugin :vanilla}
+  {:description
+   ["This is the standard issue license for all pilots that have enlisted in a local militia, but with the formation of the Free Worlds it has also become a license given to all those that fight for the Free Worlds cause, allowing pilots to fly the colors of the Free Worlds and purchase unique ships that the fledgling government has developed."],
+   :category "Special",
+   :meta
+   {:image {:file "outfit/militia license.png", :origin :vanilla}},
    :race :human,
    :name "Militia License",
-   :licenses [],
-   :plugin :vanilla,
-   :meta
-   {:image {:file "outfit/militia license.png", :origin :vanilla}}}
-  {:category "Special",
-   :thumbnail "outfit/city-ship license",
-   :description
-   ["You look closely at the silhouette of the ship on the license, but you can't make out what model of ship it is. Perhaps it is an older city-ship, one of the first that carried humanity to greatness among the stars."],
    :file "game/data/human/outfits.txt",
+   :licenses [],
+   :thumbnail "outfit/militia license",
+   :plugin :vanilla}
+  {:description
+   ["You look closely at the silhouette of the ship on the license, but you can't make out what model of ship it is. Perhaps it is an older city-ship, one of the first that carried humanity to greatness among the stars."],
+   :category "Special",
+   :meta
+   {:image {:file "outfit/city-ship license.png", :origin :vanilla}},
    :race :human,
    :name "City-Ship License",
+   :file "game/data/human/outfits.txt",
    :licenses [],
-   :plugin :vanilla,
-   :meta
-   {:image {:file "outfit/city-ship license.png", :origin :vanilla}}}
+   :thumbnail "outfit/city-ship license",
+   :plugin :vanilla}
   {:description
    ["Cargo stolen from a merchant ship which has caught the interest of a pirate warlord."],
    :category "Special",
@@ -22160,19 +22177,19 @@
    :cost 150000,
    :plugin :vanilla,
    :gun-ports -1}
-  {:file "game/data/human/weapons.txt",
-   :description [],
+  {:description [],
    :category nil,
-   :race :human,
-   :name "Proton Fragment",
-   :licenses [],
-   :thumbnail nil,
-   :plugin :vanilla,
    :meta
    {:image
     {:file ".png",
      :origin
-     [:not-found ".png" "game/images/.png" "game/images/.png"]}}}
+     [:not-found ".png" "game/images/.png" "game/images/.png"]}},
+   :race :human,
+   :name "Proton Fragment",
+   :file "game/data/human/weapons.txt",
+   :licenses [],
+   :thumbnail nil,
+   :plugin :vanilla}
   {:description
    ["The Syndicate Proton Turret is a relatively new product designed to compete with Deep Sky's perennially popular laser turrets in the anti-fighter defense market. Though cruder than its competition, the Proton Turret maintains a loyal following among captains dissatisfied with laser weapons' short range."],
    :category "Turrets",
@@ -22342,19 +22359,19 @@
    :cost 190000,
    :plugin :vanilla,
    :gun-ports -1}
-  {:file "game/data/human/weapons.txt",
-   :description [],
+  {:description [],
    :category nil,
-   :race :human,
-   :name "Flamethrower Projectile",
-   :licenses [],
-   :thumbnail nil,
-   :plugin :vanilla,
    :meta
    {:image
     {:file ".png",
      :origin
-     [:not-found ".png" "game/images/.png" "game/images/.png"]}}}
+     [:not-found ".png" "game/images/.png" "game/images/.png"]}},
+   :race :human,
+   :name "Flamethrower Projectile",
+   :file "game/data/human/weapons.txt",
+   :licenses [],
+   :thumbnail nil,
+   :plugin :vanilla}
   {:description
    ["A Meteor Missile serves as ammunition for the Meteor Missile Launcher. Each missile launcher has the capacity for 30 missiles; you cannot install missiles if you have not first purchased a launcher to store them in."],
    :category "Ammunition",
@@ -22895,19 +22912,19 @@
    :gatling-round-capacity 3000,
    :plugin :vanilla,
    :gun-ports -1}
-  {:file "game/data/human/weapons.txt",
-   :description [],
+  {:description [],
    :category nil,
-   :race :human,
-   :name "gbullet",
-   :licenses [],
-   :thumbnail nil,
-   :plugin :vanilla,
    :meta
    {:image
     {:file ".png",
      :origin
-     [:not-found ".png" "game/images/.png" "game/images/.png"]}}}
+     [:not-found ".png" "game/images/.png" "game/images/.png"]}},
+   :race :human,
+   :name "gbullet",
+   :file "game/data/human/weapons.txt",
+   :licenses [],
+   :thumbnail nil,
+   :plugin :vanilla}
   {:description
    ["The Nullifier was one of the largest weapons the Builders ever developed, created specifically to be carried in battle by the Vareti. Although it does almost no damage to shields and hull, one shot is capable of disabling most kinds of reactors in a matter of seconds."],
    :category "Guns",
@@ -23077,19 +23094,19 @@
    :thumbnail "outfit/ka'het annihilator turret",
    :cost 529000,
    :plugin :vanilla}
-  {:file "game/data/ka'het/ka'het outfits.txt",
-   :description [],
+  {:description [],
    :category nil,
-   :race :ka'het,
-   :name "Annihilator Projectile",
-   :licenses [],
-   :thumbnail nil,
-   :plugin :vanilla,
    :meta
    {:image
     {:file ".png",
      :origin
-     [:not-found ".png" "game/images/.png" "game/images/.png"]}}}
+     [:not-found ".png" "game/images/.png" "game/images/.png"]}},
+   :race :ka'het,
+   :name "Annihilator Projectile",
+   :file "game/data/ka'het/ka'het outfits.txt",
+   :licenses [],
+   :thumbnail nil,
+   :plugin :vanilla}
   {:description
    ["Eons ago, the Builders were attacked by alien ships which used weapons that ignored their hull and damaged their reactors. Although they never did recover any of these weapons, after years of research they managed to replicate their effects."],
    :category "Secondary Weapons",
@@ -24306,19 +24323,19 @@
    :cost 1073000,
    :plugin :vanilla,
    :gun-ports -1}
-  {:file "game/data/korath/korath weapons.txt",
-   :description [],
+  {:description [],
    :category nil,
-   :race :korath,
-   :name "Korath Mine Submunition",
-   :licenses [],
-   :thumbnail nil,
-   :plugin :vanilla,
    :meta
    {:image
     {:file ".png",
      :origin
-     [:not-found ".png" "game/images/.png" "game/images/.png"]}}}
+     [:not-found ".png" "game/images/.png" "game/images/.png"]}},
+   :race :korath,
+   :name "Korath Mine Submunition",
+   :file "game/data/korath/korath weapons.txt",
+   :licenses [],
+   :thumbnail nil,
+   :plugin :vanilla}
   {:description
    ["Korath Disruptors interfere with a ship's shields, allowing a ship's hull to be damaged even when shields are up. However, they do very little hull damage by themselves."],
    :category "Turrets",
@@ -25578,29 +25595,29 @@
    :thumbnail "outfit/void rifle",
    :cost 1000000,
    :plugin :vanilla}
-  {:category "Special",
-   :thumbnail "outfit/remnant license",
-   :description
+  {:description
    ["The prefects have reached a consensus that you should be considered a valuable friend of the Remnant, and shall be given permission to purchase their ships and technology."],
-   :file "game/data/remnant/remnant outfits.txt",
+   :category "Special",
+   :meta
+   {:image {:file "outfit/remnant license.png", :origin :vanilla}},
    :race :remnant,
    :name "Remnant License",
-   :licenses [],
-   :plugin :vanilla,
-   :meta
-   {:image {:file "outfit/remnant license.png", :origin :vanilla}}}
-  {:category "Special",
-   :thumbnail "outfit/remnant capital license",
-   :description
-   ["The prefects have decided that you should be trusted with their largest ships, and the valuable resources that go into making them."],
    :file "game/data/remnant/remnant outfits.txt",
-   :race :remnant,
-   :name "Remnant Capital License",
    :licenses [],
-   :plugin :vanilla,
+   :thumbnail "outfit/remnant license",
+   :plugin :vanilla}
+  {:description
+   ["The prefects have decided that you should be trusted with their largest ships, and the valuable resources that go into making them."],
+   :category "Special",
    :meta
    {:image
-    {:file "outfit/remnant capital license.png", :origin :vanilla}}}
+    {:file "outfit/remnant capital license.png", :origin :vanilla}},
+   :race :remnant,
+   :name "Remnant Capital License",
+   :file "game/data/remnant/remnant outfits.txt",
+   :licenses [],
+   :thumbnail "outfit/remnant capital license",
+   :plugin :vanilla}
   {:description
    ["This small superconductive inductor stores just enough power to keep a fighter running, and the electromagnetic field it generates helps to maintain the shield matrix."],
    :category "Power",
@@ -25898,19 +25915,19 @@
    :cost 330000,
    :plugin :vanilla,
    :gun-ports -1}
-  {:file "game/data/sheragi/sheragi outfits.txt",
-   :description [],
+  {:description [],
    :category nil,
-   :race :sheragi,
-   :name "Shard inactive",
-   :licenses [],
-   :thumbnail nil,
-   :plugin :vanilla,
    :meta
    {:image
     {:file ".png",
      :origin
-     [:not-found ".png" "game/images/.png" "game/images/.png"]}}}
+     [:not-found ".png" "game/images/.png" "game/images/.png"]}},
+   :race :sheragi,
+   :name "Shard inactive",
+   :file "game/data/sheragi/sheragi outfits.txt",
+   :licenses [],
+   :thumbnail nil,
+   :plugin :vanilla}
   {:description
    ["The main weapon of the Sheragi fighters is a particle accelerator not unlike the ones used by the Republic Navy and the Syndicate. However, this one produces a dense stream of heavy metal ions instead of bursts of lighter ones, resulting in high damage with intense recoil. Because the particle accelerator itself can be mounted elsewhere, it saves on weapon space."],
    :category "Guns",
@@ -25941,19 +25958,19 @@
    :cost 1650000,
    :plugin :vanilla,
    :gun-ports -1}
-  {:file "game/data/sheragi/sheragi outfits.txt",
-   :description [],
+  {:description [],
    :category nil,
-   :race :sheragi,
-   :name "Heavy Ion Fragment",
-   :licenses [],
-   :thumbnail nil,
-   :plugin :vanilla,
    :meta
    {:image
     {:file ".png",
      :origin
-     [:not-found ".png" "game/images/.png" "game/images/.png"]}}}
+     [:not-found ".png" "game/images/.png" "game/images/.png"]}},
+   :race :sheragi,
+   :name "Heavy Ion Fragment",
+   :file "game/data/sheragi/sheragi outfits.txt",
+   :licenses [],
+   :thumbnail nil,
+   :plugin :vanilla}
   {:description
    ["The Wanderers do not devote much time to developing weapon technology, preferring to focus their attention on more constructive endeavors. However, the few weapons they have created are efficient and deadly."],
    :category "Guns",
@@ -26216,19 +26233,19 @@
    :thunderhead-capacity -1,
    :cost 1800,
    :plugin :vanilla}
-  {:file "game/data/wanderer/wanderer outfits.txt",
-   :description [],
+  {:description [],
    :category nil,
-   :race :wanderer,
-   :name "Thunderhead",
-   :licenses [],
-   :thumbnail nil,
-   :plugin :vanilla,
    :meta
    {:image
     {:file ".png",
      :origin
-     [:not-found ".png" "game/images/.png" "game/images/.png"]}}}
+     [:not-found ".png" "game/images/.png" "game/images/.png"]}},
+   :race :wanderer,
+   :name "Thunderhead",
+   :file "game/data/wanderer/wanderer outfits.txt",
+   :licenses [],
+   :thumbnail nil,
+   :plugin :vanilla}
   {:description
    ["The Thunderhead Storage Array is used to store extra ammunition for Thunderhead Launchers."],
    :category "Ammunition",
@@ -26579,41 +26596,41 @@
    :cooling 402,
    :cost 1100000,
    :plugin :vanilla}
-  {:category "Special",
-   :thumbnail "outfit/wanderer outfits license",
-   :description
+  {:description
    ["Spoke with a Wanderer ambassador named Iktat Rek using the translation device and received permission to purchase some of their technology, but not their ships."],
-   :file "game/data/wanderer/wanderer outfits.txt",
+   :category "Special",
+   :meta
+   {:image
+    {:file "outfit/wanderer outfits license.png", :origin :vanilla}},
    :race :wanderer,
    :name "Wanderer Outfits License",
-   :licenses [],
-   :plugin :vanilla,
-   :meta
-   {:image
-    {:file "outfit/wanderer outfits license.png", :origin :vanilla}}}
-  {:category "Special",
-   :thumbnail "outfit/wanderer license",
-   :description
-   ["Managed to broker a temporary ceasefire between the Unfettered Hai and the Wanderers. Was granted access to purchase the non-military Wanderer ships, as a reward."],
    :file "game/data/wanderer/wanderer outfits.txt",
+   :licenses [],
+   :thumbnail "outfit/wanderer outfits license",
+   :plugin :vanilla}
+  {:description
+   ["Managed to broker a temporary ceasefire between the Unfettered Hai and the Wanderers. Was granted access to purchase the non-military Wanderer ships, as a reward."],
+   :category "Special",
+   :meta
+   {:image {:file "outfit/wanderer license.png", :origin :vanilla}},
    :race :wanderer,
    :name "Wanderer License",
-   :licenses [],
-   :plugin :vanilla,
-   :meta
-   {:image {:file "outfit/wanderer license.png", :origin :vanilla}}}
-  {:category "Special",
-   :thumbnail "outfit/wanderer military license",
-   :description
-   ["Received permission to purchase warships from the Wanderers, including a new one called the Tempest."],
    :file "game/data/wanderer/wanderer outfits.txt",
-   :race :wanderer,
-   :name "Wanderer Military License",
    :licenses [],
-   :plugin :vanilla,
+   :thumbnail "outfit/wanderer license",
+   :plugin :vanilla}
+  {:description
+   ["Received permission to purchase warships from the Wanderers, including a new one called the Tempest."],
+   :category "Special",
    :meta
    {:image
-    {:file "outfit/wanderer military license.png", :origin :vanilla}}}
+    {:file "outfit/wanderer military license.png", :origin :vanilla}},
+   :race :wanderer,
+   :name "Wanderer Military License",
+   :file "game/data/wanderer/wanderer outfits.txt",
+   :licenses [],
+   :thumbnail "outfit/wanderer military license",
+   :plugin :vanilla}
   {:description [""],
    :category "Power",
    :mass 0.2,
@@ -27465,18 +27482,18 @@
    :cost 9000,
    :sk-4-capacity 30,
    :plugin :galactic-war}
-  {:file "gw/data/Dels/Dels outffit.txt",
-   :description [],
+  {:description [],
    :category nil,
-   :race :dels,
-   :name "sk4",
-   :licenses [],
-   :thumbnail nil,
-   :plugin :galactic-war,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
+   :race :dels,
+   :name "sk4",
+   :file "gw/data/Dels/Dels outffit.txt",
+   :licenses [],
+   :thumbnail nil,
+   :plugin :galactic-war}
   {:description
    ["These ramscoop provide Dels captain alternative to outfitting with fuel pods for long range travel."],
    :category "Systems",
@@ -28423,18 +28440,18 @@
    :thumbnail "outfit/b3 lar turret",
    :cost 65000000,
    :plugin :galactic-war}
-  {:file "gw/data/Donko/Donko outfits.txt",
-   :description [],
+  {:description [],
    :category nil,
-   :race :donko,
-   :name "donko b3 lar",
-   :licenses [],
-   :thumbnail nil,
-   :plugin :galactic-war,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
+   :race :donko,
+   :name "donko b3 lar",
+   :file "gw/data/Donko/Donko outfits.txt",
+   :licenses [],
+   :thumbnail nil,
+   :plugin :galactic-war}
   {:description ["This missile is fired from a Hasus Launcher."],
    :category "Ammunition",
    :mass 0.02,
@@ -28538,15 +28555,15 @@
     {:file "outfit/donko anti missile.png", :origin :galactic-war}},
    :race :donko,
    :weapon
-   {:hit-effect "donko anti-missile",
-    :anti-missile 30,
-    :velocity 800,
+   {:submunition nil,
     :lifetime 1,
     :reload 16,
+    :hit-effect "donko anti-missile",
+    :anti-missile 30,
+    :velocity 800,
     :firing-energy {:per-second 187.5, :per-shot 50},
-    :submunition nil,
-    :shots-per-second 3.75,
-    :range 800},
+    :range 800,
+    :shots-per-second 3.75},
    :name "Barmott Anti-Missile",
    :file "gw/data/Donko/Donko outfits.txt",
    :turret-mounts -1,
@@ -29813,18 +29830,18 @@
    :cost 47000000,
    :plugin :galactic-war,
    :gun-ports -1}
-  {:file "gw/data/Erm/Erm outfits.txt",
-   :description [],
+  {:description [],
    :category nil,
-   :race :erm,
-   :name "atarkor bullet",
-   :licenses [],
-   :thumbnail nil,
-   :plugin :galactic-war,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
+   :race :erm,
+   :name "atarkor bullet",
+   :file "gw/data/Erm/Erm outfits.txt",
+   :licenses [],
+   :thumbnail nil,
+   :plugin :galactic-war}
   {:description
    ["As the label says, this weapon will paralyze most ships in mere seconds."],
    :category "Guns",
@@ -31366,6 +31383,17 @@
    :cost 78000,
    :plugin :galactic-war}
   {:description
+   ["A mysterious black box that did something to you, and now it follows you around no matter what you do. There is no getting rid of it. Plugging it into your ship's systems seems to have upgraded them with the ability to communicate and trade with the alien races beyond the Wensta intergalactic wormhole."
+    "\tAny time you enter a new ship, the device seems to upgrade the comms system without your input."],
+   :category "Special",
+   :meta {:image {:file "outfit/keystone.png", :origin :vanilla}},
+   :race :data,
+   :name "GW Universal Converter License",
+   :file "gw/data/general content.txt",
+   :licenses [],
+   :thumbnail "outfit/keystone",
+   :plugin :galactic-war}
+  {:description
    ["Common offensive weapon found on Ignaggen ships. While pretty powerful for the size, it runs very hot and requrie cooldown after a few shots."],
    :category "Guns",
    :weapon-capacity 14,
@@ -32789,138 +32817,138 @@
    :thumbnail "outfit/qoro m masenar",
    :cost 420000,
    :plugin :galactic-war}
-  {:file "gw/data/Kumakk/Kumakk Outfits.txt",
-   :description [],
+  {:description [],
    :category nil,
+   :meta
+   {:image
+    {:file ".png",
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :kumakk,
    :name "ku'alno turn1",
+   :file "gw/data/Kumakk/Kumakk Outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Kumakk/Kumakk Outfits.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :kumakk,
    :name "ku'alno shot1",
+   :file "gw/data/Kumakk/Kumakk Outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Kumakk/Kumakk Outfits.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :kumakk,
    :name "ku'alno rand1",
+   :file "gw/data/Kumakk/Kumakk Outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Kumakk/Kumakk Outfits.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :kumakk,
    :name "ku'alno turn2",
+   :file "gw/data/Kumakk/Kumakk Outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Kumakk/Kumakk Outfits.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :kumakk,
    :name "ku'alno shot2",
+   :file "gw/data/Kumakk/Kumakk Outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Kumakk/Kumakk Outfits.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :kumakk,
    :name "ku'alno rand2",
+   :file "gw/data/Kumakk/Kumakk Outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Kumakk/Kumakk Outfits.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :kumakk,
    :name "ku'alno turn3",
+   :file "gw/data/Kumakk/Kumakk Outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Kumakk/Kumakk Outfits.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :kumakk,
    :name "ku'alno shot3",
+   :file "gw/data/Kumakk/Kumakk Outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Kumakk/Kumakk Outfits.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :kumakk,
    :name "ku'alno rand3",
+   :file "gw/data/Kumakk/Kumakk Outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Kumakk/Kumakk Outfits.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :kumakk,
    :name "ku'alno turn4",
+   :file "gw/data/Kumakk/Kumakk Outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Kumakk/Kumakk Outfits.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :kumakk,
    :name "ku'alno shot4",
+   :file "gw/data/Kumakk/Kumakk Outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
-   :meta
-   {:image
-    {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
+   :plugin :galactic-war}
   {:description ["Loku'nol Torpedo"],
    :category "Ammunition",
    :mass 0.4,
@@ -33941,6 +33969,724 @@
    :cooling 5400,
    :cost 990000,
    :plugin :galactic-war}
+  {:flare-sound "seeker",
+   :description ["Makau A Qoro tiny thruster."],
+   :category "Engines",
+   :flare-sprite "effect/qoro flare/tiny",
+   :mass 14,
+   :meta
+   {:image {:file "outfit/qoro m engine.png", :origin :galactic-war}},
+   :slowing-resistance 0.5,
+   :race :qoro,
+   :name "Asutur Thruster",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :outfit-space 14,
+   :licenses [],
+   :engine-capacity 14,
+   :thumbnail "outfit/qoro m engine",
+   :thrusting-energy 54,
+   :slowing-resistance-energy 0.3,
+   :thrusting-heat 60,
+   :thrust 23400,
+   :cost 50000,
+   :plugin :galactic-war}
+  {:flare-sound "seeker",
+   :description ["Makau A Qoro small thruster."],
+   :category "Engines",
+   :flare-sprite "effect/qoro flare/small",
+   :mass 24,
+   :meta
+   {:image {:file "outfit/qoro m engine.png", :origin :galactic-war}},
+   :slowing-resistance 0.5,
+   :race :qoro,
+   :name "Eensura Thruster",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :outfit-space 24,
+   :licenses [],
+   :engine-capacity 24,
+   :thumbnail "outfit/qoro m engine",
+   :thrusting-energy 102,
+   :slowing-resistance-energy 0.3,
+   :thrusting-heat 120,
+   :thrust 56880,
+   :cost 106000,
+   :plugin :galactic-war}
+  {:flare-sound "seeker",
+   :description ["Makau A Qoro medium thruster."],
+   :category "Engines",
+   :flare-sprite "effect/qoro flare/medium",
+   :mass 42,
+   :meta
+   {:image {:file "outfit/qoro m engine.png", :origin :galactic-war}},
+   :slowing-resistance 0.55,
+   :race :qoro,
+   :name "Maseka Thruster",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :outfit-space 42,
+   :licenses [],
+   :engine-capacity 42,
+   :thumbnail "outfit/qoro m engine",
+   :thrusting-energy 138,
+   :slowing-resistance-energy 0.35,
+   :thrusting-heat 258,
+   :thrust 117720,
+   :cost 210000,
+   :plugin :galactic-war}
+  {:flare-sound "seeker",
+   :description ["Makau A Qoro large thruster."],
+   :category "Engines",
+   :flare-sprite "effect/qoro flare/big",
+   :mass 80,
+   :meta
+   {:image {:file "outfit/qoro m engine.png", :origin :galactic-war}},
+   :slowing-resistance 0.6,
+   :race :qoro,
+   :name "Otsarui Thruster",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :outfit-space 80,
+   :licenses [],
+   :engine-capacity 80,
+   :thumbnail "outfit/qoro m engine",
+   :thrusting-energy 234,
+   :slowing-resistance-energy 0.4,
+   :thrusting-heat 444,
+   :thrust 248040,
+   :cost 408000,
+   :plugin :galactic-war}
+  {:flare-sound "seeker",
+   :description ["Makau A Qoro huge thruster."],
+   :category "Engines",
+   :flare-sprite "effect/qoro flare/huge",
+   :mass 156,
+   :meta
+   {:image {:file "outfit/qoro m engine.png", :origin :galactic-war}},
+   :slowing-resistance 0.7,
+   :race :qoro,
+   :name "Sokenue Thruster",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :outfit-space 156,
+   :licenses [],
+   :engine-capacity 156,
+   :thumbnail "outfit/qoro m engine",
+   :thrusting-energy 408,
+   :slowing-resistance-energy 0.5,
+   :thrusting-heat 912,
+   :thrust 571680,
+   :cost 8050000,
+   :plugin :galactic-war}
+  {:description [],
+   :category "Engines",
+   :mass 10,
+   :turning-energy 24,
+   :meta
+   {:image
+    {:file "outfit/qoro m steering.png", :origin :galactic-war}},
+   :race :qoro,
+   :name "Asutur-ian Steering",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :outfit-space 10,
+   :licenses [],
+   :engine-capacity 10,
+   :turn 15000,
+   :thumbnail "outfit/qoro m steering",
+   :turning-heat 30,
+   :cost 36000,
+   :plugin :galactic-war}
+  {:description [],
+   :category "Engines",
+   :mass 20,
+   :turning-energy 48,
+   :meta
+   {:image
+    {:file "outfit/qoro m steering.png", :origin :galactic-war}},
+   :race :qoro,
+   :name "Eensura-ian Steering",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :outfit-space 20,
+   :licenses [],
+   :engine-capacity 20,
+   :turn 33000,
+   :thumbnail "outfit/qoro m steering",
+   :turning-heat 60,
+   :cost 70000,
+   :plugin :galactic-war}
+  {:description [],
+   :category "Engines",
+   :mass 39,
+   :turning-energy 84,
+   :meta
+   {:image
+    {:file "outfit/qoro m steering.png", :origin :galactic-war}},
+   :race :qoro,
+   :name "Maseka-ian Steering",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :outfit-space 39,
+   :licenses [],
+   :engine-capacity 39,
+   :turn 72000,
+   :thumbnail "outfit/qoro m steering",
+   :turning-heat 120,
+   :cost 135000,
+   :plugin :galactic-war}
+  {:description [],
+   :category "Engines",
+   :mass 78,
+   :turning-energy 168,
+   :meta
+   {:image
+    {:file "outfit/qoro m steering.png", :origin :galactic-war}},
+   :race :qoro,
+   :name "Otsarui-ian Steering",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :outfit-space 78,
+   :licenses [],
+   :engine-capacity 78,
+   :turn 144000,
+   :thumbnail "outfit/qoro m steering",
+   :turning-heat 228,
+   :cost 260000,
+   :plugin :galactic-war}
+  {:description [],
+   :category "Engines",
+   :mass 100,
+   :turning-energy 294,
+   :meta
+   {:image
+    {:file "outfit/qoro m steering.png", :origin :galactic-war}},
+   :race :qoro,
+   :name "Sokenue-ian Steering",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :outfit-space 100,
+   :licenses [],
+   :engine-capacity 100,
+   :turn 216600,
+   :thumbnail "outfit/qoro m steering",
+   :turning-heat 327.6,
+   :cost 500000,
+   :plugin :galactic-war}
+  {:description
+   ["A Makau Qoro gun. Usually found along side with Mase-Dettai to take down the enemy armor."],
+   :category "Guns",
+   :weapon-capacity 23,
+   :mass 23,
+   :meta
+   {:image
+    {:file "outfit/qoro m senkai gun.png", :origin :galactic-war}},
+   :race :qoro,
+   :weapon
+   {:submunition nil,
+    :sound "egun",
+    :hull-damage {:per-second 348, :per-shot 58},
+    :shield-damage {:per-second 156, :per-shot 26},
+    :sprite "projectile/senkai",
+    :inaccuracy 0.5,
+    :heat-damage {:per-second 30, :per-shot 5},
+    :firing-heat {:per-second 24, :per-shot 4},
+    :lifetime 34,
+    :reload 10,
+    :hit-effect "skylance impact",
+    :velocity 20,
+    :firing-energy {:per-second 180, :per-shot 30},
+    :range 680,
+    :shots-per-second 6.0},
+   :name "Mas-Senkai Gun",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :outfit-space 23,
+   :licenses [],
+   :thumbnail "outfit/qoro m senkai gun",
+   :cost 200000,
+   :plugin :galactic-war,
+   :gun-ports -1}
+  {:description ["Makau Qoro laser for tearing down shields."],
+   :category "Guns",
+   :weapon-capacity 11,
+   :mass 11,
+   :meta
+   {:image
+    {:file "outfit/qoro m mase dettai.png", :origin :galactic-war}},
+   :race :qoro,
+   :weapon
+   {:submunition nil,
+    :sound "slicer",
+    :hull-damage {:per-second 49.2},
+    :shield-damage {:per-second 192},
+    :sprite "projectile/slicer",
+    :inaccuracy 1,
+    :firing-heat {:per-second 24},
+    :lifetime 1,
+    :reload 1,
+    :hit-effect "slicer impact",
+    :velocity 520,
+    :firing-energy {:per-second 120},
+    :range 520,
+    :shots-per-second "continuous"},
+   :name "Mase-Dettai Laser",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :outfit-space 11,
+   :licenses [],
+   :thumbnail "outfit/qoro m mase dettai",
+   :cost 1473000,
+   :plugin :galactic-war,
+   :gun-ports -1}
+  {:description ["Northen Qoro's Missile Defence module"],
+   :category "Guns",
+   :weapon-capacity 28,
+   :mass 28,
+   :meta {:image {:file "outfit/medium shield.png", :origin :vanilla}},
+   :race :qoro,
+   :weapon
+   {:submunition nil,
+    :fire-effect "masai fire",
+    :firing-heat {:per-second 876.92, :per-shot 19},
+    :lifetime 1,
+    :reload 1.3,
+    :anti-missile 22,
+    :velocity 330,
+    :firing-energy {:per-second 2307.7, :per-shot 50},
+    :range 330,
+    :shots-per-second 46.153847},
+   :name "Masai-kem Missile Defence",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :outfit-space 28,
+   :licenses [],
+   :thumbnail "outfit/medium shield",
+   :energy-capacity 50,
+   :cost 835000,
+   :plugin :galactic-war,
+   :gun-ports -1}
+  {:description ["Northen Qoro's Missile Defence module"],
+   :category "Turrets",
+   :weapon-capacity 28,
+   :mass 28,
+   :meta {:image {:file "outfit/medium shield.png", :origin :vanilla}},
+   :race :qoro,
+   :weapon
+   {:submunition nil,
+    :turret-turn 1200,
+    :fire-effect "masai fire",
+    :firing-heat {:per-second 876.92, :per-shot 19},
+    :lifetime 1,
+    :reload 1.3,
+    :anti-missile 5,
+    :velocity 330,
+    :firing-energy {:per-second 692.31, :per-shot 15},
+    :range 330,
+    :shots-per-second 46.153847},
+   :name "Masai-mei Missile Defence",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :turret-mounts -1,
+   :outfit-space 28,
+   :licenses [],
+   :thumbnail "outfit/medium shield",
+   :energy-capacity 50,
+   :cost 845000,
+   :plugin :galactic-war}
+  {:description
+   ["Northen Qoro's Missile Defence module(locked version)"],
+   :category "Turrets",
+   :weapon-capacity 28,
+   :mass 28,
+   :meta {:image {:file "outfit/medium shield.png", :origin :vanilla}},
+   :mdf-lock 1,
+   :race :qoro,
+   :weapon
+   {:submunition nil,
+    :turret-turn 1200,
+    :fire-effect "masai fire",
+    :firing-heat {:per-second 876.92, :per-shot 19},
+    :lifetime 1,
+    :reload 1.3,
+    :anti-missile 5,
+    :velocity 330,
+    :firing-energy {:per-second 669.23, :per-shot 14.5},
+    :range 330,
+    :shots-per-second 46.153847},
+   :name "Masai-mei Missile Defence (locked)",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :turret-mounts -1,
+   :outfit-space 28,
+   :licenses [],
+   :thumbnail "outfit/medium shield",
+   :energy-capacity 50,
+   :cost 845000,
+   :plugin :galactic-war}
+  {:description
+   ["This is a northern Qoro anti-fighter turret, due to how it works, most of its core mechanism is hidden inside the ship allowing the turret can turn very fast. Though, due to the being a relativly new technology it suffered heavily from inaccuracy."],
+   :category "Turrets",
+   :weapon-capacity 43,
+   :mass 43,
+   :meta
+   {:image
+    {:file "outfit/qoro m masenar turret.png", :origin :galactic-war}},
+   :race :qoro,
+   :weapon
+   {:submunition nil,
+    :sound "ion",
+    :hull-damage {:per-second 600, :per-shot 60},
+    :shield-damage {:per-second 150, :per-shot 15},
+    :hardpoint-sprite "hardpoint/masenar turret hp",
+    :stream nil,
+    :sprite "projectile/masenar",
+    :turn 0.1,
+    :inaccuracy 30,
+    :turret-turn 300,
+    :piercing 0.2,
+    :burst-reload 1.5,
+    :fire-effect "masenar fire",
+    :firing-heat {:per-second 40, :per-shot 4},
+    :lifetime 48,
+    :reload 6,
+    :optical-tracking 0.2,
+    :hit-effect "masenar impact",
+    :burst-count 6,
+    :velocity 12,
+    :firing-energy {:per-second 300, :per-shot 30},
+    :homing 1,
+    :range 576,
+    :shots-per-second 10.0},
+   :name "Masenar Turret",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :turret-mounts -1,
+   :outfit-space 43,
+   :licenses [],
+   :required-crew 2,
+   :thumbnail "outfit/qoro m masenar turret",
+   :cost 460000,
+   :plugin :galactic-war}
+  {:description ["Medium-sized Makau Qoro anti-ship turret"],
+   :category "Turrets",
+   :weapon-capacity 41,
+   :mass 41,
+   :meta
+   {:image
+    {:file "outfit/qoro m senmari gun.png",
+     :origin
+     [:not-found
+      "outfit/qoro m senmari gun.png"
+      "gw/images/outfit/qoro m senmari gun.png"
+      "game/images/outfit/qoro m senmari gun.png"]}},
+   :race :qoro,
+   :weapon
+   {:submunition nil,
+    :sound "ion",
+    :live-effect "masini live",
+    :hull-damage {:per-second 204, :per-shot 68},
+    :shield-damage {:per-second 480, :per-shot 160},
+    :stream nil,
+    :sprite "projectile/masenar",
+    :inaccuracy 0.5,
+    :turret-turn 144.0000057220459,
+    :piercing 0.1,
+    :burst-reload 8,
+    :firing-heat {:per-second 36, :per-shot 12},
+    :lifetime 34,
+    :reload 20,
+    :energy-damage 40,
+    :hit-effect "masenar impact",
+    :burst-count 3,
+    :velocity 22,
+    :firing-energy {:per-second 66, :per-shot 22},
+    :range 748,
+    :shots-per-second 3.0},
+   :name "Masini-Senmari Turret",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :turret-mounts -1,
+   :outfit-space 41,
+   :licenses [],
+   :required-crew 1,
+   :thumbnail "outfit/qoro m senmari gun",
+   :cost 460000,
+   :plugin :galactic-war}
+  {:description [],
+   :category "Turrets",
+   :weapon-capacity 80,
+   :mass 80,
+   :meta
+   {:image
+    {:file "outfit/qoro m senkorna gun.png",
+     :origin
+     [:not-found
+      "outfit/qoro m senkorna gun.png"
+      "gw/images/outfit/qoro m senkorna gun.png"
+      "game/images/outfit/qoro m senkorna gun.png"]}},
+   :race :qoro,
+   :weapon
+   {:submunition nil,
+    :sound "proton",
+    :hull-damage {:per-second 276, :per-shot 92},
+    :shield-damage {:per-second 750, :per-shot 250},
+    :stream nil,
+    :sprite "projectile/proton fragment",
+    :inaccuracy 0.5,
+    :turret-turn 300,
+    :heat-damage {:per-second 246, :per-shot 82},
+    :burst-reload 1.6,
+    :firing-heat {:per-second 267, :per-shot 89},
+    :ion-damage {:per-second 2400, :per-shot 800},
+    :lifetime 40,
+    :reload 20,
+    :hit-effect "proton impact",
+    :burst-count 2,
+    :velocity 30,
+    :firing-energy {:per-second 1350, :per-shot 450},
+    :range 1200,
+    :shots-per-second 3.0},
+   :name "Maisenkai-Senkorna Turret",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :turret-mounts -1,
+   :outfit-space 80,
+   :licenses [],
+   :required-crew 4,
+   :thumbnail "outfit/qoro m senkorna gun",
+   :cost 5800000,
+   :plugin :galactic-war}
+  {:description [""],
+   :category "Guns",
+   :weapon-capacity 75,
+   :mass 75,
+   :meta
+   {:image
+    {:file "outfit/qoro m temaika laser.png",
+     :origin
+     [:not-found
+      "outfit/qoro m temaika laser.png"
+      "gw/images/outfit/qoro m temaika laser.png"
+      "game/images/outfit/qoro m temaika laser.png"]}},
+   :race :qoro,
+   :weapon
+   {:submunition nil,
+    :sound "slicer",
+    :hull-damage {:per-second 180},
+    :shield-damage {:per-second 720},
+    :sprite "projectile/slicer",
+    :inaccuracy 2,
+    :heat-damage {:per-second 600},
+    :firing-heat {:per-second 480},
+    :ion-damage {:per-second 1800},
+    :lifetime 1,
+    :reload 1,
+    :hit-effect "slicer impact",
+    :velocity 520,
+    :firing-energy {:per-second 720},
+    :range 520,
+    :shots-per-second "continuous"},
+   :name "Maisenkai-Temaika Laser",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :outfit-space 75,
+   :licenses [],
+   :thumbnail "outfit/qoro m temaika laser",
+   :cost 5473000,
+   :plugin :galactic-war,
+   :gun-ports -1}
+  {:description
+   ["This is a cable that allows the ship and the generator to communicate, optimize, and multiply the shield generation efficiency and thoughness. While the shield generator and the ship it self will work with anything elses, they're meant to be paired for maximum effectiveness."],
+   :category "Systems",
+   :mass 0,
+   :meta
+   {:image
+    {:file "outfit/qoro m qsss cable.png", :origin :galactic-war}},
+   :qsss-port-t -1,
+   :disruption-resistance 0.2,
+   :race :qoro,
+   :name "QSSS Cable",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :outfit-space 0,
+   :licenses [],
+   :shield-generation-multiplier 0.5,
+   :thumbnail "outfit/qoro m qsss cable",
+   :piercing-resistance 0.2,
+   :cost 300,
+   :shield-heat -120,
+   :plugin :galactic-war,
+   :qsss-port-r -1}
+  {:description ["Makau a Qoro huge shield"],
+   :category "Systems",
+   :mass 81,
+   :meta
+   {:image
+    {:file "outfit/qoro m shield small.png", :origin :galactic-war}},
+   :qsss-port-t 1,
+   :race :qoro,
+   :name "Oatua Shield Generator",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :outfit-space 81,
+   :licenses [],
+   :thumbnail "outfit/qoro m shield small",
+   :cost 50000000,
+   :shield-heat 996,
+   :shield-generation 1266,
+   :plugin :galactic-war,
+   :shield-energy 1524}
+  {:description ["Makau a Qoro large shield"],
+   :category "Systems",
+   :mass 49,
+   :meta
+   {:image
+    {:file "outfit/qoro m shield small.png", :origin :galactic-war}},
+   :qsss-port-t 1,
+   :race :qoro,
+   :name "Mekifa Shield Generator",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :outfit-space 49,
+   :licenses [],
+   :thumbnail "outfit/qoro m shield small",
+   :cost 2600000,
+   :shield-heat 528,
+   :shield-generation 444,
+   :plugin :galactic-war,
+   :shield-energy 762}
+  {:description ["Makau a Qoro medium shield"],
+   :category "Systems",
+   :mass 28,
+   :meta
+   {:image
+    {:file "outfit/qoro m shield small.png", :origin :galactic-war}},
+   :qsss-port-t 1,
+   :race :qoro,
+   :name "Hadinna Shield Generator",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :outfit-space 28,
+   :licenses [],
+   :thumbnail "outfit/qoro m shield small",
+   :cost 2000000,
+   :shield-heat 450,
+   :shield-generation 234,
+   :plugin :galactic-war,
+   :shield-energy 366}
+  {:description ["Makau a Qoro small shield"],
+   :category "Systems",
+   :mass 12,
+   :meta
+   {:image
+    {:file "outfit/qoro m shield small.png", :origin :galactic-war}},
+   :qsss-port-t 1,
+   :race :qoro,
+   :name "Etoka Shield Generator",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :outfit-space 12,
+   :licenses [],
+   :thumbnail "outfit/qoro m shield small",
+   :cost 150000,
+   :shield-heat 402,
+   :shield-generation 102,
+   :plugin :galactic-war,
+   :shield-energy 132}
+  {:description ["Makau a Qoro tiny shield"],
+   :category "Systems",
+   :mass 4,
+   :meta
+   {:image
+    {:file "outfit/qoro m shield small.png", :origin :galactic-war}},
+   :qsss-port-t 1,
+   :race :qoro,
+   :name "Biqune Shield Generator",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :outfit-space 4,
+   :licenses [],
+   :thumbnail "outfit/qoro m shield small",
+   :cost 100000,
+   :shield-heat 360,
+   :shield-generation 36,
+   :plugin :galactic-war,
+   :shield-energy 120}
+  {:description ["Makau a Qoro generator"],
+   :category "Power",
+   :mass 10,
+   :meta
+   {:image {:file "outfit/tiny fuel cell.png", :origin :vanilla}},
+   :race :qoro,
+   :name "Aseki Cell",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :outfit-space 10,
+   :licenses [],
+   :thumbnail "outfit/tiny fuel cell",
+   :energy-generation 360,
+   :energy-capacity 1000,
+   :cost 140000,
+   :plugin :galactic-war}
+  {:description ["Makau a Qoro generator"],
+   :category "Power",
+   :mass 15,
+   :meta
+   {:image {:file "outfit/small fuel cell.png", :origin :vanilla}},
+   :race :qoro,
+   :name "Eirjika Cell",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :outfit-space 15,
+   :licenses [],
+   :thumbnail "outfit/small fuel cell",
+   :energy-generation 492,
+   :energy-capacity 2000,
+   :cost 320000,
+   :plugin :galactic-war}
+  {:description ["Makau a Qoro generator"],
+   :category "Power",
+   :mass 24,
+   :meta
+   {:image {:file "outfit/small fuel cell.png", :origin :vanilla}},
+   :race :qoro,
+   :name "Fuguari Cell",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :outfit-space 24,
+   :licenses [],
+   :thumbnail "outfit/small fuel cell",
+   :energy-generation 858,
+   :energy-capacity 2300,
+   :cost 320000,
+   :plugin :galactic-war}
+  {:description ["Makau a Qoro generator"],
+   :category "Power",
+   :mass 50,
+   :meta
+   {:image
+    {:file "outfit/big fuel cell.png",
+     :origin
+     [:not-found
+      "outfit/big fuel cell.png"
+      "gw/images/outfit/big fuel cell.png"
+      "game/images/outfit/big fuel cell.png"]}},
+   :race :qoro,
+   :name "Qutimaka Cell",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :outfit-space 50,
+   :licenses [],
+   :thumbnail "outfit/big fuel cell",
+   :energy-generation 1482,
+   :energy-capacity 5000,
+   :cost 900000,
+   :plugin :galactic-war}
+  {:unplunderable 1,
+   :description
+   ["This is a shielded cart that will generate a deadly liquifiying field in front of it that will make paste out of most living things in seconds. The scariest thing about this field is that it also penetrate most materials rendering most cover useless."
+    "If not limited by their short range and high power consumption, this will be unstoppable."],
+   :category "Hand to Hand",
+   :mass 1,
+   :meta {:image {:file "outfit/bardich.png", :origin :galactic-war}},
+   :capture-attack 6,
+   :race :qoro,
+   :name "Meteon Akon",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :outfit-space 1,
+   :licenses [],
+   :capture-defense 7,
+   :thumbnail "outfit/bardich",
+   :cost 680000,
+   :plugin :galactic-war}
+  {:unplunderable 1,
+   :description
+   ["While not the most lethal, these guns will send someone flying back a good several meters. Usually this is enough to kill most species from pure concussion pulverising their innards."],
+   :category "Hand to Hand",
+   :meta
+   {:image {:file "outfit/qoro m gun.png", :origin :galactic-war}},
+   :capture-attack 1.4,
+   :race :qoro,
+   :name "Masuit Ka",
+   :file "gw/data/Qoro/Qoro Makau outfits.txt",
+   :licenses [],
+   :capture-defense 2.2,
+   :thumbnail "outfit/qoro m gun",
+   :cost 48000,
+   :plugin :galactic-war}
   {:description
    ["Algarral is a weapon geared towards bringing down enemy's shield."],
    :category "Guns",
@@ -34183,6 +34929,7 @@
   {:description
    ["This outfit will decrease your ship's ability to cool down."],
    :category "Special",
+   :heat-dissipation -0.02,
    :mass 20,
    :meta
    {:image
@@ -34190,6 +34937,7 @@
    :race :qoro,
    :name "Qoro Armour Plating",
    :file "gw/data/Qoro/Qoro Siogal outfits.txt",
+   :outfit-space 2,
    :licenses [],
    :thumbnail "outfit/qoro s armour plate",
    :cost 10000,
@@ -34198,6 +34946,7 @@
    :cooling-inefficiency 0.2}
   {:description [],
    :category "Special",
+   :heat-dissipation -0.02,
    :mass 50,
    :meta
    {:image
@@ -34641,42 +35390,42 @@
    :thumbnail "outfit/longsword",
    :cost 19000000,
    :plugin :galactic-war}
-  {:file "gw/data/Revos/Revos outfits.txt",
-   :description [],
+  {:description [],
    :category nil,
+   :meta
+   {:image
+    {:file ".png",
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :revos,
    :name "rvs botavu1",
+   :file "gw/data/Revos/Revos outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Revos/Revos outfits.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :revos,
    :name "rvs botavu2",
+   :file "gw/data/Revos/Revos outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Revos/Revos outfits.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :revos,
    :name "rvs botavu3",
+   :file "gw/data/Revos/Revos outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
-   :meta
-   {:image
-    {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
+   :plugin :galactic-war}
   {:description [],
    :category "Turrets",
    :weapon-capacity 20,
@@ -34712,18 +35461,18 @@
    :thumbnail "outfit/longsword",
    :cost 19000000,
    :plugin :galactic-war}
-  {:file "gw/data/Revos/Revos outfits.txt",
-   :description [],
+  {:description [],
    :category nil,
-   :race :revos,
-   :name "rvs barviska",
-   :licenses [],
-   :thumbnail nil,
-   :plugin :galactic-war,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
+   :race :revos,
+   :name "rvs barviska",
+   :file "gw/data/Revos/Revos outfits.txt",
+   :licenses [],
+   :thumbnail nil,
+   :plugin :galactic-war}
   {:description ["Revos weapon."],
    :category "Turrets",
    :weapon-capacity 56,
@@ -34760,30 +35509,30 @@
    :thumbnail "outfit/longsword",
    :cost 19000000,
    :plugin :galactic-war}
-  {:file "gw/data/Revos/Revos outfits.txt",
-   :description [],
+  {:description [],
    :category nil,
+   :meta
+   {:image
+    {:file ".png",
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :revos,
    :name "rvs kuloles1",
+   :file "gw/data/Revos/Revos outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Revos/Revos outfits.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :revos,
    :name "rvs kuloles2",
+   :file "gw/data/Revos/Revos outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
-   :meta
-   {:image
-    {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
+   :plugin :galactic-war}
   {:description ["Revos energy-based homing projectile."],
    :category "Secondary Weapons",
    :weapon-capacity 20,
@@ -35153,18 +35902,18 @@
    :thumbnail "outfit/taroun serulan turret",
    :cost 12000000,
    :plugin :galactic-war}
-  {:file "gw/data/Taroun/Taroun outfits.txt",
-   :description [],
+  {:description [],
    :category nil,
-   :race :taroun,
-   :name "Larpauron",
-   :licenses [],
-   :thumbnail nil,
-   :plugin :galactic-war,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
+   :race :taroun,
+   :name "Larpauron",
+   :file "gw/data/Taroun/Taroun outfits.txt",
+   :licenses [],
+   :thumbnail nil,
+   :plugin :galactic-war}
   {:description ["Taroun Odd-looking Turret."],
    :category "Turrets",
    :weapon-capacity 45,
@@ -35244,54 +35993,54 @@
    :thumbnail "outfit/taroun kilreol turret",
    :cost 12000000,
    :plugin :galactic-war}
-  {:file "gw/data/Taroun/Taroun outfits.txt",
-   :description [],
+  {:description [],
    :category nil,
+   :meta
+   {:image
+    {:file ".png",
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :taroun,
    :name "Kilreol transition",
+   :file "gw/data/Taroun/Taroun outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Taroun/Taroun outfits.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :taroun,
    :name "Kilreol transition2",
+   :file "gw/data/Taroun/Taroun outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Taroun/Taroun outfits.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :taroun,
    :name "Kilreol transition3",
+   :file "gw/data/Taroun/Taroun outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Taroun/Taroun outfits.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :taroun,
    :name "Kilreol shot",
+   :file "gw/data/Taroun/Taroun outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
-   :meta
-   {:image
-    {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
+   :plugin :galactic-war}
   {:description [""],
    :category "Turrets",
    :weapon-capacity 60,
@@ -35352,30 +36101,30 @@
    :thumbnail "outfit/unknown",
    :cost 105000000,
    :plugin :galactic-war}
-  {:file "gw/data/Taroun/Taroun outfits.txt",
-   :description [],
+  {:description [],
    :category nil,
+   :meta
+   {:image
+    {:file ".png",
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :taroun,
    :name "Urmou",
+   :file "gw/data/Taroun/Taroun outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Taroun/Taroun outfits.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :taroun,
    :name "Lymaou",
+   :file "gw/data/Taroun/Taroun outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
-   :meta
-   {:image
-    {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
+   :plugin :galactic-war}
   {:description [""],
    :category "Guns",
    :weapon-capacity 90,
@@ -35680,114 +36429,114 @@
    :plugin :galactic-war,
    :gun-ports -1,
    :varsrel-capacity 20}
-  {:file "gw/data/Tehru/tehru outfits.txt",
-   :description [],
+  {:description [],
    :category nil,
+   :meta
+   {:image
+    {:file ".png",
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :tehru,
    :name "varsrel 1",
+   :file "gw/data/Tehru/tehru outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Tehru/tehru outfits.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :tehru,
    :name "varsrel beam 1",
+   :file "gw/data/Tehru/tehru outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Tehru/tehru outfits.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :tehru,
    :name "varsrel 2",
+   :file "gw/data/Tehru/tehru outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Tehru/tehru outfits.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :tehru,
    :name "varsrel beam 2",
+   :file "gw/data/Tehru/tehru outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Tehru/tehru outfits.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :tehru,
    :name "varsrel 3",
+   :file "gw/data/Tehru/tehru outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Tehru/tehru outfits.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :tehru,
    :name "varsrel beam 3",
+   :file "gw/data/Tehru/tehru outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Tehru/tehru outfits.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :tehru,
    :name "varsrel 4",
+   :file "gw/data/Tehru/tehru outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Tehru/tehru outfits.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :tehru,
    :name "varsrel beam 4",
+   :file "gw/data/Tehru/tehru outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Tehru/tehru outfits.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :tehru,
    :name "varsrel beam 5",
+   :file "gw/data/Tehru/tehru outfits.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
-   :meta
-   {:image
-    {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
+   :plugin :galactic-war}
   {:description
    ["This is basically a smaller version of Vrrpak Turret."],
    :category "Turrets",
@@ -36674,162 +37423,162 @@
    :thumbnail "outfit/unknown",
    :cost 6500000,
    :plugin :galactic-war}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
+  {:description [],
    :category nil,
+   :meta
+   {:image
+    {:file ".png",
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "urxesh spawner 1",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "urxesh spawner 2",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "urxesh print 1a",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "urxesh print 1b",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "urxesh print 2a",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "urxesh print 2b",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "urxesh turn 1a",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "urxesh turn 1b",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "urxesh turn 2a",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "urxesh turn 2b",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "urxesh charge a",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "urxesh charge b",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "urxesh shot",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
-   :meta
-   {:image
-    {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
+   :plugin :galactic-war}
   {:description [],
    :category "Guns",
    :weapon-capacity 100,
@@ -36894,294 +37643,294 @@
    :cost 6500000,
    :plugin :galactic-war,
    :gun-ports -1}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
+  {:description [],
    :category nil,
+   :meta
+   {:image
+    {:file ".png",
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "hausiar shot",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "hausiar spawner 1",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "hausiar wait 1",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "hausiar turret 1",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "hausiar spawner 2",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "hausiar wait 2",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "hausiar load 2",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "hausiar wait 2a",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "hausiar turret 2",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "hausiar turn 2",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "hausiar spawner 3",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "hausiar wait 3",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "hausiar load 3",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "hausiar wait 3a",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "hausiar turn 3",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "hausiar spawner 4",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "hausiar wait 4",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "hausiar load 4",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "hausiar wait 4a",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "hausiar turn 4",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "hausiar spawner 5",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "hausiar wait 5",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "hausiar load 5",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "hausiar wait 5a",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
-   :meta
-   {:image
-    {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
+   :plugin :galactic-war}
   {:description [],
    :category "Turrets",
    :weapon-capacity 30,
@@ -37220,18 +37969,18 @@
    :thumbnail "outfit/ultaka paumas",
    :cost 2500000,
    :plugin :galactic-war}
-  {:file "gw/data/Ultaka/Ultaka weapons alrul.txt",
-   :description [],
+  {:description [],
    :category nil,
-   :race :ultaka,
-   :name "Paumas shot",
-   :licenses [],
-   :thumbnail nil,
-   :plugin :galactic-war,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
+   :race :ultaka,
+   :name "Paumas shot",
+   :file "gw/data/Ultaka/Ultaka weapons alrul.txt",
+   :licenses [],
+   :thumbnail nil,
+   :plugin :galactic-war}
   {:description [],
    :category "Turrets",
    :weapon-capacity 37,
@@ -37595,18 +38344,18 @@
    :cost 60000000,
    :plugin :galactic-war,
    :gun-ports -1}
-  {:file "gw/data/Ultaka/Ultaka Weapons mega.txt",
-   :description [],
+  {:description [],
    :category nil,
-   :race :ultaka,
-   :name "ul ambusher shot",
-   :licenses [],
-   :thumbnail nil,
-   :plugin :galactic-war,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
+   :race :ultaka,
+   :name "ul ambusher shot",
+   :file "gw/data/Ultaka/Ultaka Weapons mega.txt",
+   :licenses [],
+   :thumbnail nil,
+   :plugin :galactic-war}
   {:description
    ["This is a device to amplifiy the effect from Ultaka B-series cores and utilize it as weapon."],
    :category "Turrets",
@@ -37721,18 +38470,18 @@
    :cost 1500000000,
    :plugin :galactic-war,
    :gun-ports -1}
-  {:file "gw/data/Ultaka/Ultaka Weapons mega.txt",
-   :description [],
+  {:description [],
    :category nil,
-   :race :ultaka,
-   :name "Ultaka Executor Missile",
-   :licenses [],
-   :thumbnail nil,
-   :plugin :galactic-war,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
+   :race :ultaka,
+   :name "Ultaka Executor Missile",
+   :file "gw/data/Ultaka/Ultaka Weapons mega.txt",
+   :licenses [],
+   :thumbnail nil,
+   :plugin :galactic-war}
   {:description ["Bad bad."],
    :category "Guns",
    :weapon-capacity 225,
@@ -37838,54 +38587,54 @@
    :cost 5000000,
    :plugin :galactic-war,
    :gun-ports -1}
-  {:file "gw/data/Ultaka/Ultaka Weapons mega.txt",
-   :description [],
+  {:description [],
    :category nil,
+   :meta
+   {:image
+    {:file ".png",
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "ul hellstorm 1",
+   :file "gw/data/Ultaka/Ultaka Weapons mega.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka Weapons mega.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "ul hellstorm 2",
+   :file "gw/data/Ultaka/Ultaka Weapons mega.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka Weapons mega.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "ul hellstorm 3",
+   :file "gw/data/Ultaka/Ultaka Weapons mega.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka Weapons mega.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "ul hellstorm 4",
+   :file "gw/data/Ultaka/Ultaka Weapons mega.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
-   :meta
-   {:image
-    {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
+   :plugin :galactic-war}
   {:description
    ["A small gun used by Ultaka fighters, balanced between shield and hull damage."],
    :category "Guns",
@@ -38953,54 +39702,54 @@
    :thumbnail "outfit/unknown",
    :cost 12000000,
    :plugin :galactic-war}
-  {:file "gw/data/Ultaka/Ultaka Weapons.txt",
-   :description [],
+  {:description [],
    :category nil,
+   :meta
+   {:image
+    {:file ".png",
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "Type-B fragment",
+   :file "gw/data/Ultaka/Ultaka Weapons.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka Weapons.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "Type-C fragment",
+   :file "gw/data/Ultaka/Ultaka Weapons.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka Weapons.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "Type-D fragment",
+   :file "gw/data/Ultaka/Ultaka Weapons.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Ultaka/Ultaka Weapons.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :ultaka,
    :name "Type-E fragment",
+   :file "gw/data/Ultaka/Ultaka Weapons.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
-   :meta
-   {:image
-    {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
+   :plugin :galactic-war}
   {:description
    ["This is a device to amplifiy the effect from Ultaka B-series cores and utilize it as weapon."],
    :category "Turrets",
@@ -39461,18 +40210,18 @@
    :cost 680000,
    :plugin :galactic-war,
    :gun-ports -1}
-  {:file "gw/data/Vareen/vareen outfits.txt",
-   :description [],
+  {:description [],
    :category nil,
-   :race :vareen,
-   :name "Itir Fragment",
-   :licenses [],
-   :thumbnail nil,
-   :plugin :galactic-war,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
+   :race :vareen,
+   :name "Itir Fragment",
+   :file "gw/data/Vareen/vareen outfits.txt",
+   :licenses [],
+   :thumbnail nil,
+   :plugin :galactic-war}
   {:description [""],
    :category "Turrets",
    :weapon-capacity 20,
@@ -39844,18 +40593,18 @@
    :thumbnail "outfit/wallagi lemtar turret",
    :cost 4900000,
    :plugin :galactic-war}
-  {:file "gw/data/Wallagi/Wallagi outfit.txt",
-   :description [],
+  {:description [],
    :category nil,
-   :race :wallagi,
-   :name "markla flak",
-   :licenses [],
-   :thumbnail nil,
-   :plugin :galactic-war,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
+   :race :wallagi,
+   :name "markla flak",
+   :file "gw/data/Wallagi/Wallagi outfit.txt",
+   :licenses [],
+   :thumbnail nil,
+   :plugin :galactic-war}
   {:description ["Ammo for Sikarl Mine launcher"],
    :category "Ammo",
    :mass 0.1,
@@ -39918,246 +40667,246 @@
    :thumbnail "outfit/wallagi sikarl launcher",
    :cost 4700000,
    :plugin :galactic-war}
-  {:file "gw/data/Wallagi/Wallagi outfit.txt",
-   :description [],
+  {:description [],
    :category nil,
+   :meta
+   {:image
+    {:file ".png",
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :wallagi,
    :name "sikarl 1",
+   :file "gw/data/Wallagi/Wallagi outfit.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Wallagi/Wallagi outfit.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :wallagi,
    :name "sikarl field 1",
+   :file "gw/data/Wallagi/Wallagi outfit.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Wallagi/Wallagi outfit.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :wallagi,
    :name "sikarl 2",
+   :file "gw/data/Wallagi/Wallagi outfit.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Wallagi/Wallagi outfit.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :wallagi,
    :name "sikarl field 2",
+   :file "gw/data/Wallagi/Wallagi outfit.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Wallagi/Wallagi outfit.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :wallagi,
    :name "sikarl 3",
+   :file "gw/data/Wallagi/Wallagi outfit.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Wallagi/Wallagi outfit.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :wallagi,
    :name "sikarl field 3",
+   :file "gw/data/Wallagi/Wallagi outfit.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Wallagi/Wallagi outfit.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :wallagi,
    :name "sikarl 4",
+   :file "gw/data/Wallagi/Wallagi outfit.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Wallagi/Wallagi outfit.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :wallagi,
    :name "sikarl field 4",
+   :file "gw/data/Wallagi/Wallagi outfit.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Wallagi/Wallagi outfit.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :wallagi,
    :name "sikarl 5",
+   :file "gw/data/Wallagi/Wallagi outfit.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Wallagi/Wallagi outfit.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :wallagi,
    :name "sikarl field 5",
+   :file "gw/data/Wallagi/Wallagi outfit.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Wallagi/Wallagi outfit.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :wallagi,
    :name "sikarl 6",
+   :file "gw/data/Wallagi/Wallagi outfit.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Wallagi/Wallagi outfit.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :wallagi,
    :name "sikarl field 6",
+   :file "gw/data/Wallagi/Wallagi outfit.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Wallagi/Wallagi outfit.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :wallagi,
    :name "sikarl 7",
+   :file "gw/data/Wallagi/Wallagi outfit.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Wallagi/Wallagi outfit.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :wallagi,
    :name "sikarl field 7",
+   :file "gw/data/Wallagi/Wallagi outfit.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Wallagi/Wallagi outfit.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :wallagi,
    :name "sikarl 8",
+   :file "gw/data/Wallagi/Wallagi outfit.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Wallagi/Wallagi outfit.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :wallagi,
    :name "sikarl field 8",
+   :file "gw/data/Wallagi/Wallagi outfit.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Wallagi/Wallagi outfit.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :wallagi,
    :name "sikarl 9",
+   :file "gw/data/Wallagi/Wallagi outfit.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Wallagi/Wallagi outfit.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :wallagi,
    :name "sikarl field 9",
+   :file "gw/data/Wallagi/Wallagi outfit.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Wallagi/Wallagi outfit.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :wallagi,
    :name "sikarl 10",
+   :file "gw/data/Wallagi/Wallagi outfit.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Wallagi/Wallagi outfit.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :wallagi,
    :name "sikarl field 10",
+   :file "gw/data/Wallagi/Wallagi outfit.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
-   :meta
-   {:image
-    {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
+   :plugin :galactic-war}
   {:description ["Wallagi primary anti missile"],
    :category "Turrets",
    :weapon-capacity 12,
@@ -40585,15 +41334,15 @@
    :meta {:image {:file "outfit/unknown.png", :origin :vanilla}},
    :race :yiisk,
    :weapon
-   {:velocity 500,
+   {:submunition nil,
+    :firing-heat {:per-second 60},
     :lifetime 1,
     :reload 1,
-    :firing-energy {:per-second 600},
-    :firing-heat {:per-second 60},
     :anti-missile 40,
-    :submunition nil,
-    :shots-per-second "continuous",
-    :range 500},
+    :velocity 500,
+    :firing-energy {:per-second 600},
+    :range 500,
+    :shots-per-second "continuous"},
    :name "Yiisk Anti-Missile Field",
    :file "gw/data/Yiisk/yiisk outfits.txt",
    :turret-mounts -1,
@@ -41297,18 +42046,18 @@
    :cost 1900000,
    :plugin :galactic-war,
    :gun-ports -1}
-  {:file "gw/data/Zis/Zis Weapon.txt",
-   :description [],
+  {:description [],
    :category nil,
-   :race :zis,
-   :name "Zortal Projectile",
-   :licenses [],
-   :thumbnail nil,
-   :plugin :galactic-war,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
+   :race :zis,
+   :name "Zortal Projectile",
+   :file "gw/data/Zis/Zis Weapon.txt",
+   :licenses [],
+   :thumbnail nil,
+   :plugin :galactic-war}
   {:description [""],
    :category "Guns",
    :weapon-capacity 18,
@@ -41339,18 +42088,18 @@
    :cost 1900000,
    :plugin :galactic-war,
    :gun-ports -1}
-  {:file "gw/data/Zis/Zis Weapon.txt",
-   :description [],
+  {:description [],
    :category nil,
-   :race :zis,
-   :name "Nelcor Projectile",
-   :licenses [],
-   :thumbnail nil,
-   :plugin :galactic-war,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
+   :race :zis,
+   :name "Nelcor Projectile",
+   :file "gw/data/Zis/Zis Weapon.txt",
+   :licenses [],
+   :thumbnail nil,
+   :plugin :galactic-war}
   {:description [""],
    :category "Guns",
    :weapon-capacity 19,
@@ -41843,18 +42592,18 @@
    :cost 10500000,
    :plugin :galactic-war,
    :gun-ports -1}
-  {:file "gw/data/Zis/Zis Weapon.txt",
-   :description [],
+  {:description [],
    :category nil,
-   :race :zis,
-   :name "Airzi",
-   :licenses [],
-   :thumbnail nil,
-   :plugin :galactic-war,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
+   :race :zis,
+   :name "Airzi",
+   :file "gw/data/Zis/Zis Weapon.txt",
+   :licenses [],
+   :thumbnail nil,
+   :plugin :galactic-war}
   {:description [],
    :category "Guns",
    :weapon-capacity 20,
@@ -41946,30 +42695,30 @@
    :cost 2300000,
    :plugin :galactic-war,
    :gun-ports -1}
-  {:file "gw/data/Zis/Zis Weapon.txt",
-   :description [],
+  {:description [],
    :category nil,
+   :meta
+   {:image
+    {:file ".png",
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :zis,
    :name "Fernai Fragment",
+   :file "gw/data/Zis/Zis Weapon.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
+   :plugin :galactic-war}
+  {:description [],
+   :category nil,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
-  {:file "gw/data/Zis/Zis Weapon.txt",
-   :description [],
-   :category nil,
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
    :race :zis,
    :name "Fernai FragSpin",
+   :file "gw/data/Zis/Zis Weapon.txt",
    :licenses [],
    :thumbnail nil,
-   :plugin :galactic-war,
-   :meta
-   {:image
-    {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
+   :plugin :galactic-war}
   {:description [""],
    :category "Turrets",
    :weapon-capacity 150,
@@ -42122,18 +42871,18 @@
    :thumbnail "outfit/zis ginal turret",
    :cost 19000000,
    :plugin :galactic-war}
-  {:file "gw/data/Zis/Zis Weapon.txt",
-   :description [],
+  {:description [],
    :category nil,
-   :race :zis,
-   :name "ginal fragment",
-   :licenses [],
-   :thumbnail nil,
-   :plugin :galactic-war,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
+   :race :zis,
+   :name "ginal fragment",
+   :file "gw/data/Zis/Zis Weapon.txt",
+   :licenses [],
+   :thumbnail nil,
+   :plugin :galactic-war}
   {:description ["Zis short range bombardment turret."],
    :category "Turrets",
    :weapon-capacity 34,
@@ -42469,18 +43218,18 @@
    :cost 9200000,
    :plugin :galactic-war,
    :gun-ports -1}
-  {:file "gw/data/Zis/Zis Weapon.txt",
-   :description [],
+  {:description [],
    :category nil,
-   :race :zis,
-   :name "Syfar",
-   :licenses [],
-   :thumbnail nil,
-   :plugin :galactic-war,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
+   :race :zis,
+   :name "Syfar",
+   :file "gw/data/Zis/Zis Weapon.txt",
+   :licenses [],
+   :thumbnail nil,
+   :plugin :galactic-war}
   {:description
    ["Array of Rozzen missile launchers and missile generator machines."
     "Instead of installing missile launchers on a gun port, Rozzen VLS are installed on turret mounts."],
@@ -42521,18 +43270,18 @@
    :thumbnail "outfit/zis rozzen vls",
    :cost 2500000,
    :plugin :galactic-war}
-  {:file "gw/data/Zis/Zis Weapon.txt",
-   :description [],
+  {:description [],
    :category nil,
-   :race :zis,
-   :name "Rozzen",
-   :licenses [],
-   :thumbnail nil,
-   :plugin :galactic-war,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
+   :race :zis,
+   :name "Rozzen",
+   :file "gw/data/Zis/Zis Weapon.txt",
+   :licenses [],
+   :thumbnail nil,
+   :plugin :galactic-war}
   {:description ["."],
    :category "Turrets",
    :weapon-capacity 12,
@@ -42632,18 +43381,18 @@
    :cost 200000,
    :plugin :galactic-war,
    :gun-ports -1}
-  {:file "gw/data/Zis/Zis Weapon.txt",
-   :description [],
+  {:description [],
    :category nil,
-   :race :zis,
-   :name "xinbullet",
-   :licenses [],
-   :thumbnail nil,
-   :plugin :galactic-war,
    :meta
    {:image
     {:file ".png",
-     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}}}
+     :origin [:not-found ".png" "gw/images/.png" "game/images/.png"]}},
+   :race :zis,
+   :name "xinbullet",
+   :file "gw/data/Zis/Zis Weapon.txt",
+   :licenses [],
+   :thumbnail nil,
+   :plugin :galactic-war}
   {:description
    ["."
     "\t[Kuzaun missiles are a one-shot weapon: each missile occupies a gun slot, and after it is fired, the slot it was in is left empty.]"],
@@ -44633,14 +45382,14 @@
     {:name "Valhalla", :system "Epsilon Leonis"})}
   {:name "Lovelace Basics",
    :outfits
-   ("Anti-Missile Turret"
-    "Sidewinder Missile"
-    "Sidewinder Missile Launcher"
-    "Sidewinder Missile Rack"
+   ("Cargo Scanner"
+    "Luxury Accommodations"
     "D23-QP Shield Generator"
     "Torpedo"
-    "Cargo Scanner"
-    "Luxury Accommodations"),
+    "Sidewinder Missile"
+    "Sidewinder Missile Rack"
+    "Anti-Missile Turret"
+    "Sidewinder Missile Launcher"),
    :planets
    ({:name "Asgard", :system "Naos"}
     {:name "Chiron", :system "Alpha Centauri"}
@@ -44958,14 +45707,14 @@
     {:name "Viminal", :system "Arculus"})}
   {:name "Remnant Salvage",
    :outfits
-   ("Generator (Furnace Class)"
-    "Small Heat Shunt"
-    "Systems Core (Small)"
-    "Thruster (Asteroid Class)"
-    "Thruster (Planetary Class)"
+   ("Steering (Planetary Class)"
     "Steering (Asteroid Class)"
-    "Steering (Planetary Class)"
-    "Korath Fire-Lance"),
+    "Thruster (Planetary Class)"
+    "Systems Core (Small)"
+    "Korath Fire-Lance"
+    "Thruster (Asteroid Class)"
+    "Small Heat Shunt"
+    "Generator (Furnace Class)"),
    :planets ()}
   {:name "Wanderer Basics",
    :outfits
@@ -46217,14 +46966,14 @@
    :planets ({:name "Thing", :system "Sector Dels"})}
   {:name "Aumar",
    :outfits
-   ("F4D Battery Pack"
-    "EK-6-1 Photovoltaic Panels"
-    "KS2-6 Radioisotope"
-    "QW-5 Scanner"
+   ("QW-5 Scanner"
     "RS-8C Antenna"
-    "G48 Ion Thruster"
     "G66 Ion Thruster"
-    "2HK1 RCS"),
+    "2HK1 RCS"
+    "G48 Ion Thruster"
+    "F4D Battery Pack"
+    "EK-6-1 Photovoltaic Panels"
+    "KS2-6 Radioisotope"),
    :planets
    ({:name "Hallma", :system "Au Hall"}
     {:name "Aumar", :system "Aumar"})}
@@ -47131,13 +47880,13 @@
   {:name "Kanai Basic",
    :outfits
    ("Karar Missile"
-    "Gorka Homai"
-    "Outfits Expansion"
-    "Cargo Expansion"
     "Small Bunk Room"
     "Bunk Room"
+    "Outfits Expansion"
+    "Local Map"
     "Fuel Pod"
-    "Local Map"),
+    "Cargo Expansion"
+    "Gorka Homai"),
    :planets
    ({:name "Dev Station Kroom Kanai", :system "Sector Dels"}
     {:name "Gelnurkaor", :system "Nugekkor"}
@@ -47430,14 +48179,14 @@
     {:name "Wallagi", :system "Wallagi"})}
   {:name "Wallagi Basic",
    :outfits
-   ("Klingar Laser"
+   ("Asenil Shield Generator"
     "Cilhr Anti-missile"
-    "Asenil Shield Generator"
-    "Filkei Shield Generator"
     "Ulyukar Heat Control"
-    "C10-W Hinlar Core"
+    "Filkei Shield Generator"
     "Kal-1 Engines"
-    "Kal-4 Engines"),
+    "C10-W Hinlar Core"
+    "Kal-4 Engines"
+    "Klingar Laser"),
    :planets ({:name "Dev Station Wallagi", :system "Sector Dels"})}
   {:name "ZIS Advanced",
    :outfits
@@ -48200,6 +48949,7 @@
   "Militia" "human",
   "Remnant Capital" "remnant",
   "Wanderer" "wanderer",
+  "GW Universal Converter" "data",
   "Dels Commander" "dels",
   "Navy" "human",
   "Wanderer Outfits" "wanderer",
@@ -48222,10 +48972,13 @@
    :base-image-url
    "https://raw.githubusercontent.com/endless-sky/endless-sky/master/images/",
    :ignore-files
-   #{"data/remnant/remnant missions.txt" "data/korath/nanobots.txt"
+   #{"data/remnant/remnant missions.txt"
+     "data/korath/nanobots.txt"
      "data/sheragi/archaeology missions.txt"
-     "data/deprecated outfits.txt" "data/human/transport missions.txt"
-     "data/persons.txt"},
+     "data/deprecated outfits.txt"
+     "data/human/transport missions.txt"
+     "data/persons.txt"
+     "data/interfaces.txt"},
    :race-overrides
    {"data/human/marauders.txt" :pirate,
     "data/drak/indigenous.txt" :indigenous}},
@@ -48239,7 +48992,7 @@
    :ignore-files #{"data/Ultaka/Ultaka mothership weapon.txt"},
    :race-overrides {}}},
  :version
- {:hash "bb322c1079b393cc7e84d629eb1dc6bddb40caf0",
-  :date "2021-08-04"},
+ {:hash "ccdbf92c52c130f4dc20fd0005a36f94f9db84c1",
+  :date "2021-08-05"},
  :gw-version
- {:hash "ff56c76806c53991c3b8f56c4985e22e4409d9a8", :date "2021-08-05"}}
+ {:hash "a45aea9892700b21581dca656869551226315062", :date "2021-08-05"}}
