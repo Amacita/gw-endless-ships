@@ -12041,176 +12041,7 @@
           :bunks 41,
           :fuel-capacity 700,
           :guns 2,
-          :shields 34000}
-         {:description [""],
-          :category "Interceptor",
-          :weapon-capacity 85,
-          :outfits ({:name "Ancient Plasma Beam", :quantity 2}
-                    {:name "ADRX-I Draconic Reactor", :quantity 1}
-                    {:name "ASSX-I Shield System", :quantity 1}
-                    {:name "AACX-I Cooling System", :quantity 1}
-                    {:name "AAGTX-I Anti-Grav Steering", :quantity 1}
-                    {:name "AAGTX-I Anti-Grav Thruster", :quantity 1}
-                    {:name "AJX Star Drive", :quantity 1}),
-          :mass 40,
-          :meta {:plugin :altera,
-                 :image {:file "thumbnail/aetheris.png",
-                         :origin :altera}},
-          :empty-hull-cost 970000,
-          :race :altera,
-          :name "Aetheris (Interceptor)",
-          :file "altera/data/ships_old.txt",
-          :outfits-cost 78600000,
-          :outfit-space 240,
-          :required-crew 1,
-          :engine-capacity 50,
-          :sprite ["ship/aetheris" false],
-          :cargo-space 5,
-          :thumbnail "thumbnail/aetheris",
-          :hull 1900,
-          :bunks 2,
-          :fuel-capacity 600,
-          :guns 2,
-          :shields 4200}
-         {:description ["The Alteran's main Transporter, the Caesar. It has place for hundreds of people to live comfortably, because of its size being equal to that of a Heavy Warship, such as the Aurora. It has few weapons, only 3 turret spots, which are filled with an anti-missile turret and 2 plasma beam turrets."],
-          :category "Transport",
-          :weapon-capacity 180,
-          :outfits ({:name "ASX-2 Moon Shielding", :quantity 1}
-                    {:name "ACX-1 Alpina Cooler", :quantity 1}
-                    {:name "AAGTX-2.5 Anti-Grav Steering",
-                     :quantity 1}
-                    {:name "Ancient Plasma Turret", :quantity 2}
-                    {:name "Ancient Captain's Chair", :quantity 1}
-                    {:name "Ancient Star Drive", :quantity 1}
-                    {:name "AGX-2 Beta Core", :quantity 1}
-                    {:name "Ancient Anti-Missile", :quantity 1}
-                    {:name "AAGTX-2.0 Anti-Grav Thruster",
-                     :quantity 1}),
-          :mass 1300,
-          :turrets 3,
-          :meta {:plugin :altera,
-                 :image {:file "ship/caesar.png", :origin :altera}},
-          :empty-hull-cost 34000000,
-          :race :altera,
-          :name "Caesar",
-          :file "altera/data/ships_old.txt",
-          :outfits-cost 87000000,
-          :outfit-space 540,
-          :required-crew 35,
-          :engine-capacity 230,
-          :sprite ["ship/caesar" false],
-          :cargo-space 750,
-          :hull 7200,
-          :bunks 280,
-          :fuel-capacity 800,
-          :shields 64000}
-         {:category "Heavy Warship",
-          :weapon-capacity 750,
-          :outfits ({:name "Ancient Satellite Plasma Beam",
-                     :quantity 1}
-                    {:name "Ancient Command Chair", :quantity 1}
-                    {:name "AAGTX-4.5 Anti-Grav Steering",
-                     :quantity 1}
-                    {:name "Ancient Pulse Turret", :quantity 6}
-                    {:name "ASX-4 Star Shielding", :quantity 1}
-                    {:name "Ancient Drone Launcher", :quantity 6}
-                    {:name "AGX-3 Gamma Core", :quantity 1}
-                    {:name "ACX-3 Antarctica Cooler", :quantity 1}
-                    {:name "Ancient ZPM", :quantity 3}
-                    {:name "AGX-2 Beta Core", :quantity 1}
-                    {:name "AAGTX-4.0 Anti-Grav Thruster",
-                     :quantity 1}),
-          :mass 6400,
-          :turrets 6,
-          :meta {:plugin :altera,
-                 :image {:file "ship/tds.png", :origin :altera}},
-          :empty-hull-cost 100000000,
-          :race :altera,
-          :name "Titan Defensive Satellite",
-          :file "altera/data/ships_old.txt",
-          :outfits-cost 460000000,
-          :outfit-space 1750,
-          :required-crew 10,
-          :engine-capacity 500,
-          :sprite ["ship/tds" false],
-          :cargo-space 120,
-          :hull 120000,
-          :bunks 32,
-          :fuel-capacity 100,
-          :guns 7,
-          :shields 500000}
-         {:description [""],
-          :category "Fighter",
-          :weapon-capacity 76,
-          :outfits ({:name "Ancient Gauss Cannon", :quantity 1}
-                    {:name "ABGX Backup Generator", :quantity 1}
-                    {:name "ASSX-I Shield System", :quantity 1}
-                    {:name "AAUX-I Accumulation Unit", :quantity 1}
-                    {:name "Railgun Slug", :quantity 100}
-                    {:name "AAGTX-I Anti-Grav Steering", :quantity 1}
-                    {:name "AAGTX-I Anti-Grav Thruster", :quantity 1}),
-          :mass 40,
-          :meta {:plugin :altera,
-                 :image {:file "thumbnail/aetheris.png",
-                         :origin :altera}},
-          :empty-hull-cost 970000,
-          :race :altera,
-          :name "Aetheris (Gauss)",
-          :file "altera/data/special.txt",
-          :outfits-cost 9961800,
-          :outfit-space 190,
-          :required-crew 1,
-          :engine-capacity 45,
-          :sprite ["ship/aetheris" false],
-          :cargo-space 5,
-          :thumbnail "thumbnail/aetheris",
-          :hull 2900,
-          :bunks 2,
-          :fuel-capacity 300,
-          :guns 1,
-          :shields 10200}
-         {:fighters 3,
-          :description ["The Aurora-class Battleship is an old Alteran warship, having seen use even in the Drak-Alteran War. A truly massive design, with a significant hull strength and a powerful loadout, capable of taking on Quarg warships by itself. Though the Alteran Military has given everything it can to keep it up to date, its age has started to show, as such, its battleship role is currently being replaced with the far newer Azrael-class Battleship, a much more effective design."
-                        "However, it will not be removed from service in the forseeable future, mainly due to its secondary purpose as a mobile base, it is equipped with Alteran design long-range communications, capable of bridging hyperlane gaps, by creating a weak and unstable link, too weak for travel, but capable of transmitting comms. This communication system is an absolute necessity for the Alteran Military, but will cause a strong combat-oriented inefficiency, as it takes up a significant portion of the ship's interior."],
-          :category "Heavy Warship",
-          :weapon-capacity 1140,
-          :outfits ({:name "ABGX Backup Generator", :quantity 1}
-                    {:name "Ancient Satellite Plasma Beam",
-                     :quantity 1}
-                    {:name "ASSX-IV Shield System", :quantity 1}
-                    {:name "Ancient Pulse Turret", :quantity 8}
-                    {:name "Ancient Drone", :quantity 1008}
-                    {:name "ASGX Solar Collector", :quantity 4}
-                    {:name "AAGTX-IV Anti-Grav Thruster", :quantity 1}
-                    {:name "AAGTX-IV Anti-Grav Steering", :quantity 1}
-                    {:name "AZPMX Zero Point Module", :quantity 1}
-                    {:name "AJX Star Drive", :quantity 1}
-                    {:name "Ancient Drone Bay", :quantity 4}
-                    {:name "AACX-III Cooling System", :quantity 1}
-                    {:name "Ancient Drone Storage", :quantity 1}
-                    {:name "ADRX-III Draconic Reactor", :quantity 1}
-                    {:name "Ancient Anti-Missile", :quantity 2}),
-          :mass 4130,
-          :turrets 10,
-          :meta {:plugin :altera,
-                 :image {:file "thumbnail/aurora.png",
-                         :origin :altera}},
-          :empty-hull-cost 92000000,
-          :race :altera,
-          :name "Aurora (Spinal)",
-          :file "altera/data/special.txt",
-          :outfits-cost 759684300,
-          :outfit-space 2010,
-          :required-crew 117,
-          :engine-capacity 270,
-          :sprite ["ship/aurora" false],
-          :cargo-space 180,
-          :thumbnail "thumbnail/aurora",
-          :hull 187000,
-          :bunks 170,
-          :fuel-capacity 700,
-          :guns 9,
-          :shields 165000}),
+          :shields 34000}),
  :ship-modifications ({:name "Heliarch Breacher",
                        :modification "Heliarch Breacher (Ions)",
                        :weapon {},
@@ -54550,16 +54381,16 @@
                     :resource-dir "altera",
                     :repository "https://github.com/EricD112/Altera/",
                     :base-image-url "https://raw.githubusercontent.com/EricD112/Altera/master/images/",
-                    :ignore-files #{"data/+omnis.txt"
-                                    "data/deprecated outfits.txt"},
+                    :ignore-files #{"data/special.txt"
+                                    "data/+omnis.txt"
+                                    "data/deprecated outfits.txt"
+                                    "data/ships_old.txt"},
                     :race-overrides {"data/alteran ships.txt" :altera,
-                                     "data/weapons.txt" :altera,
                                      "data/effects.txt" :altera,
-                                     "data/special.txt" :altera,
+                                     "data/engines.txt" :altera,
+                                     "data/outfits.txt" :altera,
                                      "data/power.txt" :altera,
                                      "data/variants.txt" :altera,
-                                     "data/outfits.txt" :altera,
-                                     "data/engines.txt" :altera,
-                                     "data/ships_old.txt" :altera},
+                                     "data/weapons.txt" :altera},
                     :version {:hash "72031ce17c3bf18ffa40b83a5c7d113f34761804",
                               :date "2021-08-10"}}}}
