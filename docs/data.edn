@@ -9419,6 +9419,65 @@
           :self-destruct 0.9,
           :guns 1,
           :shields 25000}
+         {:description ["Uoorn Warrior is a defensive warship deployed by the Uoorn to guard their planets."],
+          :category "Medium Warship",
+          :weapon-capacity 350,
+          :outfits ({:name "Uoorn Acid Spitter Cavity", :quantity 4}
+                    {:name "Uoorn Stabber Pod", :quantity 2}
+                    {:name "Uoorn Defence Pod", :quantity 2}
+                    {:name "Uoorn Shield Preserver", :quantity 2}
+                    {:name "Uoorn Decomposer", :quantity 5}
+                    {:name "Uoorn Void Slip", :quantity 1}
+                    {:name "Hyperdrive", :quantity 1}),
+          :mass 890,
+          :turrets 4,
+          :meta {:plugin :galactic-war,
+                 :image {:file "ship/uoorn warrior.png",
+                         :origin :galactic-war}},
+          :empty-hull-cost 5200000,
+          :race :uoorn,
+          :name "Uoorn Warrior",
+          :file "gw/data/Uoorn/uoorn ships.txt",
+          :outfits-cost 4764000,
+          :outfit-space 660,
+          :required-crew 20,
+          :engine-capacity 150,
+          :sprite ["ship/uoorn warrior" false],
+          :cargo-space 50,
+          :hull 12860,
+          :bunks 50,
+          :fuel-capacity 400,
+          :guns 4,
+          :shields 42100}
+         {:description ["Uoorn raid ship used in swarm."],
+          :category "Interceptor",
+          :weapon-capacity 100,
+          :outfits ({:name "Uoorn Acid Spitter Cavity", :quantity 1}
+                    {:name "Uoorn Biter Pod", :quantity 1}
+                    {:name "Uoorn Shield Preserver", :quantity 1}
+                    {:name "Uoorn Decomposer", :quantity 2}
+                    {:name "Uoorn Star Glider", :quantity 1}
+                    {:name "Hyperdrive", :quantity 1}),
+          :mass 125,
+          :turrets 1,
+          :meta {:plugin :galactic-war,
+                 :image {:file "ship/uoorn aggressor.png",
+                         :origin :galactic-war}},
+          :empty-hull-cost 5200000,
+          :race :uoorn,
+          :name "Uoorn Aggressor",
+          :file "gw/data/Uoorn/uoorn ships.txt",
+          :outfits-cost 956000,
+          :outfit-space 260,
+          :required-crew 2,
+          :engine-capacity 60,
+          :sprite ["ship/uoorn aggressor" false],
+          :cargo-space 10,
+          :hull 1988,
+          :bunks 12,
+          :fuel-capacity 600,
+          :guns 1,
+          :shields 5268}
          {:description [""],
           :category "Transport",
           :weapon-capacity 70,
@@ -24810,6 +24869,50 @@
             :cost 15000,
             :meteor-capacity 30,
             :gun-ports -1}
+           {:description ["The Meteor Missile is the cheapest and simplest homing weapon available in human space. Meteors are quickly destroyed by anti-missile systems, and their infrared tracking systems have trouble homing in on targets with low heat levels. Nevertheless, their large warheads can spell doom for poorly-defended targets when the missiles are fired in great numbers."
+                          "\tPods enable fighters and other light craft to carry small quantities of missiles into battle while retaining enough space for other weapons. Large ships are better off with full-size launchers."],
+            :category "Secondary Weapons",
+            :weapon-capacity 3,
+            :mass 1,
+            :meta {:plugin :vanilla,
+                   :image {:file "outfit/meteor pod.png",
+                           :origin :vanilla}},
+            :race :human,
+            :weapon {:submunition nil,
+                     :sound "meteor",
+                     :hull-damage {:per-second 48, :per-shot 160},
+                     :infrared-tracking 0.65,
+                     :ammo "Meteor Missile",
+                     :shield-damage {:per-second 78, :per-shot 260},
+                     :icon "icon/meteor",
+                     :hit-force 220,
+                     :sprite "projectile/meteor",
+                     :turn 1.8,
+                     :inaccuracy 5,
+                     :burst-reload 80,
+                     :missile-strength 6,
+                     :die-effect "missile death",
+                     :fire-effect "meteor fire",
+                     :firing-heat {:per-second 6, :per-shot 20},
+                     :lifetime 350,
+                     :reload 200,
+                     :hit-effect "missile hit",
+                     :burst-count 7,
+                     :drag 0.1,
+                     :acceleration 1,
+                     :velocity 11,
+                     :firing-energy {:per-second 0.3, :per-shot 1},
+                     :homing 1,
+                     :range 3850,
+                     :shots-per-second 0.3},
+            :name "Meteor Missile Pod",
+            :file "game/data/human/weapons.txt",
+            :outfit-space 3,
+            :licenses [],
+            :thumbnail "outfit/meteor pod",
+            :cost 5000,
+            :meteor-capacity 7,
+            :gun-ports -1}
            {:description ["The Sidewinder Missile is ammunition for the Sidewinder Missile Launcher; each launcher that you have installed can be armed with up to 45 of them. You cannot install a missile without a launcher to fire it from."],
             :category "Ammunition",
             :mass 0.2,
@@ -24880,6 +24983,51 @@
             :sidewinder-capacity 45,
             :cost 60000,
             :gun-ports -1}
+           {:description ["The Sidewinder Missile is designed by Lovelace Labs, which is ironically also the designer of the Anti-Missile Turret. Rumors say that the two engineering teams at Lovelace who make the missiles and the anti-missiles are locked in furious competition with each other: the result has been generation after generation of smarter missiles and then smarter turrets to fend them off."
+                          "\tAlthough not as powerful or cheap as the popular Meteor missiles, Sidewinders have several advantages, including their superior maneuverability, better tracking systems, and protective casings that make them much harder for anti-missile systems to destroy."
+                          "\tPods enable fighters and other light craft to carry small quantities of missiles into battle while retaining enough space for other weapons. Large ships are better off with full-size launchers."],
+            :category "Secondary Weapons",
+            :weapon-capacity 4,
+            :mass 2,
+            :meta {:plugin :vanilla,
+                   :image {:file "outfit/sidewinder pod.png",
+                           :origin :vanilla}},
+            :race :human,
+            :weapon {:submunition nil,
+                     :sound "sidewinder",
+                     :hull-damage {:per-second 50, :per-shot 125},
+                     :ammo "Sidewinder Missile",
+                     :shield-damage {:per-second 72, :per-shot 180},
+                     :icon "icon/sidewinder",
+                     :radar-tracking 0.9,
+                     :hit-force 170,
+                     :sprite "projectile/sidewinder",
+                     :turn 4,
+                     :inaccuracy 4,
+                     :burst-reload 60,
+                     :missile-strength 12,
+                     :die-effect "missile death",
+                     :fire-effect "sidewinder fire",
+                     :firing-heat {:per-second 6, :per-shot 15},
+                     :lifetime 350,
+                     :reload 150,
+                     :hit-effect "missile hit",
+                     :burst-count 4,
+                     :drag 0.1,
+                     :acceleration 1.2,
+                     :velocity 14,
+                     :firing-energy {:per-second 0.4, :per-shot 1},
+                     :homing 4,
+                     :range 4900,
+                     :shots-per-second 0.4},
+            :name "Sidewinder Missile Pod",
+            :file "game/data/human/weapons.txt",
+            :outfit-space 4,
+            :licenses [],
+            :thumbnail "outfit/sidewinder pod",
+            :sidewinder-capacity 4,
+            :cost 20000,
+            :gun-ports -1}
            {:description ["A Javelin missile is ammunition for the Javelin Pod; without a Pod to store them in you cannot purchase or use Javelins. Each pod stores up to 200 Javelins."],
             :category "Ammunition",
             :javelin-capacity -1,
@@ -24942,6 +25090,45 @@
             :licenses [],
             :thumbnail "outfit/javelin pod",
             :cost 20000,
+            :gun-ports -1}
+           {:description ["The Javelin Pod fires a rapid stream of unguided missiles. A Javelin Pod does far more damage than any gun of a comparable size, and has a longer range as well, but once a ship has expended all of its ammunition it must leave combat and find a planet where it can buy more, which makes Javelins less useful in protracted battles."
+                          "\tThe weapon's high rate of fire also makes it useful for saturating well-protected ships' anti-missile defenses so that more dangerous projectiles fired by allied ships can sneak through."
+                          "\tMini pods enable fighters and other light craft to carry small quantities of javelins into battle while retaining enough space for other weapons. Large ships are better off with full-size pods."],
+            :category "Secondary Weapons",
+            :weapon-capacity 3,
+            :javelin-capacity 40,
+            :mass 1,
+            :meta {:plugin :vanilla,
+                   :image {:file "outfit/javelin mini pod.png",
+                           :origin :vanilla}},
+            :race :human,
+            :weapon {:range-override 300,
+                     :submunition nil,
+                     :sound "javelin",
+                     :hull-damage {:per-second 39, :per-shot 26},
+                     :ammo "Javelin",
+                     :shield-damage {:per-second 72, :per-shot 48},
+                     :icon "icon/javelin",
+                     :hit-force 50,
+                     :sprite "projectile/javelin",
+                     :inaccuracy 1,
+                     :burst-reload 15,
+                     :missile-strength 3,
+                     :firing-heat {:per-second 18, :per-shot 12},
+                     :lifetime 60,
+                     :reload 40,
+                     :hit-effect "tiny explosion",
+                     :burst-count 40,
+                     :velocity 10,
+                     :firing-energy {:per-second 0.3, :per-shot 0.2},
+                     :range 600,
+                     :shots-per-second 1.5},
+            :name "Javelin Mini Pod",
+            :file "game/data/human/weapons.txt",
+            :outfit-space 3,
+            :licenses [],
+            :thumbnail "outfit/javelin mini pod",
+            :cost 5000,
             :gun-ports -1}
            {:description ["Torpedoes are ammunition for the Torpedo Launcher. Each Torpedo Launcher can hold 30 of them. You cannot install torpedoes unless you have also installed a launcher to fire them from."],
             :category "Ammunition",
@@ -25013,6 +25200,50 @@
             :thumbnail "outfit/torpedo launcher",
             :cost 80000,
             :gun-ports -1}
+           {:description ["Torpedoes are the most powerful homing weapon, but they move slowly enough that fast ships can simply outrun them, making them most useful against large targets or against small ships at times when they are too distracted to dodge."
+                          "\tPods enable fighters and other light craft to carry small quantities of torpedoes into battle while retaining enough space for other weapons. Large ships are better off with full-size launchers."],
+            :category "Secondary Weapons",
+            :weapon-capacity 8,
+            :mass 5,
+            :meta {:plugin :vanilla,
+                   :image {:file "outfit/torpedopod.png",
+                           :origin :vanilla}},
+            :race :human,
+            :weapon {:submunition nil,
+                     :sound "torpedo",
+                     :hull-damage {:per-second 127.5, :per-shot 680},
+                     :ammo "Torpedo",
+                     :shield-damage {:per-second 127.5, :per-shot 680},
+                     :icon "icon/torpedo",
+                     :hit-force 300,
+                     :sprite "projectile/torpedo",
+                     :turn 1.5,
+                     :inaccuracy 5,
+                     :burst-reload 150,
+                     :missile-strength 30,
+                     :die-effect "tiny explosion",
+                     :fire-effect "torpedo fire",
+                     :firing-heat {:per-second 8.4375, :per-shot 45},
+                     :lifetime 900,
+                     :reload 320,
+                     :optical-tracking 0.8,
+                     :hit-effect "torpedo hit",
+                     :burst-count 3,
+                     :drag 0.025,
+                     :acceleration 0.15,
+                     :velocity 7,
+                     :firing-energy {:per-second 0.375, :per-shot 2},
+                     :homing 3,
+                     :range 6300,
+                     :shots-per-second 0.1875},
+            :name "Torpedo Pod",
+            :torpedo-capacity 3,
+            :file "game/data/human/weapons.txt",
+            :outfit-space 8,
+            :licenses [],
+            :thumbnail "outfit/torpedopod",
+            :cost 30000,
+            :gun-ports -1}
            {:description ["Typhoon Torpedoes are ammunition for the Typhoon Launcher. Each launcher can hold 30 of them. You cannot install Typhoon Torpedoes unless you have also installed a launcher to fire them from."],
             :category "Ammunition",
             :mass 0.5,
@@ -25083,6 +25314,50 @@
             :thumbnail "outfit/typhoon launcher",
             :cost 260000,
             :gun-ports -1}
+           {:description ["Typhoon Torpedoes are an improved torpedo technology; they do considerably more damage than ordinary torpedoes. However, they are also much slower, because they are intended mostly for use against large and slow-moving capital ships. As a result, sufficiently skilled pilots can often dodge around them."
+                          "\tPods enable fighters and other light craft to carry small quantities of typhoon torpedoes into battle while retaining enough space for other weapons. Large ships are better off with full-size launchers."],
+            :category "Secondary Weapons",
+            :weapon-capacity 12,
+            :mass 6,
+            :meta {:plugin :vanilla,
+                   :image {:file "outfit/typhoonpod.png",
+                           :origin :vanilla}},
+            :race :human,
+            :weapon {:submunition nil,
+                     :sound "typhoon",
+                     :hull-damage {:per-second 1104, :per-shot 920},
+                     :ammo "Typhoon Torpedo",
+                     :shield-damage {:per-second 1104, :per-shot 920},
+                     :icon "icon/typhoon",
+                     :hit-force 450,
+                     :sprite "projectile/typhoon",
+                     :turn 1.5,
+                     :inaccuracy 5,
+                     :burst-reload 120,
+                     :missile-strength 40,
+                     :die-effect "tiny explosion",
+                     :fire-effect "typhoon fire",
+                     :firing-heat {:per-second 60, :per-shot 50},
+                     :lifetime 1100,
+                     :reload 50,
+                     :optical-tracking 0.9,
+                     :hit-effect "torpedo hit",
+                     :burst-count 2,
+                     :drag 0.02,
+                     :acceleration 0.1,
+                     :velocity 6,
+                     :firing-energy {:per-second 4.8, :per-shot 4},
+                     :homing 4,
+                     :range 6600,
+                     :shots-per-second 1.2},
+            :name "Typhoon Pod",
+            :file "game/data/human/weapons.txt",
+            :outfit-space 12,
+            :licenses [],
+            :typhoon-capacity 2,
+            :thumbnail "outfit/typhoonpod",
+            :cost 100000,
+            :gun-ports -1}
            {:description ["Heavy Rockets are ammunition for the Heavy Rocket Launcher. You cannot install one unless you have first installed a launcher to fire it from. Each launcher holds up to 20 rockets."],
             :category "Ammunition",
             :mass 0.5,
@@ -25149,6 +25424,49 @@
             :thumbnail "outfit/rocket launcher",
             :cost 40000,
             :rocket-capacity 20,
+            :gun-ports -1}
+           {:description ["Heavy Rockets are the most powerful missile weapon available, but at a price: instead of having a homing system, they simply fire straight forward and rely on a proximity trigger to set them off. Once triggered, however, they damage all ships within their blast radius, making them highly effective against clusters of fighters."
+                          "\tPods enable fighters and other light craft to carry small quantities of rockets into battle while retaining enough space for other weapons. Large ships are better off with full-size launchers."],
+            :category "Secondary Weapons",
+            :weapon-capacity 6,
+            :mass 3,
+            :meta {:plugin :vanilla,
+                   :image {:file "outfit/rocket pod.png",
+                           :origin :vanilla}},
+            :race :human,
+            :weapon {:range-override 500,
+                     :submunition nil,
+                     :sound "rocket",
+                     :hull-damage {:per-second 86.4, :per-shot 720},
+                     :ammo "Heavy Rocket",
+                     :shield-damage {:per-second 102, :per-shot 850},
+                     :trigger-radius 20,
+                     :icon "icon/rocket",
+                     :hit-force 600,
+                     :sprite "projectile/rocket",
+                     :inaccuracy 1,
+                     :burst-reload 240,
+                     :missile-strength 16,
+                     :die-effect "small explosion",
+                     :firing-heat {:per-second 30, :per-shot 250},
+                     :lifetime 125,
+                     :reload 500,
+                     :hit-effect "heavy rocket hit",
+                     :burst-count 3,
+                     :drag 0.1,
+                     :acceleration 0.8,
+                     :velocity 8,
+                     :firing-energy {:per-second 0.12, :per-shot 1},
+                     :blast-radius 50,
+                     :range 1000,
+                     :shots-per-second 0.12},
+            :name "Heavy Rocket Pod",
+            :file "game/data/human/weapons.txt",
+            :outfit-space 6,
+            :licenses [],
+            :thumbnail "outfit/rocket pod",
+            :cost 15000,
+            :rocket-capacity 2,
             :gun-ports -1}
            {:description ["It has been centuries since the last nuclear war was fought, and until very recently, most people in the galaxy assumed that that era of chaos and destruction was forever behind us..."
                           "\t[Nuclear missiles are a one-shot weapon: each missile occupies a gun slot, and after it is fired, the slot it was in is left empty.]"],
@@ -31888,7 +32206,7 @@
                                     ".png"
                                     "gw/images/.png"
                                     "game/images/.png"]}}}
-           {:description ["As the label says, this weapon will paralyze most ships in mere seconds."],
+           {:description ["Erm laser. As the label says, this weapon will paralyze most ships in mere seconds."],
             :category "Guns",
             :weapon-capacity 18,
             :mass 18,
@@ -31920,7 +32238,7 @@
             :thumbnail "outfit/unknown",
             :cost 20000000,
             :gun-ports -1}
-           {:description [],
+           {:description ["Erm standard weapon found on most Erm warship"],
             :category "Guns",
             :weapon-capacity 28,
             :mass 28,
@@ -31953,7 +32271,7 @@
             :thumbnail "outfit/unknown",
             :cost 7600000,
             :gun-ports -1}
-           {:description [],
+           {:description ["Erm standard weapon found on most Erm warship"],
             :category "Turrets",
             :weapon-capacity 80,
             :mass 80,
@@ -31989,7 +32307,7 @@
             :licenses [],
             :thumbnail "outfit/erm nordel",
             :cost 23000000}
-           {:description [],
+           {:description ["Erm anti-captial cannon"],
             :category "Turrets",
             :weapon-capacity 120,
             :mass 120,
@@ -32027,7 +32345,7 @@
             :licenses [],
             :thumbnail "outfit/erm korlar",
             :cost 37000000}
-           {:description [],
+           {:description ["Erm anti-fighter turret"],
             :category "Turrets",
             :weapon-capacity 16,
             :mass 16,
@@ -32062,7 +32380,7 @@
             :licenses [],
             :thumbnail "outfit/quad blaster turret",
             :cost 1400000}
-           {:description [],
+           {:description ["One of the smallest weapon made and used by Erm, these are generally ineffective against similarly advanced technologies."],
             :category "Guns",
             :weapon-capacity 10,
             :mass 10,
@@ -32071,7 +32389,7 @@
                            :origin :galactic-war}},
             :race :erm,
             :weapon {:submunition nil,
-                     :sound "anti-missile",
+                     :sound "gw energy4",
                      :hull-damage {:per-second 375, :per-shot 50},
                      :shield-damage {:per-second 337.5, :per-shot 45},
                      :sprite "projectile/georlen",
@@ -32091,7 +32409,7 @@
             :thumbnail "outfit/erm zouron",
             :cost 800000,
             :gun-ports -1}
-           {:description [],
+           {:description ["One of the smallest weapon made and used by Erm, these are generally ineffective against similarly advanced technologies."],
             :category "Turrets",
             :weapon-capacity 12,
             :mass 12,
@@ -32100,7 +32418,7 @@
                            :origin :galactic-war}},
             :race :erm,
             :weapon {:submunition nil,
-                     :sound "anti-missile",
+                     :sound "gw energy4",
                      :hull-damage {:per-second 375, :per-shot 50},
                      :shield-damage {:per-second 337.5, :per-shot 45},
                      :hardpoint-offset 9.0,
@@ -32123,7 +32441,7 @@
             :licenses [],
             :thumbnail "outfit/erm zouron turret",
             :cost 1000000}
-           {:description [],
+           {:description ["Erm Anti-missile system."],
             :category "Turrets",
             :weapon-capacity 12,
             :mass 12,
@@ -32150,7 +32468,7 @@
             :thumbnail "outfit/unknown",
             :cost 3500000,
             :mps 1}
-           {:description [""],
+           {:description ["Erm power generator."],
             :category "Power",
             :mass 150,
             :meta {:plugin :galactic-war,
@@ -32163,10 +32481,10 @@
             :licenses [],
             :heat-generation 3600,
             :thumbnail "outfit/unknown",
-            :energy-generation 24000,
+            :energy-generation 27600,
             :energy-capacity 12000,
             :cost 215000000}
-           {:description [""],
+           {:description ["Erm power generator."],
             :category "Power",
             :mass 120,
             :meta {:plugin :galactic-war,
@@ -32182,7 +32500,7 @@
             :energy-generation 20400,
             :energy-capacity 10000,
             :cost 215000000}
-           {:description [""],
+           {:description ["Erm small power generator."],
             :category "Power",
             :mass 50,
             :meta {:plugin :galactic-war,
@@ -32198,7 +32516,7 @@
             :energy-generation 10800,
             :energy-capacity 9000,
             :cost 110000000}
-           {:description [""],
+           {:description ["Erm tiny power generator."],
             :category "Power",
             :mass 20,
             :meta {:plugin :galactic-war,
@@ -32228,7 +32546,7 @@
             :thumbnail "outfit/unknown",
             :cooling 7800,
             :cost 480000}
-           {:description [""],
+           {:description ["Erm huge shield generator, found on the largest Erm cruisers and battleships"],
             :category "Systems",
             :mass 200,
             :meta {:plugin :galactic-war,
@@ -32243,7 +32561,7 @@
             :cost 3000000,
             :shield-generation 12000,
             :shield-energy 10800}
-           {:description [""],
+           {:description ["Erm small shield generator."],
             :category "Systems",
             :mass 20,
             :meta {:plugin :galactic-war,
@@ -32258,7 +32576,7 @@
             :cost 900000,
             :shield-generation 1200,
             :shield-energy 600}
-           {:description [""],
+           {:description ["Erm tiny shield generator."],
             :category "Systems",
             :mass 10,
             :meta {:plugin :galactic-war,
@@ -32273,7 +32591,7 @@
             :cost 900000,
             :shield-generation 600,
             :shield-energy 300}
-           {:description [],
+           {:description ["Erm engines."],
             :category "Engines",
             :flare-sprite "effect/harken graviton flare",
             :mass 120,
@@ -32303,7 +32621,7 @@
             :afterburner-thrust 122400,
             :reverse-thrusting-heat 600,
             :jump-speed 7}
-           {:description [],
+           {:description ["Erm engines."],
             :category "Engines",
             :flare-sprite "effect/harken graviton flare",
             :mass 70,
@@ -32333,7 +32651,7 @@
             :afterburner-thrust 64800,
             :reverse-thrusting-heat 600,
             :jump-speed 7}
-           {:description [],
+           {:description ["Erm engines."],
             :category "Engines",
             :flare-sprite "effect/tiny harken graviton flare",
             :mass 30,
@@ -33695,7 +34013,7 @@
             :thumbnail "outfit/ignaggen telour",
             :energy-generation 2100,
             :cost 6800000}
-           {:description [],
+           {:description ["Ignaggen energy storage"],
             :category "Power",
             :mass 15,
             :meta {:plugin :galactic-war,
@@ -33709,7 +34027,7 @@
             :thumbnail "outfit/aeon cell",
             :energy-capacity 3000,
             :cost 230000}
-           {:description [],
+           {:description ["Ignaggen energy storage"],
             :category "Power",
             :mass 46,
             :meta {:plugin :galactic-war,
@@ -33723,7 +34041,7 @@
             :thumbnail "outfit/aeon cell",
             :energy-capacity 9000,
             :cost 400000}
-           {:description ["An ultra compact capacitor with downside of generating some amount of heat."],
+           {:description ["An ultra compact Ignaggen capacitor with downside of generating some amount of heat."],
             :category "Power",
             :mass 4,
             :meta {:plugin :galactic-war,
@@ -33785,7 +34103,7 @@
             :outfit-space 20,
             :licenses [],
             :thumbnail "outfit/ignaggen shield small",
-            :shield-protection 0.1,
+            :shield-protection 0.05,
             :cost 38000,
             :disruption-protection 0.2,
             :shield-generation 12,
@@ -33821,7 +34139,7 @@
             :outfit-space 46,
             :licenses [],
             :thumbnail "outfit/ignaggen shield small",
-            :shield-protection 0.1,
+            :shield-protection 0.2,
             :cost 110000,
             :disruption-protection 0.7,
             :shield-generation 31.8,
@@ -34332,7 +34650,7 @@
             :thumbnail "outfit/kroom golkar turret",
             :cost 86000,
             :golkar-capacity 12}
-           {:description [""],
+           {:description ["Kroom tiny battery"],
             :category "Power",
             :mass 10,
             :meta {:plugin :galactic-war,
@@ -34346,7 +34664,7 @@
             :thumbnail "outfit/tiny battery",
             :energy-capacity 1000,
             :cost 12000}
-           {:description [""],
+           {:description ["Kroom small battery"],
             :category "Power",
             :mass 18,
             :meta {:plugin :galactic-war,
@@ -34360,7 +34678,7 @@
             :thumbnail "outfit/small battery",
             :energy-capacity 1950,
             :cost 26000}
-           {:description [""],
+           {:description ["Kroom medium battery"],
             :category "Power",
             :mass 45,
             :meta {:plugin :galactic-war,
@@ -34374,7 +34692,7 @@
             :thumbnail "outfit/medium battery",
             :energy-capacity 4900,
             :cost 100000}
-           {:description [""],
+           {:description ["Kroom large battery"],
             :category "Power",
             :mass 80,
             :meta {:plugin :galactic-war,
@@ -34388,13 +34706,13 @@
             :thumbnail "outfit/large battery",
             :energy-capacity 10000,
             :cost 145000}
-           {:description [""],
+           {:description ["Kroom solar panel"],
             :category "Power",
             :mass 3,
             :meta {:plugin :galactic-war,
                    :image {:file "outfit/tiny photovoltaic.png",
                            :origin :vanilla}},
-            :solar-collection 6,
+            :solar-collection 7.2,
             :race :kroom,
             :name "Biuger Photovoltaic Panel",
             :file "gw/data/Kroom/Kroom outfits.txt",
@@ -34402,7 +34720,7 @@
             :licenses [],
             :thumbnail "outfit/tiny photovoltaic",
             :cost 10000}
-           {:description ["Powerful and rugged generator protected against ionization weapon widely used by their opponent, Geeva."],
+           {:description ["Kroom's powerful and rugged generator protected against ionization weapon widely used by their opponent, Geeva."],
             :ion-protection 1,
             :category "Power",
             :mass 20,
@@ -34450,7 +34768,7 @@
             :thumbnail "outfit/tiny fuel cell",
             :energy-generation 498,
             :cost 105000}
-           {:description [""],
+           {:description ["Kroom power generator, while it is more powerful than their fuel cells it is more vulnerable to ion damages."],
             :ion-protection 0.02,
             :category "Power",
             :mass 34,
@@ -34466,7 +34784,7 @@
             :thumbnail "outfit/tiny fuel cell",
             :energy-generation 240,
             :cost 310000}
-           {:description [""],
+           {:description ["Kroom fission reactor"],
             :ion-protection 0.5,
             :category "Power",
             :mass 60,
@@ -34482,7 +34800,7 @@
             :thumbnail "outfit/fission",
             :energy-generation 534,
             :cost 1800000}
-           {:description [""],
+           {:description ["Kroom large fission reactor"],
             :ion-protection 0.7,
             :category "Power",
             :mass 101,
@@ -34498,7 +34816,7 @@
             :thumbnail "outfit/fission",
             :energy-generation 756,
             :cost 3000000}
-           {:description [""],
+           {:description ["Kroom tiny shield"],
             :category "Systems",
             :mass 13,
             :meta {:plugin :galactic-war,
@@ -34513,7 +34831,7 @@
             :cost 18000,
             :shield-generation 10.8,
             :shield-energy 11.4}
-           {:description [""],
+           {:description ["Kroom small shield"],
             :category "Systems",
             :mass 21,
             :meta {:plugin :galactic-war,
@@ -34528,7 +34846,7 @@
             :cost 26000,
             :shield-generation 14.4,
             :shield-energy 16.8}
-           {:description [""],
+           {:description ["Kroom medium shield"],
             :category "Systems",
             :mass 36,
             :meta {:plugin :galactic-war,
@@ -34543,7 +34861,7 @@
             :cost 32000,
             :shield-generation 31.2,
             :shield-energy 36}
-           {:description [""],
+           {:description ["Kroom large shield"],
             :category "Systems",
             :mass 45,
             :meta {:plugin :galactic-war,
@@ -34559,7 +34877,7 @@
             :shield-generation 46.8,
             :shield-energy 48}
            {:flare-sound "plasma tiny",
-            :description ["These are very rugged and powerful thruster for the size."],
+            :description ["These are Kroom's rugged and powerful thruster for the size."],
             :category "Engines",
             :flare-sprite "effect/plasma flare/tiny",
             :mass 18,
@@ -34579,7 +34897,7 @@
             :thrust 54000,
             :cost 22000}
            {:flare-sound "plasma small",
-            :description [""],
+            :description ["Kroom thrusters are resistant against damage."],
             :category "Engines",
             :flare-sprite "effect/plasma flare/small",
             :mass 35,
@@ -34599,7 +34917,7 @@
             :thrust 114480,
             :cost 43000}
            {:flare-sound "plasma large",
-            :description [""],
+            :description ["Large Kroom thruster"],
             :category "Engines",
             :flare-sprite "effect/plasma flare/large",
             :mass 80,
@@ -41999,7 +42317,258 @@
             :thumbnail "outfit/unknown",
             :cost 5000000,
             :gun-ports -1}
+           {:description [],
+            :category "Guns",
+            :weapon-capacity 46,
+            :mass 40,
+            :meta {:plugin :galactic-war,
+                   :image {:file "outfit/uoorn acid spitter.png",
+                           :origin :galactic-war}},
+            :race :uoorn,
+            :weapon {:range-override 500,
+                     :submunition ["Uoorn Acid Shots" 8],
+                     :sound "minelayer",
+                     :firing-hull 3,
+                     :sprite "projectile/uoorn acid shot",
+                     :inaccuracy 1.2,
+                     :turret-turn 12.000000178813934,
+                     :firing-heat {:per-second 138, :per-shot 23},
+                     :lifetime 2,
+                     :reload 10,
+                     :hit-effect "uoorn acid impact",
+                     :velocity 15,
+                     :firing-energy {:per-second 270, :per-shot 45},
+                     :range 630,
+                     :shots-per-second 6.0},
+            :name "Uoorn Acid Spitter Cavity",
+            :file "gw/data/Uoorn/uoorn outfits.txt",
+            :outfit-space 50,
+            :licenses [],
+            :required-crew 3,
+            :thumbnail "outfit/uoorn acid spitter",
+            :cost 235000,
+            :gun-ports -1}
+           {:file "gw/data/Uoorn/uoorn outfits.txt",
+            :name "Uoorn Acid Shots",
+            :category nil,
+            :licenses [],
+            :description [],
+            :thumbnail nil,
+            :race :uoorn,
+            :meta {:plugin :galactic-war,
+                   :image {:file ".png",
+                           :origin [:not-found
+                                    ".png"
+                                    "gw/images/.png"
+                                    "game/images/.png"]}}}
+           {:file "gw/data/Uoorn/uoorn outfits.txt",
+            :name "Uoorn Acid Sub2",
+            :category nil,
+            :licenses [],
+            :description [],
+            :thumbnail nil,
+            :race :uoorn,
+            :meta {:plugin :galactic-war,
+                   :image {:file ".png",
+                           :origin [:not-found
+                                    ".png"
+                                    "gw/images/.png"
+                                    "game/images/.png"]}}}
+           {:description ["it bites."],
+            :category "Turrets",
+            :weapon-capacity 23,
+            :mass 23,
+            :meta {:plugin :galactic-war,
+                   :image {:file "outfit/uoorn bite pod.png",
+                           :origin :galactic-war}},
+            :race :uoorn,
+            :weapon {:submunition nil,
+                     :sound "minelayer",
+                     :live-effect "uoorn trail",
+                     :hull-damage {:per-second 130, :per-shot 26},
+                     :shield-damage {:per-second 270, :per-shot 54},
+                     :radar-tracking 0.9,
+                     :stream nil,
+                     :sprite "projectile/uoorn biter proj",
+                     :turn 8,
+                     :inaccuracy 4,
+                     :turret-turn 192.00000286102295,
+                     :firing-heat {:per-second 40, :per-shot 8},
+                     :lifetime 25,
+                     :reload 12,
+                     :hit-effect "uoorn biter hit",
+                     :drag 0.05,
+                     :acceleration 1.5,
+                     :velocity 45,
+                     :firing-energy {:per-second 100, :per-shot 20},
+                     :homing 3,
+                     :range 1125,
+                     :shots-per-second 5.0},
+            :name "Uoorn Biter Pod",
+            :file "gw/data/Uoorn/uoorn outfits.txt",
+            :turret-mounts -1,
+            :outfit-space 23,
+            :licenses [],
+            :required-crew 1,
+            :thumbnail "outfit/uoorn bite pod",
+            :cost 160000}
+           {:description ["This pod shoots out homing tentacles that can stab through shieldings."],
+            :category "Turrets",
+            :weapon-capacity 40,
+            :mass 40,
+            :meta {:plugin :galactic-war,
+                   :image {:file "outfit/uoorn stab pod.png",
+                           :origin :galactic-war}},
+            :race :uoorn,
+            :weapon {:submunition nil,
+                     :sound "minelayer",
+                     :live-effect "uoorn trail",
+                     :hull-damage {:per-second 270, :per-shot 54},
+                     :shield-damage {:per-second 300, :per-shot 60},
+                     :fuel-damage 2,
+                     :radar-tracking 0.8,
+                     :stream nil,
+                     :sprite "projectile/uoorn stabber proj",
+                     :turn 4,
+                     :inaccuracy 1.2,
+                     :turret-turn 192.00000286102295,
+                     :piercing 0.5,
+                     :firing-heat {:per-second 80, :per-shot 16},
+                     :lifetime 30,
+                     :reload 12,
+                     :hit-effect "particle",
+                     :drag 0.03,
+                     :acceleration 0.9,
+                     :velocity 30,
+                     :firing-energy {:per-second 160, :per-shot 32},
+                     :homing 3,
+                     :range 900,
+                     :shots-per-second 5.0},
+            :name "Uoorn Stabber Pod",
+            :file "gw/data/Uoorn/uoorn outfits.txt",
+            :turret-mounts -1,
+            :outfit-space 40,
+            :licenses [],
+            :required-crew 2,
+            :thumbnail "outfit/uoorn stab pod",
+            :cost 460000}
+           {:description ["A large egg-like pod that shoot at stuffs."],
+            :category "Turrets",
+            :weapon-capacity 24,
+            :mass 24,
+            :meta {:plugin :galactic-war,
+                   :image {:file "outfit/uoorn defense pod.png",
+                           :origin :galactic-war}},
+            :race :uoorn,
+            :weapon {:submunition nil,
+                     :turret-turn 1200,
+                     :burst-reload 5,
+                     :firing-heat {:per-second 150, :per-shot 20},
+                     :lifetime 1,
+                     :reload 8,
+                     :hit-effect "uoorn defence pod fire",
+                     :burst-count 30,
+                     :anti-missile 7,
+                     :velocity 300,
+                     :firing-energy {:per-second 60, :per-shot 8},
+                     :range 300,
+                     :shots-per-second 7.5},
+            :name "Uoorn Defence Pod",
+            :file "gw/data/Uoorn/uoorn outfits.txt",
+            :turret-mounts -1,
+            :outfit-space 30,
+            :licenses [],
+            :thumbnail "outfit/uoorn defense pod",
+            :cost 845000}
            {:description [""],
+            :category "Systems",
+            :mass 45,
+            :meta {:plugin :galactic-war,
+                   :image {:file "outfit/unknown.png",
+                           :origin :vanilla}},
+            :race :uoorn,
+            :name "Uoorn Shield Preserver",
+            :file "gw/data/Uoorn/uoorn outfits.txt",
+            :outfit-space 45,
+            :licenses [],
+            :required-crew 1,
+            :thumbnail "outfit/unknown",
+            :cost 86000,
+            :shield-heat 120,
+            :shield-generation 105,
+            :shield-energy 120}
+           {:description [""],
+            :category "Powers",
+            :mass 20,
+            :meta {:plugin :galactic-war,
+                   :image {:file "outfit/unknown.png",
+                           :origin :vanilla}},
+            :race :uoorn,
+            :name "Uoorn Decomposer",
+            :file "gw/data/Uoorn/uoorn outfits.txt",
+            :outfit-space 34,
+            :licenses [],
+            :heat-generation 180,
+            :required-crew 1,
+            :thumbnail "outfit/unknown",
+            :energy-generation 90,
+            :cost 120000}
+           {:flare-sound "plasma small",
+            :description ["This appears to be the thing that allows Uoorns to move in space, though you have no idea how this thing works."],
+            :category "Engines",
+            :flare-sprite "effect/ion flare/small",
+            :mass 30,
+            :turning-energy 36,
+            :meta {:plugin :galactic-war,
+                   :image {:file "outfit/unknown.png",
+                           :origin :vanilla}},
+            :solar-collection 18,
+            :race :uoorn,
+            :name "Uoorn Star Glider",
+            :file "gw/data/Uoorn/uoorn outfits.txt",
+            :outfit-space 30,
+            :licenses [],
+            :ramscoop 0.3,
+            :required-crew 2,
+            :engine-capacity 30,
+            :turn 24000,
+            :thumbnail "outfit/unknown",
+            :turning-heat 24,
+            :thrusting-energy 84,
+            :thrusting-heat 42,
+            :thrust 58680,
+            :cost 185000}
+           {:flare-sound "plasma medium",
+            :description ["This appears to be another space mobility method for the Uoorn. It spews something out of the back but still too little for the mobility they have, there's probably more to it that you don't understand."],
+            :category "Engines",
+            :flare-sprite "effect/atomic flare/medium",
+            :mass 42,
+            :turning-energy 126,
+            :meta {:plugin :galactic-war,
+                   :image {:file "outfit/unknown.png",
+                           :origin :vanilla}},
+            :slowing-protection 3,
+            :slowing-resistance 6,
+            :race :uoorn,
+            :name "Uoorn Void Slip",
+            :file "gw/data/Uoorn/uoorn outfits.txt",
+            :outfit-space 42,
+            :licenses [],
+            :reverse-thrust 75240,
+            :required-crew 4,
+            :engine-capacity 42,
+            :turn 45000,
+            :reverse-thrusting-energy 204,
+            :thumbnail "outfit/unknown",
+            :turning-heat 96,
+            :thrusting-energy 216,
+            :slowing-resistance-energy 0.1,
+            :thrusting-heat 72,
+            :shield-energy-multiplier 0.1,
+            :thrust 92880,
+            :cost 392000,
+            :reverse-thrusting-heat 48}
+           {:description ["Vareen gun that accelerates particles to near lightspeed."],
             :category "Guns",
             :weapon-capacity 44,
             :mass 44,
@@ -42029,7 +42598,7 @@
             :thumbnail "outfit/vareen lismnia gun",
             :cost 800000,
             :gun-ports -1}
-           {:description [""],
+           {:description ["Turret version of Vareen Lismnia gun."],
             :category "Turrets",
             :weapon-capacity 50,
             :mass 50,
@@ -42063,7 +42632,7 @@
             :required-crew 1,
             :thumbnail "outfit/vareen lismnia turret",
             :cost 880000}
-           {:description [""],
+           {:description ["Medium sized Vareen turret, while not very powerful these will help them keep the enemy away."],
             :category "Turrets",
             :weapon-capacity 30,
             :mass 30,
@@ -42099,7 +42668,7 @@
             :licenses [],
             :thumbnail "outfit/vareen hiseni turret",
             :cost 280000}
-           {:description [""],
+           {:description ["Vareen gun"],
             :category "Guns",
             :weapon-capacity 30,
             :mass 30,
@@ -42108,7 +42677,7 @@
                            :origin :galactic-war}},
             :race :vareen,
             :weapon {:submunition nil,
-                     :sound "particle",
+                     :sound "gw egun",
                      :hull-damage {:per-second 252, :per-shot 63},
                      :shield-damage {:per-second 344, :per-shot 86},
                      :hit-force 40,
@@ -42130,7 +42699,7 @@
             :thumbnail "outfit/dels vokkar",
             :cost 520000,
             :gun-ports -1}
-           {:description [""],
+           {:description ["Vareen flak gun"],
             :category "Guns",
             :weapon-capacity 35,
             :mass 35,
@@ -42139,9 +42708,9 @@
                            :origin :galactic-war}},
             :race :vareen,
             :weapon {:submunition ["Itir Fragment" 8],
-                     :sound "ion",
-                     :hull-damage {:per-second 252, :per-shot 84},
-                     :shield-damage {:per-second 396, :per-shot 132},
+                     :sound "gw elauncher2",
+                     :hull-damage {:per-second 120, :per-shot 40},
+                     :shield-damage {:per-second 240, :per-shot 80},
                      :hit-force 48,
                      :sprite "projectile/itis",
                      :inaccuracy 0.5,
@@ -42174,7 +42743,7 @@
                                     ".png"
                                     "gw/images/.png"
                                     "game/images/.png"]}}}
-           {:description [""],
+           {:description ["Vareen antimissile"],
             :category "Turrets",
             :weapon-capacity 20,
             :mass 20,
@@ -42201,7 +42770,7 @@
             :licenses [],
             :thumbnail "outfit/warder",
             :cost 887000}
-           {:description [""],
+           {:description ["Vareen power generator"],
             :category "Power",
             :mass 90,
             :meta {:plugin :galactic-war,
@@ -42216,7 +42785,7 @@
             :thumbnail "outfit/hai boulder",
             :energy-generation 1380,
             :cost 9011000}
-           {:description [""],
+           {:description ["Vareen power generator"],
             :category "Power",
             :mass 50,
             :meta {:plugin :galactic-war,
@@ -42231,7 +42800,7 @@
             :thumbnail "outfit/hai geode",
             :energy-generation 540,
             :cost 1750000}
-           {:description ["."],
+           {:description ["Vareen tiny battery."],
             :category "Power",
             :mass 5,
             :meta {:plugin :galactic-war,
@@ -42245,7 +42814,7 @@
             :thumbnail "outfit/tiny battery hai",
             :energy-capacity 550,
             :cost 26000}
-           {:description ["."],
+           {:description ["Vareen small battery."],
             :category "Power",
             :mass 15,
             :meta {:plugin :galactic-war,
@@ -42259,7 +42828,7 @@
             :thumbnail "outfit/small battery hai",
             :energy-capacity 2050,
             :cost 38000}
-           {:description [""],
+           {:description ["Vareen medium battery"],
             :category "Power",
             :mass 30,
             :meta {:plugin :galactic-war,
@@ -42273,9 +42842,10 @@
             :thumbnail "outfit/medium battery hai",
             :energy-capacity 4080,
             :cost 71000}
-           {:description [""],
+           {:description ["Vareen tiny shield"],
             :category "Systems",
             :mass 15,
+            :force-protection 0.2,
             :meta {:plugin :galactic-war,
                    :image {:file "outfit/vareen shield small.png",
                            :origin :galactic-war}},
@@ -42290,9 +42860,10 @@
             :shield-heat 180,
             :shield-generation 72,
             :shield-energy 72}
-           {:description [""],
+           {:description ["Vareen medium shield"],
             :category "Systems",
             :mass 40,
+            :force-protection 0.8,
             :meta {:plugin :galactic-war,
                    :image {:file "outfit/vareen shield small.png",
                            :origin :galactic-war}},
@@ -42307,9 +42878,10 @@
             :shield-heat 360,
             :shield-generation 156,
             :shield-energy 156}
-           {:description [""],
+           {:description ["Vareen large shield"],
             :category "Systems",
             :mass 50,
+            :force-protection 1.1,
             :meta {:plugin :galactic-war,
                    :image {:file "outfit/vareen shield small.png",
                            :origin :galactic-war}},
@@ -47911,6 +48483,7 @@
                          "nGVF-AA Fuel Cell"
                          "Cooling Ducts"
                          "X2700 Ion Thruster"
+                         "Meteor Missile Pod"
                          "Small Radar Jammer"
                          "Small Bunk Room"
                          "LP036a Battery Pack"
@@ -47981,13 +48554,14 @@
                          {:name "Wayfarer", :system "Tarazed"}
                          {:name "Zug", :system "Zubeneschamali"})}
               {:name "Basic Weapons",
-               :outfits ("Energy Blaster"
-                         "Blaster Turret"
+               :outfits ("Meteor Missile Box"
+                         "Meteor Missile Pod"
+                         "Energy Blaster"
+                         "Local Map"
                          "Beam Laser"
-                         "Meteor Missile"
                          "Meteor Missile Launcher"
-                         "Meteor Missile Box"
-                         "Local Map"),
+                         "Blaster Turret"
+                         "Meteor Missile"),
                :planets ()}
               {:name "Ammo North",
                :outfits ("Meteor Missile"
@@ -48122,6 +48696,7 @@
                          "Ramscoop"
                          "A250 Atomic Thruster"
                          "Luxury Accommodations"
+                         "Torpedo Pod"
                          "D23-QP Shield Generator"
                          "A255 Atomic Steering"
                          "A370 Atomic Thruster"
@@ -48153,6 +48728,7 @@
                :outfits ("Cargo Scanner"
                          "Luxury Accommodations"
                          "D23-QP Shield Generator"
+                         "Sidewinder Missile Pod"
                          "Torpedo"
                          "Sidewinder Missile"
                          "Sidewinder Missile Rack"
@@ -48180,9 +48756,11 @@
                          "Fusion Reactor"
                          "Luxury Accommodations"
                          "Heavy Anti-Missile Turret"
+                         "Torpedo Pod"
                          "Scram Drive"
                          "D23-QP Shield Generator"
                          "Torpedo Storage Rack"
+                         "Sidewinder Missile Pod"
                          "Torpedo"
                          "A120 Atomic Thruster"
                          "Sidewinder Missile"
@@ -48197,7 +48775,8 @@
                          {:name "Hermes", :system "Capella"}
                          {:name "Shroud", :system "Alheka"})}
               {:name "Delta V Basics",
-               :outfits ("Javelin Pod"
+               :outfits ("Javelin Mini Pod"
+                         "Javelin Pod"
                          "Javelin Storage Crate"
                          "Small Radar Jammer"
                          "Heavy Rocket"
@@ -48221,9 +48800,11 @@
               {:name "Delta V Advanced",
                :outfits ("Modified Blaster"
                          "Meteor Missile Box"
+                         "Javelin Mini Pod"
                          "Javelin Pod"
                          "Impala Plasma Steering"
                          "Javelin Storage Crate"
+                         "Meteor Missile Pod"
                          "Small Radar Jammer"
                          "Heavy Rocket"
                          "Chipmunk Plasma Steering"
@@ -48234,6 +48815,7 @@
                          "Capybara Reverse Thruster"
                          "Heavy Rocket Launcher"
                          "Impala Plasma Thruster"
+                         "Heavy Rocket Pod"
                          "Large Radar Jammer"
                          "Greyhound Plasma Steering"
                          "Javelin"
@@ -48252,6 +48834,7 @@
                          {:name "Zug", :system "Zubeneschamali"})}
               {:name "Syndicate Basics",
                :outfits ("Meteor Missile Box"
+                         "Meteor Missile Pod"
                          "Chipmunk Plasma Steering"
                          "D23-QP Shield Generator"
                          "Chipmunk Plasma Thruster"
@@ -48283,11 +48866,14 @@
                :outfits ("Proton Gun"
                          "Meteor Missile Box"
                          "X5700 Ion Thruster"
+                         "Javelin Mini Pod"
                          "Javelin Pod"
                          "Javelin Storage Crate"
+                         "Meteor Missile Pod"
                          "Luxury Accommodations"
                          "X4700 Ion Thruster"
                          "Proton Turret"
+                         "Torpedo Pod"
                          "Chipmunk Plasma Steering"
                          "Scram Drive"
                          "D23-QP Shield Generator"
@@ -48352,6 +48938,7 @@
                          "Liquid Helium Cooler"
                          "nGVF-EE Fuel Cell"
                          "Small Radar Jammer"
+                         "Torpedo Pod"
                          "Chipmunk Plasma Steering"
                          "D23-QP Shield Generator"
                          "Chipmunk Plasma Thruster"
@@ -48410,6 +48997,26 @@
               {:name "Nuke",
                :outfits ("Nuclear Missile"),
                :planets ()}
+              {:name "Ka'het",
+               :outfits ("Ka'het Ravager Turret"
+                         "Ka'het Primary Cooling"
+                         "Ka'het Reserve Accumulator"
+                         "Vareti Engine Block"
+                         "EMP Torpedo"
+                         "Ka'het Shield Restorer"
+                         "Ka'het Annihilator Turret"
+                         "Ka'het Annihilator"
+                         "Ka'het Support Cooling"
+                         "Ka'het Sustainer Nacelles"
+                         "Ka'het EMP Deployer"
+                         "Ka'het Ravager Beam"
+                         "Ka'het MHD Generator"
+                         "Telis Engine Nacelles"
+                         "Maeri Engine Nacelles"
+                         "Ka'het Nullifier"
+                         "Ka'het Compact Engine"
+                         "Ka'het Grand Restorer"),
+               :planets ()}
               {:name "Korath Basics",
                :outfits ("Command Center"
                          "Small Bunk Room"
@@ -48423,6 +49030,36 @@
                          "Korath Piercer Rack"),
                :planets ({:name "Laki Nemparu", :system "Kashikt"}
                          {:name "Setar Fort", :system "Sevrelect"})}
+              {:name "Korath Exiles",
+               :outfits ("Command Center"
+                         "Systems Core (Medium)"
+                         "Korath Banisher"
+                         "Steering (Lunar Class)"
+                         "Steering (Planetary Class)"
+                         "Steering (Asteroid Class)"
+                         "Systems Core (Large)"
+                         "Thruster (Planetary Class)"
+                         "Small Bunk Room"
+                         "Systems Core (Small)"
+                         "Bunk Room"
+                         "Outfits Expansion"
+                         "Fuel Processor"
+                         "Jump Drive"
+                         "Large Heat Shunt"
+                         "Triple Plasma Core"
+                         "Hyperdrive"
+                         "Korath Fire-Lance"
+                         "Local Map"
+                         "Thruster (Asteroid Class)"
+                         "Small Heat Shunt"
+                         "Korath Repeater Rifle"
+                         "Jump Drive (Broken)"
+                         "Cargo Expansion"
+                         "Thruster (Comet Class)"
+                         "Generator (Furnace Class)"
+                         "Korath Grab-Strike"
+                         "Korath Warder"),
+               :planets ()}
               {:name "Remnant",
                :outfits ("Epoch Cell"
                          "Cargo Scanner"
@@ -48562,6 +49199,7 @@
                          "Syfar-3 Turret"
                          "FM10M Gun Group2"
                          "Mocoro Thruster"
+                         "Uoorn Star Glider"
                          "A-type Heat Re-distributor"
                          "MPa60Gp-02 Engines"
                          "Nirilar-05 Anti-Missile"
@@ -48785,6 +49423,7 @@
                          "Hvean Thruster"
                          "Kubr Repair Drones"
                          "Krogak Missile Box"
+                         "Uoorn Void Slip"
                          "Huer CIWS Turret"
                          "Auker Steering"
                          "Georlen Gun"
@@ -48906,6 +49545,7 @@
                          "Kainar Mass Accelerator"
                          "J6 KED Turret"
                          "DIT6 Steering"
+                         "Uoorn Decomposer"
                          "Hao Ion Engines"
                          "Fitar Anti-Missile"
                          "Ultaka Destroyer Cannon"
@@ -48913,6 +49553,7 @@
                          "XB-60 Blaster"
                          "Auker Thruster"
                          "MPa20Sb-04 Engines"
+                         "Uoorn Acid Spitter Cavity"
                          "Iogel03-04 Thruster"
                          "Enuda-type Core"
                          "Gelaf Shield Generator"
@@ -48953,9 +49594,11 @@
                          "E40R-E"
                          "K1180 Battery Pack"
                          "Varsrel Drone Launcher"
+                         "Uoorn Defence Pod"
                          "Skue-8 Reverse Blaster"
                          "Sakkaid Blaster"
                          "Ivtorne Thruster"
+                         "Uoorn Biter Pod"
                          "Asutur Thruster"
                          "Otsarui-ian Steering"
                          "Qutaran Thruster"
@@ -49085,6 +49728,7 @@
                          "C10-W Hinlar Core"
                          "Estera Shield Generator"
                          "J1 MES Gun"
+                         "Uoorn Shield Preserver"
                          "Yalgos Shield Generator"
                          "Kal-4 Engines"
                          "Klingar Laser"
@@ -49119,6 +49763,7 @@
                          "Huer II CIWS Turret"
                          "Syfar-Penta Turret"
                          "Nurhid-1 Core"
+                         "Uoorn Stabber Pod"
                          "Etlnak Reactor"
                          "Saikel-4 Launcher"),
                :planets ({:name "Meggiven", :system "Luggaru"}
@@ -49159,6 +49804,7 @@
                          "Syfar-3 Turret"
                          "FM10M Gun Group2"
                          "Mocoro Thruster"
+                         "Uoorn Star Glider"
                          "A-type Heat Re-distributor"
                          "MPa60Gp-02 Engines"
                          "Nirilar-05 Anti-Missile"
@@ -49380,6 +50026,7 @@
                          "Hvean Thruster"
                          "Kubr Repair Drones"
                          "Krogak Missile Box"
+                         "Uoorn Void Slip"
                          "Huer CIWS Turret"
                          "Auker Steering"
                          "Georlen Gun"
@@ -49500,6 +50147,7 @@
                          "Kainar Mass Accelerator"
                          "J6 KED Turret"
                          "DIT6 Steering"
+                         "Uoorn Decomposer"
                          "Hao Ion Engines"
                          "Fitar Anti-Missile"
                          "Ultaka Destroyer Cannon"
@@ -49507,6 +50155,7 @@
                          "XB-60 Blaster"
                          "Auker Thruster"
                          "MPa20Sb-04 Engines"
+                         "Uoorn Acid Spitter Cavity"
                          "Iogel03-04 Thruster"
                          "Enuda-type Core"
                          "Gelaf Shield Generator"
@@ -49547,9 +50196,11 @@
                          "E40R-E"
                          "K1180 Battery Pack"
                          "Varsrel Drone Launcher"
+                         "Uoorn Defence Pod"
                          "Skue-8 Reverse Blaster"
                          "Sakkaid Blaster"
                          "Ivtorne Thruster"
+                         "Uoorn Biter Pod"
                          "Asutur Thruster"
                          "Otsarui-ian Steering"
                          "Qutaran Thruster"
@@ -49678,6 +50329,7 @@
                          "C10-W Hinlar Core"
                          "Estera Shield Generator"
                          "J1 MES Gun"
+                         "Uoorn Shield Preserver"
                          "Yalgos Shield Generator"
                          "Kal-4 Engines"
                          "Klingar Laser"
@@ -49712,6 +50364,7 @@
                          "Huer II CIWS Turret"
                          "Syfar-Penta Turret"
                          "Nurhid-1 Core"
+                         "Uoorn Stabber Pod"
                          "Etlnak Reactor"
                          "Saikel-4 Launcher"),
                :planets ({:name "Meggiven", :system "Luggaru"}
@@ -52464,8 +53117,8 @@
                                      "data/interfaces.txt"},
                      :race-overrides {"data/human/marauders.txt" :pirate,
                                       "data/drak/indigenous.txt" :indigenous},
-                     :version {:hash "2fd9f8883ccc4bcfcd62e9aa12194f0941572543",
-                               :date "2021-08-12"}},
+                     :version {:hash "21f47c3aa92eeb144c4c07c8566b633547286dde",
+                               :date "2021-08-17"}},
            :galactic-war {:name "Galactic War",
                           :key :galactic-war,
                           :resource-dir "gw",
@@ -52473,8 +53126,8 @@
                           :base-image-url "https://raw.githubusercontent.com/1010todd/Galactic-War/master/images/",
                           :ignore-files #{"data/Ultaka/Ultaka mothership weapon.txt"},
                           :race-overrides {},
-                          :version {:hash "16fa6fcefc67848e3fdd0bf8853603236082fb70",
-                                    :date "2021-08-13"}},
+                          :version {:hash "85d9f859bd1829f946c489f77ae48bae66a007f3",
+                                    :date "2021-08-16"}},
            :altera {:name "Altera",
                     :key :altera,
                     :resource-dir "altera",
