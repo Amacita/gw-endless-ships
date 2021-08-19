@@ -21,7 +21,7 @@
           :required-crew 1,
           :engine-capacity 40,
           :sprite ["ship/arach courier" false],
-          :cargo-space 78,
+          :cargo-space 94,
           :thumbnail "thumbnail/arach courier",
           :hull 2000,
           :bunks 1,
@@ -55,7 +55,7 @@
           :required-crew 3,
           :engine-capacity 92,
           :sprite ["ship/arach freighter" false],
-          :cargo-space 310,
+          :cargo-space 372,
           :thumbnail "thumbnail/arach freighter",
           :hull 8500,
           :bunks 10,
@@ -90,7 +90,7 @@
           :required-crew 8,
           :engine-capacity 148,
           :sprite ["ship/arach hulk" false],
-          :cargo-space 541,
+          :cargo-space 688,
           :thumbnail "thumbnail/arach hulk",
           :hull 13800,
           :bunks 14,
@@ -126,7 +126,7 @@
           :required-crew 4,
           :engine-capacity 148,
           :sprite ["ship/arach spindle" false],
-          :cargo-space 280,
+          :cargo-space 392,
           :thumbnail "thumbnail/arach spindle",
           :hull 9700,
           :bunks 14,
@@ -159,7 +159,7 @@
           :required-crew 2,
           :engine-capacity 70,
           :sprite ["ship/arach transport" false],
-          :cargo-space 190,
+          :cargo-space 228,
           :thumbnail "thumbnail/arach transport",
           :hull 4800,
           :bunks 5,
@@ -533,14 +533,14 @@
           :required-crew 3,
           :engine-capacity 60,
           :sprite ["ship/kimek briar" false],
-          :cargo-space 21,
+          :cargo-space 23,
           :thumbnail "thumbnail/kimek briar",
           :hull 1700,
-          :bunks 25,
+          :bunks 38,
           :fuel-capacity 700,
           :guns 2,
           :shields 3600}
-         {:description ["The Spire is the largest passenger transport in Coalition space, able to carry nearly two hundred individuals... as long as they're comfortable staying in the tiny bunk rooms that are primarily designed to meet the needs of a Kimek. Most of the ceilings are too short for a Saryd to stand up straight, and the beds are too small for an Arach to stretch their legs out comfortably."],
+         {:description ["The Spire is the largest passenger transport in Coalition space, able to carry nearly three hundred individuals... as long as they're comfortable staying in the tiny bunk rooms that are primarily designed to meet the needs of a Kimek. Most of the ceilings are too short for a Saryd to stand up straight, and the beds are too small for an Arach to stretch their legs out comfortably."],
           :category "Transport",
           :weapon-capacity 256,
           :outfits ({:name "Small Shield Module", :quantity 1}
@@ -567,10 +567,10 @@
           :required-crew 19,
           :engine-capacity 129,
           :sprite ["ship/kimek spire" false],
-          :cargo-space 64,
+          :cargo-space 70,
           :thumbnail "thumbnail/kimek spire",
           :hull 4900,
-          :bunks 197,
+          :bunks 296,
           :fuel-capacity 800,
           :guns 2,
           :shields 14200}
@@ -600,10 +600,10 @@
           :required-crew 7,
           :engine-capacity 87,
           :sprite ["ship/kimek thistle" false],
-          :cargo-space 29,
+          :cargo-space 32,
           :thumbnail "thumbnail/kimek thistle",
           :hull 2800,
-          :bunks 52,
+          :bunks 78,
           :fuel-capacity 700,
           :guns 2,
           :shields 7500}
@@ -630,10 +630,10 @@
           :required-crew 1,
           :engine-capacity 38,
           :sprite ["ship/kimek thorn" false],
-          :cargo-space 12,
+          :cargo-space 13,
           :thumbnail "thumbnail/kimek thorn",
           :hull 800,
-          :bunks 7,
+          :bunks 10,
           :fuel-capacity 600,
           :guns 2,
           :shields 1400}
@@ -660,10 +660,10 @@
           :required-crew 2,
           :engine-capacity 42,
           :sprite ["ship/saryd runabout" false],
-          :cargo-space 42,
+          :cargo-space 46,
           :thumbnail "thumbnail/saryd runabout",
           :hull 1400,
-          :bunks 13,
+          :bunks 14,
           :fuel-capacity 400,
           :guns 2,
           :shields 2000}
@@ -695,10 +695,10 @@
           :required-crew 17,
           :engine-capacity 156,
           :sprite ["ship/saryd sojourner" false],
-          :cargo-space 260,
+          :cargo-space 312,
           :thumbnail "thumbnail/saryd sojourner",
           :hull 7700,
-          :bunks 84,
+          :bunks 101,
           :fuel-capacity 800,
           :guns 2,
           :shields 13000}
@@ -729,10 +729,10 @@
           :required-crew 10,
           :engine-capacity 79,
           :sprite ["ship/saryd traveler" false],
-          :cargo-space 137,
+          :cargo-space 164,
           :thumbnail "thumbnail/saryd traveler",
           :hull 4000,
-          :bunks 45,
+          :bunks 54,
           :fuel-capacity 600,
           :guns 4,
           :shields 6500}
@@ -761,10 +761,10 @@
           :required-crew 5,
           :engine-capacity 57,
           :sprite ["ship/saryd visitor" false],
-          :cargo-space 98,
+          :cargo-space 108,
           :thumbnail "thumbnail/saryd visitor",
           :hull 2400,
-          :bunks 29,
+          :bunks 32,
           :fuel-capacity 400,
           :guns 2,
           :shields 4000}
@@ -35742,123 +35742,6 @@
             :thumbnail "outfit/nurbote",
             :plural "Nurbote",
             :cost 16000}
-           {:description [""],
-            :category "Power",
-            :mass 40,
-            :meta {:plugin :galactic-war,
-                   :image {:file "outfit/unknown.png",
-                           :origin :vanilla}},
-            :race :nuru,
-            :name "Palu Power Cells",
-            :file "gw/data/Nuru/nuru outfits.txt",
-            :outfit-space 40,
-            :licenses [],
-            :heat-generation 2400,
-            :thumbnail "outfit/unknown",
-            :energy-generation 2244,
-            :energy-capacity 4000,
-            :cost 677000}
-           {:description [""],
-            :category "Power",
-            :mass 60,
-            :meta {:plugin :galactic-war,
-                   :image {:file "outfit/unknown.png",
-                           :origin :vanilla}},
-            :race :nuru,
-            :name "Uora Power Cells",
-            :file "gw/data/Nuru/nuru outfits.txt",
-            :outfit-space 60,
-            :licenses [],
-            :heat-generation 3600,
-            :thumbnail "outfit/unknown",
-            :energy-generation 3360,
-            :energy-capacity 6000,
-            :cost 1877000}
-           {:description [""],
-            :category "Power",
-            :mass 30,
-            :meta {:plugin :galactic-war,
-                   :image {:file "outfit/unknown.png",
-                           :origin :vanilla}},
-            :race :nuru,
-            :name "Kepla Power Storage",
-            :file "gw/data/Nuru/nuru outfits.txt",
-            :outfit-space 30,
-            :licenses [],
-            :thumbnail "outfit/unknown",
-            :energy-capacity 16000,
-            :cost 1000000}
-           {:unplunderable 1,
-            :description ["Just like the exterior of the ship, even the surface inside of the ship is capable of emitting invisible beam. An attempt to board ships with these would be no different than diving into a star."],
-            :category "Systems",
-            :uninstallable -1,
-            :mass 0,
-            :integrated-system 1,
-            :meta {:plugin :galactic-war,
-                   :image {:file "outfit/unknown.png",
-                           :origin :vanilla}},
-            :race :nuru,
-            :name "Nuru Interior Defense System",
-            :file "gw/data/Nuru/nuru outfits.txt",
-            :outfit-space 0,
-            :licenses [],
-            :capture-defense 140,
-            :thumbnail "outfit/unknown"}
-           {:description [],
-            :category "Engines",
-            :flare-sprite "effect/mini_nuru engine",
-            :mass 80,
-            :turning-energy 288,
-            :meta {:plugin :galactic-war,
-                   :image {:file "outfit/unknown.png",
-                           :origin :vanilla}},
-            :jump-drive 1,
-            :race :nuru,
-            :name "Nuru Mini Void Motion System",
-            :file "gw/data/Nuru/nuru outfits.txt",
-            :outfit-space 80,
-            :licenses [],
-            :reverse-thrust 288000,
-            :engine-capacity 80,
-            :turn 60000,
-            :reverse-thrusting-energy 480,
-            :jump-fuel 200,
-            :thumbnail "outfit/unknown",
-            :turning-heat 480,
-            :thrusting-energy 480,
-            :thrusting-heat 960,
-            :thrust 288000,
-            :cost 16000000,
-            :reverse-thrusting-heat 960,
-            :jump-speed 0.07}
-           {:description ["Unlike any starship engine ever seen, these \"engines\" are installed at the core of the ship and yet somehow able to move the ship in any direction."],
-            :category "Engines",
-            :flare-sprite "effect/nuru engine",
-            :mass 120,
-            :turning-energy 390,
-            :meta {:plugin :galactic-war,
-                   :image {:file "outfit/unknown.png",
-                           :origin :vanilla}},
-            :jump-drive 1,
-            :race :nuru,
-            :name "Nuru Void Motion System",
-            :file "gw/data/Nuru/nuru outfits.txt",
-            :outfit-space 120,
-            :licenses [],
-            :reverse-thrust 432000,
-            :engine-capacity 120,
-            :turn 96000,
-            :nuru-weaponization 1,
-            :reverse-thrusting-energy 720,
-            :jump-fuel 200,
-            :thumbnail "outfit/unknown",
-            :turning-heat 720,
-            :thrusting-energy 720,
-            :thrusting-heat 1200,
-            :thrust 432000,
-            :cost 20000000,
-            :reverse-thrusting-heat 1200,
-            :jump-speed 0.07}
            {:unplunderable 1,
             :description ["[Author Note: These are not actual turret but required for functionality]"],
             :category "Turrets",
@@ -35962,6 +35845,141 @@
             :nuru-weaponization -1,
             :thumbnail "outfit/unknown",
             :cost 58000000}
+           {:description ["Nuru cloaking device, also packed with other systems such as radar jammer and scan interference system to prevent you from being tracked. Due to the installation requirements it may interfere with cooling system."],
+            :category "Systems",
+            :mass 32,
+            :meta {:plugin :galactic-war,
+                   :image {:file "outfit/unknown.png",
+                           :origin :vanilla}},
+            :race :nuru,
+            :name "El Si Presence Reducer",
+            :file "gw/data/Nuru/nuru outfits.txt",
+            :licenses [],
+            :cloaking-heat 0.05,
+            :cloak 0.1,
+            :radar-jamming 12,
+            :thumbnail "outfit/unknown",
+            :cost 12000000,
+            :scan-interference 12,
+            :cloaking-energy 6,
+            :cooling-inefficiency 0.05}
+           {:description ["Nuru medium power generator."],
+            :category "Power",
+            :mass 40,
+            :meta {:plugin :galactic-war,
+                   :image {:file "outfit/unknown.png",
+                           :origin :vanilla}},
+            :race :nuru,
+            :name "Palu Power Cells",
+            :file "gw/data/Nuru/nuru outfits.txt",
+            :outfit-space 40,
+            :licenses [],
+            :heat-generation 2400,
+            :thumbnail "outfit/unknown",
+            :energy-generation 2244,
+            :energy-capacity 4000,
+            :cost 677000}
+           {:description ["Nuru large power generator."],
+            :category "Power",
+            :mass 60,
+            :meta {:plugin :galactic-war,
+                   :image {:file "outfit/unknown.png",
+                           :origin :vanilla}},
+            :race :nuru,
+            :name "Uora Power Cells",
+            :file "gw/data/Nuru/nuru outfits.txt",
+            :outfit-space 60,
+            :licenses [],
+            :heat-generation 3600,
+            :thumbnail "outfit/unknown",
+            :energy-generation 3360,
+            :energy-capacity 6000,
+            :cost 1877000}
+           {:description ["Nuru power storage"],
+            :category "Power",
+            :mass 30,
+            :meta {:plugin :galactic-war,
+                   :image {:file "outfit/unknown.png",
+                           :origin :vanilla}},
+            :race :nuru,
+            :name "Kepla Power Storage",
+            :file "gw/data/Nuru/nuru outfits.txt",
+            :outfit-space 30,
+            :licenses [],
+            :thumbnail "outfit/unknown",
+            :energy-capacity 16000,
+            :cost 1000000}
+           {:unplunderable 1,
+            :description ["Just like the exterior of the ship, even the surface inside of the ship is capable of emitting invisible beam. An attempt to board ships with these would be no different than diving into a star."],
+            :category "Systems",
+            :uninstallable -1,
+            :mass 0,
+            :integrated-system 1,
+            :meta {:plugin :galactic-war,
+                   :image {:file "outfit/unknown.png",
+                           :origin :vanilla}},
+            :race :nuru,
+            :name "Nuru Interior Defense System",
+            :file "gw/data/Nuru/nuru outfits.txt",
+            :outfit-space 0,
+            :licenses [],
+            :capture-defense 140,
+            :thumbnail "outfit/unknown"}
+           {:description ["Smaller version of Nuru void motion system used for smaller crafts. Due to it's compact size it does not support the same modifications as standard void motion system."],
+            :category "Engines",
+            :flare-sprite "effect/mini_nuru engine",
+            :mass 80,
+            :turning-energy 288,
+            :meta {:plugin :galactic-war,
+                   :image {:file "outfit/unknown.png",
+                           :origin :vanilla}},
+            :jump-drive 1,
+            :race :nuru,
+            :name "Nuru Mini Void Motion System",
+            :file "gw/data/Nuru/nuru outfits.txt",
+            :outfit-space 80,
+            :licenses [],
+            :reverse-thrust 288000,
+            :engine-capacity 80,
+            :turn 60000,
+            :reverse-thrusting-energy 480,
+            :jump-fuel 200,
+            :thumbnail "outfit/unknown",
+            :turning-heat 480,
+            :thrusting-energy 480,
+            :thrusting-heat 960,
+            :thrust 288000,
+            :cost 16000000,
+            :reverse-thrusting-heat 960,
+            :jump-speed 0.07}
+           {:description ["Unlike any starship engine ever seen, these \"engines\" are installed at the core of the ship and yet somehow able to move the ship in any direction."],
+            :category "Engines",
+            :flare-sprite "effect/nuru engine",
+            :mass 120,
+            :turning-energy 390,
+            :meta {:plugin :galactic-war,
+                   :image {:file "outfit/unknown.png",
+                           :origin :vanilla}},
+            :jump-drive 1,
+            :race :nuru,
+            :name "Nuru Void Motion System",
+            :file "gw/data/Nuru/nuru outfits.txt",
+            :outfit-space 120,
+            :licenses [],
+            :reverse-thrust 432000,
+            :engine-capacity 120,
+            :turn 96000,
+            :nuru-weaponization 1,
+            :reverse-thrusting-energy 720,
+            :jump-fuel 200,
+            :thumbnail "outfit/unknown",
+            :turning-heat 720,
+            :thrusting-energy 720,
+            :thrusting-heat 1200,
+            :thrust 432000,
+            :cost 20000000,
+            :reverse-thrusting-heat 1200,
+            :jump-speed 0.07}
            {:description [""],
             :category "Turrets",
             :weapon-capacity 24,
@@ -45523,6 +45541,128 @@
             :licenses [],
             :thumbnail "outfit/zis dissector turret",
             :cost 900000000}
+           {:description [],
+            :category "Turrets",
+            :weapon-capacity 65,
+            :mass 354,
+            :meta {:plugin :galactic-war,
+                   :image {:file "outfit/zis dissector turret.png",
+                           :origin :galactic-war}},
+            :race :zis,
+            :weapon {:range-override 1800,
+                     :submunition ["insilra fire" 360],
+                     :sound "insilra fire",
+                     :hardpoint-offset 0,
+                     :hardpoint-sprite "hardpoint/zis dissector turret hp",
+                     :sprite "effect/zis dissector fire",
+                     :turret-turn 21600,
+                     :velocity-override 2000,
+                     :fire-effect "insilra fire2",
+                     :firing-heat {:per-second 75, :per-shot 200},
+                     :lifetime 1,
+                     :reload 160,
+                     :velocity 0,
+                     :firing-energy {:per-second 56.25, :per-shot 150},
+                     :range 82000,
+                     :shots-per-second 0.375},
+            :name "Insilra Burst Field",
+            :file "gw/data/Zis/Zis Weapon.txt",
+            :turret-mounts -1,
+            :outfit-space 65,
+            :licenses [],
+            :thumbnail "outfit/zis dissector turret",
+            :cost 900000000}
+           {:file "gw/data/Zis/Zis Weapon.txt",
+            :name "insilra pull",
+            :category nil,
+            :licenses [],
+            :description [],
+            :thumbnail nil,
+            :race :zis,
+            :meta {:plugin :galactic-war,
+                   :image {:file ".png",
+                           :origin [:not-found
+                                    ".png"
+                                    "gw/images/.png"
+                                    "game/images/.png"]}}}
+           {:file "gw/data/Zis/Zis Weapon.txt",
+            :name "insilra pull2 delay",
+            :category nil,
+            :licenses [],
+            :description [],
+            :thumbnail nil,
+            :race :zis,
+            :meta {:plugin :galactic-war,
+                   :image {:file ".png",
+                           :origin [:not-found
+                                    ".png"
+                                    "gw/images/.png"
+                                    "game/images/.png"]}}}
+           {:file "gw/data/Zis/Zis Weapon.txt",
+            :name "insilra pull2",
+            :category nil,
+            :licenses [],
+            :description [],
+            :thumbnail nil,
+            :race :zis,
+            :meta {:plugin :galactic-war,
+                   :image {:file ".png",
+                           :origin [:not-found
+                                    ".png"
+                                    "gw/images/.png"
+                                    "game/images/.png"]}}}
+           {:file "gw/data/Zis/Zis Weapon.txt",
+            :name "insilra push delay",
+            :category nil,
+            :licenses [],
+            :description [],
+            :thumbnail nil,
+            :race :zis,
+            :meta {:plugin :galactic-war,
+                   :image {:file ".png",
+                           :origin [:not-found
+                                    ".png"
+                                    "gw/images/.png"
+                                    "game/images/.png"]}}}
+           {:file "gw/data/Zis/Zis Weapon.txt",
+            :name "insilra push",
+            :category nil,
+            :licenses [],
+            :description [],
+            :thumbnail nil,
+            :race :zis,
+            :meta {:plugin :galactic-war,
+                   :image {:file ".png",
+                           :origin [:not-found
+                                    ".png"
+                                    "gw/images/.png"
+                                    "game/images/.png"]}}}
+           {:file "gw/data/Zis/Zis Weapon.txt",
+            :name "insilra fire",
+            :category nil,
+            :licenses [],
+            :description [],
+            :thumbnail nil,
+            :race :zis,
+            :meta {:plugin :galactic-war,
+                   :image {:file ".png",
+                           :origin [:not-found
+                                    ".png"
+                                    "gw/images/.png"
+                                    "game/images/.png"]}}}
+           {:file "gw/data/Zis/Zis Weapon.txt",
+            :name "insilra pull die",
+            :category nil,
+            :licenses [],
+            :description [],
+            :thumbnail nil,
+            :race :zis,
+            :meta {:plugin :galactic-war,
+                   :image {:file ".png",
+                           :origin [:not-found
+                                    ".png"
+                                    "gw/images/.png"
+                                    "game/images/.png"]}}}
            {:description ["This weapon require some amount of time to fully activate, deploy at long range for full effectiveness."],
             :category "Secondary Weapons",
             :weapon-capacity 43,
@@ -49184,6 +49324,7 @@
                          "Muaner Missile Launcher"
                          "Urza Energy Rocket"
                          "B20 Erul Core"
+                         "Nuru Vordai"
                          "Kuzaun Missile"
                          "Zis Galactic Drive"
                          "Kosak Shield Generator"
@@ -49286,6 +49427,7 @@
                          "Kotdar Turret"
                          "M100SG-M Turret"
                          "Holee Shield Generator"
+                         "Insilra Burst Field"
                          "Qoro Power Armour"
                          "HPDL Anti-missile"
                          "H-5AE Battery Array"
@@ -49390,6 +49532,7 @@
                          "DZ-5 Micro Darklance"
                          "P6a Shield Generator"
                          "Cirpa-06 Cooling Device"
+                         "Palu Power Cells"
                          "Deela Fusion Reactor"
                          "Aog Cell"
                          "Hilke Fuel Cell"
@@ -49403,6 +49546,7 @@
                          "USG150 Shield Generator"
                          "Kxur Thruster"
                          "Ursun Thruster"
+                         "Uora Power Cells"
                          "Lvrken Repair Drones"
                          "Eilgur Anti-missile"
                          "Dalsa Fusion Reactor"
@@ -49424,6 +49568,7 @@
                          "Kubr Repair Drones"
                          "Krogak Missile Box"
                          "Uoorn Void Slip"
+                         "Nuru Manli"
                          "Huer CIWS Turret"
                          "Auker Steering"
                          "Georlen Gun"
@@ -49469,6 +49614,7 @@
                          "Hiavee Shield Generator"
                          "No'uro Shield Generator"
                          "GHa28Gp-02 Hull Repair"
+                         "Nuru Void Motion System"
                          "Kroom Proton Blaster"
                          "Qutimaka Cell"
                          "I6V2 Core"
@@ -49499,6 +49645,7 @@
                          "Vikuan Thruster"
                          "Utvr40 Gun"
                          "Dakte-1 Missile"
+                         "El Si Presence Reducer"
                          "Mae Ion Engines"
                          "Krogak Missile"
                          "Gokal Battery Pack"
@@ -49508,6 +49655,7 @@
                          "Genes Shield Generator"
                          "Anor Missile"
                          "Kolun'a Thruster"
+                         "Nuru Mini Void Motion System"
                          "Ultaka Heat Shunt"
                          "Ronc Rocket"
                          "Cirpa-07 Cooling Device"
@@ -49517,6 +49665,7 @@
                          "G01A Turret"
                          "Hordel Graviton Engines"
                          "Ukar-3 Blaster"
+                         "Nuru Interior Defense System"
                          "DIT3 Thruster"
                          "Ursun Steering"
                          "U20-B anti missile"
@@ -49759,12 +49908,14 @@
                          "EPa90Gx-02 Generator"
                          "DZ-10 Dark Blaster Turret"
                          "Galrugl Battery Pack"
+                         "Nuru Manli (AM)"
                          "Mrag Turret"
                          "Huer II CIWS Turret"
                          "Syfar-Penta Turret"
                          "Nurhid-1 Core"
                          "Uoorn Stabber Pod"
                          "Etlnak Reactor"
+                         "Kepla Power Storage"
                          "Saikel-4 Launcher"),
                :planets ({:name "Meggiven", :system "Luggaru"}
                          {:name "Thing", :system "Sector Dels"}
@@ -49789,6 +49940,7 @@
                          "Muaner Missile Launcher"
                          "Urza Energy Rocket"
                          "B20 Erul Core"
+                         "Nuru Vordai"
                          "Kuzaun Missile"
                          "Zis Galactic Drive"
                          "Kosak Shield Generator"
@@ -49993,6 +50145,7 @@
                          "DZ-5 Micro Darklance"
                          "P6a Shield Generator"
                          "Cirpa-06 Cooling Device"
+                         "Palu Power Cells"
                          "Deela Fusion Reactor"
                          "Aog Cell"
                          "Hilke Fuel Cell"
@@ -50006,6 +50159,7 @@
                          "USG150 Shield Generator"
                          "Kxur Thruster"
                          "Ursun Thruster"
+                         "Uora Power Cells"
                          "Lvrken Repair Drones"
                          "Eilgur Anti-missile"
                          "Dalsa Fusion Reactor"
@@ -50027,6 +50181,7 @@
                          "Kubr Repair Drones"
                          "Krogak Missile Box"
                          "Uoorn Void Slip"
+                         "Nuru Manli"
                          "Huer CIWS Turret"
                          "Auker Steering"
                          "Georlen Gun"
@@ -50071,6 +50226,7 @@
                          "Hiavee Shield Generator"
                          "No'uro Shield Generator"
                          "GHa28Gp-02 Hull Repair"
+                         "Nuru Void Motion System"
                          "Kroom Proton Blaster"
                          "Qutimaka Cell"
                          "I6V2 Core"
@@ -50101,6 +50257,7 @@
                          "Vikuan Thruster"
                          "Utvr40 Gun"
                          "Dakte-1 Missile"
+                         "El Si Presence Reducer"
                          "Mae Ion Engines"
                          "Krogak Missile"
                          "Gokal Battery Pack"
@@ -50110,6 +50267,7 @@
                          "Genes Shield Generator"
                          "Anor Missile"
                          "Kolun'a Thruster"
+                         "Nuru Mini Void Motion System"
                          "Ultaka Heat Shunt"
                          "Ronc Rocket"
                          "Cirpa-07 Cooling Device"
@@ -50119,6 +50277,7 @@
                          "G01A Turret"
                          "Hordel Graviton Engines"
                          "Ukar-3 Blaster"
+                         "Nuru Interior Defense System"
                          "DIT3 Thruster"
                          "Ursun Steering"
                          "U20-B anti missile"
@@ -50360,12 +50519,14 @@
                          "EPa90Gx-02 Generator"
                          "DZ-10 Dark Blaster Turret"
                          "Galrugl Battery Pack"
+                         "Nuru Manli (AM)"
                          "Mrag Turret"
                          "Huer II CIWS Turret"
                          "Syfar-Penta Turret"
                          "Nurhid-1 Core"
                          "Uoorn Stabber Pod"
                          "Etlnak Reactor"
+                         "Kepla Power Storage"
                          "Saikel-4 Launcher"),
                :planets ({:name "Meggiven", :system "Luggaru"}
                          {:name "Thing", :system "Sector Dels"})}
@@ -50387,6 +50548,7 @@
                          "Muaner Missile Launcher"
                          "Urza Energy Rocket"
                          "B20 Erul Core"
+                         "Nuru Vordai"
                          "Kuzaun Missile"
                          "Zis Galactic Drive"
                          "Kosak Shield Generator"
@@ -50590,6 +50752,7 @@
                          "DZ-5 Micro Darklance"
                          "P6a Shield Generator"
                          "Cirpa-06 Cooling Device"
+                         "Palu Power Cells"
                          "Deela Fusion Reactor"
                          "Aog Cell"
                          "Hilke Fuel Cell"
@@ -50603,6 +50766,7 @@
                          "USG150 Shield Generator"
                          "Kxur Thruster"
                          "Ursun Thruster"
+                         "Uora Power Cells"
                          "Lvrken Repair Drones"
                          "Eilgur Anti-missile"
                          "Dalsa Fusion Reactor"
@@ -50623,6 +50787,7 @@
                          "Hvean Thruster"
                          "Kubr Repair Drones"
                          "Krogak Missile Box"
+                         "Nuru Manli"
                          "Huer CIWS Turret"
                          "Auker Steering"
                          "Georlen Gun"
@@ -50668,6 +50833,7 @@
                          "Hiavee Shield Generator"
                          "No'uro Shield Generator"
                          "GHa28Gp-02 Hull Repair"
+                         "Nuru Void Motion System"
                          "Kroom Proton Blaster"
                          "Qutimaka Cell"
                          "I6V2 Core"
@@ -50698,6 +50864,7 @@
                          "Vikuan Thruster"
                          "Utvr40 Gun"
                          "Dakte-1 Missile"
+                         "El Si Presence Reducer"
                          "Mae Ion Engines"
                          "Krogak Missile"
                          "Gokal Battery Pack"
@@ -50707,6 +50874,7 @@
                          "Genes Shield Generator"
                          "Anor Missile"
                          "Kolun'a Thruster"
+                         "Nuru Mini Void Motion System"
                          "Ultaka Heat Shunt"
                          "Ronc Rocket"
                          "Cirpa-07 Cooling Device"
@@ -50716,6 +50884,7 @@
                          "G01A Turret"
                          "Hordel Graviton Engines"
                          "Ukar-3 Blaster"
+                         "Nuru Interior Defense System"
                          "DIT3 Thruster"
                          "Ursun Steering"
                          "U20-B anti missile"
@@ -50953,11 +51122,13 @@
                          "EPa90Gx-02 Generator"
                          "DZ-10 Dark Blaster Turret"
                          "Galrugl Battery Pack"
+                         "Nuru Manli (AM)"
                          "Mrag Turret"
                          "Huer II CIWS Turret"
                          "Syfar-Penta Turret"
                          "Nurhid-1 Core"
                          "Etlnak Reactor"
+                         "Kepla Power Storage"
                          "Saikel-4 Launcher"),
                :planets ({:name "Galactic War",
                           :system "Galactic War"}
@@ -51992,6 +52163,7 @@
                          "Uora Power Cells"
                          "Nuru Manli"
                          "Nuru Void Motion System"
+                         "El Si Presence Reducer"
                          "Nuru Mini Void Motion System"
                          "Nuru Interior Defense System"
                          "Nuru Manli (AM)"
@@ -51999,6 +52171,18 @@
                :planets ({:name "Dev Station Nuru",
                           :system "Sector Dels"}
                          {:name "Nuru", :system "Nuru"})}
+              {:name "Nuru Basic",
+               :outfits ("Uora Power Cells"
+                         "Palu Power Cells"
+                         "Kepla Power Storage"
+                         "Nuru Mini Void Motion System"
+                         "Nuru Void Motion System"),
+               :planets ({:name "Sen aar", :system "Au saa"}
+                         {:name "Sin or", :system "Kur go"}
+                         {:name "Ur uin", :system "Mai yu "})}
+              {:name "Nuru Advanced",
+               :outfits ("El Si Presence Reducer"),
+               :planets ({:name "Sin or", :system "Kur go"})}
               {:name "Qoro Makau Basic",
                :outfits ("Mase-Dettai Laser"),
                :planets ({:name "Dev Station Makau A Qoro",
@@ -52436,6 +52620,7 @@
                          "Muaner Missile Launcher"
                          "Urza Energy Rocket"
                          "B20 Erul Core"
+                         "Nuru Vordai"
                          "Kuzaun Missile"
                          "Zis Galactic Drive"
                          "Kosak Shield Generator"
@@ -52639,6 +52824,7 @@
                          "DZ-5 Micro Darklance"
                          "P6a Shield Generator"
                          "Cirpa-06 Cooling Device"
+                         "Palu Power Cells"
                          "Deela Fusion Reactor"
                          "Aog Cell"
                          "Hilke Fuel Cell"
@@ -52652,6 +52838,7 @@
                          "USG150 Shield Generator"
                          "Kxur Thruster"
                          "Ursun Thruster"
+                         "Uora Power Cells"
                          "Lvrken Repair Drones"
                          "Eilgur Anti-missile"
                          "Dalsa Fusion Reactor"
@@ -52672,6 +52859,7 @@
                          "Hvean Thruster"
                          "Kubr Repair Drones"
                          "Krogak Missile Box"
+                         "Nuru Manli"
                          "Huer CIWS Turret"
                          "Auker Steering"
                          "Georlen Gun"
@@ -52716,6 +52904,7 @@
                          "Hiavee Shield Generator"
                          "No'uro Shield Generator"
                          "GHa28Gp-02 Hull Repair"
+                         "Nuru Void Motion System"
                          "Kroom Proton Blaster"
                          "Qutimaka Cell"
                          "I6V2 Core"
@@ -52746,6 +52935,7 @@
                          "Vikuan Thruster"
                          "Utvr40 Gun"
                          "Dakte-1 Missile"
+                         "El Si Presence Reducer"
                          "Mae Ion Engines"
                          "Krogak Missile"
                          "Gokal Battery Pack"
@@ -52755,6 +52945,7 @@
                          "Genes Shield Generator"
                          "Anor Missile"
                          "Kolun'a Thruster"
+                         "Nuru Mini Void Motion System"
                          "Ultaka Heat Shunt"
                          "Ronc Rocket"
                          "Cirpa-07 Cooling Device"
@@ -52764,6 +52955,7 @@
                          "G01A Turret"
                          "Hordel Graviton Engines"
                          "Ukar-3 Blaster"
+                         "Nuru Interior Defense System"
                          "DIT3 Thruster"
                          "Ursun Steering"
                          "U20-B anti missile"
@@ -53000,11 +53192,13 @@
                          "EPa90Gx-02 Generator"
                          "DZ-10 Dark Blaster Turret"
                          "Galrugl Battery Pack"
+                         "Nuru Manli (AM)"
                          "Mrag Turret"
                          "Huer II CIWS Turret"
                          "Syfar-Penta Turret"
                          "Nurhid-1 Core"
                          "Etlnak Reactor"
+                         "Kepla Power Storage"
                          "Saikel-4 Launcher"),
                :planets ()}
               {:name "Ancient Basic",
@@ -53117,8 +53311,8 @@
                                      "data/interfaces.txt"},
                      :race-overrides {"data/human/marauders.txt" :pirate,
                                       "data/drak/indigenous.txt" :indigenous},
-                     :version {:hash "21f47c3aa92eeb144c4c07c8566b633547286dde",
-                               :date "2021-08-17"}},
+                     :version {:hash "ab2d5303f4fbcff52f57fbe7634ccf17e2026e79",
+                               :date "2021-08-18"}},
            :galactic-war {:name "Galactic War",
                           :key :galactic-war,
                           :resource-dir "gw",
@@ -53126,8 +53320,8 @@
                           :base-image-url "https://raw.githubusercontent.com/1010todd/Galactic-War/master/images/",
                           :ignore-files #{"data/Ultaka/Ultaka mothership weapon.txt"},
                           :race-overrides {},
-                          :version {:hash "85d9f859bd1829f946c489f77ae48bae66a007f3",
-                                    :date "2021-08-16"}},
+                          :version {:hash "3d6472a9b4d7efe1ee547c10a488206ac60a48ab",
+                                    :date "2021-08-19"}},
            :altera {:name "Altera",
                     :key :altera,
                     :resource-dir "altera",
